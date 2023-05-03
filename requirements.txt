@@ -1,0 +1,12 @@
+jupyter
+numpy
+pandas
+lxml
+networkx
+pint
+pubchempy
+chemicals
+matplotlib
+tdqm
+textdistance
+scikit-learn
