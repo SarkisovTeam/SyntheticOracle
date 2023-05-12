@@ -39,14 +39,15 @@
   <p align="center">
     A python-based tool for parsing and interpreting experimental synthesis reports.
     <br />
-    <a href="https://github.com/jrhmanning/SynOracle/doc"><strong>Explore the docs »</strong></a>
+    <!-- <a href="https://github.com/SarkisovTeam/SyntheticOracle/doc"><strong>Explore the docs »</strong></a> -->
     <br />
+    <a href="https://github.com/SarkisovTeam/SyntheticOracle/worked_example">View Worked Example</a> 
     <br />
-    <a href="https://github.com/jrhmanning/SynOarcle/demo">View Demo</a>
+    <a href="https://github.com/SarkisovTeam/SyntheticOracle/demo">View Demo</a>
     ·
-    <a href="https://github.com/jrhmanning/SynOracle/issues">Report Bug</a>
+    <a href="https://github.com/SarkisovTeam/SyntheticOracle/issues">Report Bug</a>
     ·
-    <a href="https://github.com/jrhmanning/SynOracle/issues">Request Feature</a>
+    <a href="https://github.com/SarkisovTeam/SyntheticOracle/issues">Request Feature</a>
   </p>
 </div>
 
@@ -85,13 +86,18 @@
 
 [//]: # ([![Product Name Screen Shot][product-screenshot]]&#40;https://example.com&#41;)
 
-A Python-based tool to extract process-like synthesis procedures from chemical descriptions of synthesis procedures. This module describes workflows to:
+A Python-based tool for large-scale analysis and comparison of synthesis protocols. This module contains tools to:
 
-1. Organise a sequence of synthesis actions from a well structured .json object
-2. Analyse and cross reference chemicals mentioned in the sequence alongside their quantity and synthesis conditions mentioned
-3. Perform quantitative meta-analysis on a corpus of synthesis sequences
+1. Organise a sequence of synthesis actions from a well structured .json object (typically generated as an output from our [preprocessing workflow](https://github.com/SarkisovTeam/SynOracle-preprocessing)
+2. Cross-reference chemical names against the PubChem database of chemical entities
+3. Standardise all physical quantities into their SI units
+5. Perform quantitative meta-analysis on the resultant corpus of synthesis protocols
 
-This module relies heavily on tools for data postprocessing including [pandas](https://pandas.pydata.org/), [pint](https://pint.readthedocs.io/en/stable/), and  [pubchempy](https://pubchempy.readthedocs.io/en/latest/). Description of how to prepare input .json files prgamatically using tools like [ChemicalTagger](https://chemicaltagger.ch.cam.ac.uk/) and [ChemDataExtractor](http://www.chemdataextractor2.org/) are described elsewhere.
+### Built with
+* [Pubchempy](https://pubchempy.readthedocs.io/en/latest/) [(Pypi)](https://pypi.org/project/PubChemPy/1.0/) [(Git)](https://github.com/mcs07/PubChemPy)
+* [Pandas](https://pandas.pydata.org/) [(Pypi)](https://pypi.org/project/pandas/) [(Git)](https://github.com/pandas-dev/pandas)
+* [Pint](https://pint.readthedocs.io/en/stable) [(Pypi)](https://pypi.org/project/Pint/) [(Git)](https://github.com/hgrecco/pint)
+
 
 <!-- Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `github_username`, `repo_name`, `twitter_handle`, `linkedin_username`, `email_client`, `email`, `project_title`, `project_description` -->
 
@@ -103,7 +109,7 @@ This module relies heavily on tools for data postprocessing including [pandas](h
 
 ### Prerequisites
 
-This branch of the software is python native, meaning that you just need a python 3.7+ envionrment to make it work (although there are issue swith python 3.10 as of 31-1-23). 
+This branch of the software is python native, requiring python 3.7+ environment (although there are issue swith python 3.10 as of 31-1-23). 
 All required packages can be installed through pip with the following command:
 
    ```sh
@@ -120,7 +126,6 @@ All required packages can be installed through pip with the following command:
    ```sh
    pip install -r requirements.txt
    ```
-3. Obtain credentials for text mining from [Elsevier](https://dev.elsevier.com/), if required.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -128,6 +133,37 @@ All required packages can be installed through pip with the following command:
 
 <!-- USAGE EXAMPLES -->
 ## Usage
+
+The software reads in raw synthesis sequences from JSON objects with the following tags titles:
+
+```json
+{
+  "Step name": {
+      "0": "Add"
+   },
+  "text": {
+    "0": "Some raw text here"
+  },
+  "new_chemicals": {
+    "0": [
+      {
+      "name": "Methanol", 
+      "mass": "0.5 g", 
+      "other_amount": "0.2 mmol", 
+      "volume": "0.6 mL"
+      }
+    ]
+  },
+  "temp": {
+    "0": ["at 300 oC"]
+  },
+  "time": {
+    "0": ["for 24 hours"]
+  }
+}
+```
+
+Descriptions of how to produce these data structures are provided in the companion repository [here](https://github.com/SarkisovTeam/SynOracle-preprocessing). Once generated, the JSON data can be used to instantiate a `Sequence` object. Through the `extract_chemicals` class method, a `ChemicalList` object is created containing a set of records for each chemical mentioned in the sequence, which can be converted to a summarised `BillOfMaterials` using the `produce_bill_of_mats` method. Finally, the `extract_conditions` method of the `Sequence` object can produce a table of synthesis times and temperatures (a `Conditions` object). A worked example of the data workflow is shown in the <a href="https://github.com/SarkisovTeam/SyntheticOracle/example">example</a> folder.
 
 <!-- 
 
@@ -174,6 +210,7 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 
 - [ ] Well-documented demo files (and/or jupyter notebooks) demonstrating code features and functionality
 - [ ] Jupyter notebook examples to reproduce informaiton and figures from the associated manuscript.
+- [ ] Pruning old and unused data
 
 ### Medium-term (< 12 months)
 - [ ] Identification of MOFID to automatically identify chemical constraints on synthesis
@@ -227,12 +264,14 @@ Joe Manning - [@jrhmanning](https://twitter.com/jrhmanning) - joseph.manning@man
 
 
 <!-- ACKNOWLEDGMENTS -->
+<!--
 ## Acknowledgments
 
 * []()
 * []()
 * []()
 
+-->
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
