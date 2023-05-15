@@ -1,4 +1,16 @@
 
+"""
+A module containing the tools to analyse synthesis Conditions and produce useful data structures for further analysis.
+
+Author: Joe Manning (@jrhmanning, joseph.manning@manchester.ac.uk)
+Date: Nov 2022
+
+Classes:
+Conditions - A class containing methods to build dataframes of reaction conditions
+
+Exceptions:
+None
+"""
 from __future__ import annotations
 import pandas as pd
 import re
@@ -165,32 +177,20 @@ class Conditions:
             try: working_time
             except NameError: raise(f"No temperature value found! Raw value is {x['time']}, ({type(x['time'])})")
 
-            # if isinstance(x['temp'], str):
-            #     x['temp'] = eval(x['temp'])
-            # if isinstance(x['time'], str):
-            #     x['time'] = eval(x['time'])
-
             try:
-                # print('working temperature', working_temp)
                 placeholder = [self.parse_temperature_to_kelvin(y) for y in working_temp]
-                # print('working temperature:', placeholder)
                 if len(placeholder)>0:
                     output.at[c, 'T (K)'] = placeholder
             except (IndexError, TypeError):
                 pass
 
             try:
-                #output.loc[c, 'Time (min)'] = self.parse_time_to_minutes(x['time'][0])
-                # print('working time', working_time)
                 placeholder = [self.parse_time_to_minutes(y) for y in working_time]
-                # print('working time:', placeholder)
                 if len(placeholder)>0:
                     output.at[c, 'Time (min)'] = placeholder
             except (IndexError, TypeError):
                 pass
 
-        # output['T (K)'] = output['temp'].apply(lambda x: self.parse_temperature_to_kelvin(str(x)))
-        # output['Time (min)'] = output['time'].apply(lambda x: self.parse_time_to_minutes(str(x)))
 
         self.time_temp = output
 

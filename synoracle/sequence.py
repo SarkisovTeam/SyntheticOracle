@@ -6,7 +6,6 @@ Date: Nov 2022
 
 Classes:
 Sequence - A class containing the linear set of actions within a synthesis and methods for analysing them
-SequenceGraph - empty for now (delete?)
 
 Exceptions:
 None
@@ -15,12 +14,12 @@ TODO: improve the prioritise_bom_df and produce_bill_of_mats workflow to reduce 
 TODO: output ingredients.BillOfMaterials from produce_bill_of_mats
 """
 from __future__ import annotations
-import json
+import json # not needed?
 import pandas as pd
 import logging
 import numpy as np
-import re
-from pint import UndefinedUnitError
+import re # not needed?
+from pint import UndefinedUnitError #not needed?
 from pint import UnitRegistry, Unit
 from collections import defaultdict
 from typing import Dict
@@ -301,177 +300,6 @@ class Sequence():
             self.condensed_sequence['Step supertype'].tolist(),
             other.condensed_sequence['Step supertype'].tolist()
          )
-
-    #region moved to ingredients.ChemicalList
-    # def compress_values(self, col):
-    #     """Possibly defunct helper funciton to condense info in dataframes to lists"""
-    #     return col[col.notna()].to_list() if len(col[col.notna()].to_list()) > 0 else np.nan
-
-    # def prioritise_bom_df(self):
-    #     """
-    #     Prevents double counting of quantities for each chemical by identifying the most reliable quantity used for each
-    #      chemical mention.
-
-    #     Here's how it works:
-    #     First define unit priorities. Higher numbers supersede lower. I can't remember why I picked this specific
-    #     priority order, but it seems to work. Most importantly moles > anything else > percent; percent is usually
-    #     only used for purity At some point it might be interesting to try reordering concentration, volume,
-    #     and mass and checking discrepancies.
-    #     Then loop through a dataframe of chemical mentions providing 1 priority per row.
-    #     :return: None
-    #     """
-
-    #     priorities = {'other_amount': 5,
-    #                   'concentration': 4,
-    #                   'volume': 3,
-    #                   'mass': 2,
-    #                   'percent': 1
-    #                   }
-
-    #     logging.info(priorities)
-    #     priority_key = {}
-
-    #     for rownum, row in self.chemical_list.loc[:,
-    #                        ['mass', 'concentration', 'other_amount', 'volume', 'percent']
-    #                        ].iterrows():
-
-    #         logging.debug(type(rownum))
-    #         working_priorities = row[row.notna()].index.values
-    #         if len(working_priorities) == 0:
-    #             priority_key[rownum] = np.nan
-    #             continue
-
-    #         max_priority = max([priorities[x] for x in working_priorities])
-    #         priority_key[rownum] = list(priorities.keys())[list(priorities.values()).index(
-    #             max_priority)]  # this desperately needs a refactor for neatness, but works(?)
-
-    #     logging.debug(priority_key)
-    #     self.chemical_list.loc[:, 'Units used'] = pd.Series(priority_key)
-
-    # def produce_bill_of_mats(self):
-    #     """
-    #     Aggregates a chemical list by the identified name (for now), aggregating all unit types to  list.
-    #     The Units used list then points to the appropriate unit for each mention that's been made.
-    #     TODO: decide if it's better to calculate moles first, then aggregate once all the mentions have been standardised
-    #     :return: None
-    #     """
-
-    #     aggregation_functions = {'name': 'first',
-    #                              'mass': self.compress_values,
-    #                              'other_amount': self.compress_values,
-    #                              'volume': self.compress_values,
-    #                              'percent': self.compress_values,
-    #                              'concentration': self.compress_values,
-    #                              'aliases': self.compress_values,
-    #                              #     'pubchem_id': 'first',
-    #                              'Units used': self.compress_values
-    #                              }
-
-    #     new_ingreds = self.chemical_list.groupby(self.chemical_list['name']).aggregate(
-    #         aggregation_functions).reset_index(drop=True)
-    #     new_ingreds = new_ingreds.drop('aliases', axis=1)
-    #     new_ingreds = new_ingreds.dropna(how='all', axis=1)
-
-    #     #    new_ingreds['pubchem_id'] = new_ingreds['pubchem_id'].astype(int)
-
-    #     self.chemical_list_reduced = new_ingreds
-
-    #endregion
-
-    #region moved to new Conditions class
-    # temp_dict = {
-    #     '°C': ureg.degC,
-    #     'kelvin': ureg.kelvin,
-    #     'Kelvin': ureg.kelvin,
-    #     'k': ureg.kelvin,
-    #     'K': ureg.kelvin
-    # }
-
-    # def parse_temperature_to_kelvin(self, df_temp_string: str) -> float:
-    #     """
-    #     Calculates the numerical temperature from a string of the temperature value + unit
-    #     Performs some regex substitutions to recognise common phrases like "room temperature"
-    #     :param df_temp_string: a string
-    #     :return: The temperature, in kelvin
-    #     """
-    #     working = re.sub(r'\b(at|of|in|to|for)\b', '', df_temp_string).strip()
-    #     try:
-    #         output = Q_(float(working.split()[-2]), self.temp_dict[working.split()[-1]])
-    #     except (ValueError, KeyError, UndefinedUnitError):
-    #         if bool(re.search(r'(R|room|ambient|indoor)\Wtemperature|RT', working)):
-    #             output = Q_(25, ureg.parse_units('degC'))
-    #         else:
-    #             print(f'Failed for: "{working}"')
-    #             return np.nan
-    #     except:
-    #         print(f'Temperature extraction failed for: "{working}", original was "{df_temp_string}"')
-    #         return np.nan
-    #     # print(output)
-    #     return output.to_base_units().magnitude
-
-    # def parse_time_to_minutes(self, df_time_string: str) -> float:
-    #     """
-    #     Identifies a numerical time from a string of time quantity + unit.
-    #     Performs regex to replace most common values for pint-parseable alternatives.
-    #     :param df_time_string: a timephrase string
-    #     :return: the amount of minutes used as a float
-    #     """
-    #     working = re.sub(r'\b(at|of|in|to|for|(A|a)fter)\b', '', df_time_string).strip()
-    #     working = re.sub(r'~|∼', '', working).strip()
-    #     working = re.sub(r'\b(h)\b', 'hour', working).strip()
-    #     working = re.sub(r'\b(d|D)\b', 'day', working).strip()
-
-    #     working = re.sub(r'\b(an|a|one)\W(hour|day)\b', r'1 \2', working).strip()
-    #     working = re.sub(r'\b(one)\W', r'1 ', working).strip()
-    #     working = re.sub(r'\b(two)\W', r'2 ', working).strip()
-    #     working = re.sub(r'\b(three)\W', r'3 ', working).strip()
-    #     working = re.sub(r'\b(four)\W', r'4 ', working).strip()
-    #     working = re.sub(r'\b(five)\W', r'5 ', working).strip()
-    #     working = re.sub(r'\b(six)\W', r'6 ', working).strip()
-    #     working = re.sub(r'\b(seven)\W', r'7 ', working).strip()
-    #     working = re.sub(r'\b(eight)\W', r'8 ', working).strip()
-    #     working = re.sub(r'\b(nine)\W', r'9 ', working).strip()
-
-    #     working = re.sub(r'\b(mins)\b', r'minutes ', working).strip()
-
-    #     if bool(re.search('(O|o)vernight|(O|o)ne night', working)):
-    #         output = Q_(18, ureg.hour)
-
-    #     else:
-    #         try:
-    #             output = Q_(float(working.split()[-2]), working.split()[-1])
-    #         except (ValueError, KeyError, UndefinedUnitError, IndexError):
-    #             print(f'Time extraction failed for: "{working}", original was "{df_time_string}"')
-    #             return np.nan
-    #     return output.to('minutes').magnitude
-
-    # def extract_times_and_temps(self):
-    #     """
-    #     Produces a dataframe of quoted times and temperatures for a whole sequence in standardised units.
-    #     TODO: add functionality to work for a partial sequence too.
-    #     :return: None
-    #     """
-    #     output = self.clean_synthesis[['time', 'temp']]
-    #     for c, x in output.iterrows():
-    #         logging.debug(c, x['temp'], x['time'])
-    #         if isinstance(x['temp'], str):
-    #             x['temp'] = eval(x['temp'])
-    #         if isinstance(x['time'], str):
-    #             x['time'] = eval(x['time'])
-    #         try:
-    #             output.loc[c, 'T (K)'] = self.parse_temperature_to_kelvin(x['temp'][0])
-    #         except (IndexError, TypeError):
-    #             pass
-    #         try:
-    #             output.loc[c, 'Time (min)'] = self.parse_time_to_minutes(x['time'][0])
-
-    #         except (IndexError, TypeError):
-    #             pass
-
-    #     # output['T (K)'] = output['temp'].apply(lambda x: self.parse_temperature_to_kelvin(str(x)))
-    #     # output['Time (min)'] = output['time'].apply(lambda x: self.parse_time_to_minutes(str(x)))
-    #     self.time_temp = output
-    #endregion
 
     @staticmethod
     def from_json(json_filename):

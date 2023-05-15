@@ -21,7 +21,7 @@ import pandas as pd
 import numpy as np
 import pubchempy as pcp
 from pubchempy import BadRequestError
-from pubchempy import NotFoundError
+from pubchempy import NotFoundError # not needed?
 from pint import UnitRegistry, Unit
 from urllib.error import URLError
 
@@ -340,39 +340,6 @@ class ChemicalSpecies:
         except:
             pass
         return output
-
-    # def find_pubchem_name(self, alias: str):
-    #     """
-    #     Database lookup function for the pubchem CID for the specific compound.
-    #     First tries a manually-compiled lookup table because chemists can't spell.
-    #     Then attempts to find the CID by searching the extracted alias by name.
-    #     Finally attempts to find the CID by searching the extracted alias as a formula.
-    #     :param alias: a string representation identified by ChemicalTagger as a chemical.
-    #     :return: None
-    #     """
-    #     assert isinstance(alias, str), f'I can only process chemical names as strings! {alias} is a {type(alias)}'
-    #     try:
-    #         self.pubchem_cid = chem_lookup[alias][0]
-    #     except KeyError:
-
-    #         try:
-    #             pubchem_search = pcp.get_compounds(alias, 'name')
-    #             self.pubchem_cid = pubchem_search[0].cid
-    #             if len(pubchem_search) > 1:
-    #                 logging.warning(f'Multiple possible compounds for {alias} identified:\n{pubchem_search}')
-    #         except IndexError:
-    #             try:
-    #                 pubchem_search = pcp.get_compounds(alias, 'formula')
-    #                 self.pubchem_cid = pubchem_search[0].cid
-    #                 if len(pubchem_search) > 1:
-    #                     logging.warning(f'Multiple possible compounds for {alias} identified:\n{pubchem_search}')
-    #             except:
-    #                 logging.warning(f'Following chemical is unidentified:\n {alias}')
-    #                 raise ChemicalNotFoundError
-    #             except URLError as e:
-    #                 logging.warning(f'URL error when searching for compound {alias}\nFull text:\n{e}')
-    #                 raise ChemicalNotFoundError
-
 
     def find_pubchem_name(self, alias: str):
         """
