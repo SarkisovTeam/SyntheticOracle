@@ -276,7 +276,6 @@ class BillOfMaterials:
         return 100*log_diff/total_chemicals
 
 
-
 class ChemicalSpecies:
     """
     A class containing all essentials information for uniquely identifying a chemical species and cross-referencing
@@ -529,7 +528,6 @@ class ChemicalSpecies:
     #         input = json.loads(f.read())
         
 
-        
 class ChemicalEntity(ChemicalSpecies):
     """
     A class containing primarily for the purposes fo relating a chemical identity to its amount.

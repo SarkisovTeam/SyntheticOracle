@@ -23,7 +23,7 @@ from pint import UndefinedUnitError #not needed?
 from pint import UnitRegistry, Unit
 from collections import defaultdict
 from typing import Dict
-from .ingredients import ChemicalList, BillOfMaterials
+from .ingredients import ChemicalList
 from .conditions import Conditions
 from textdistance import levenshtein
 
