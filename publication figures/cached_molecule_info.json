@@ -1,0 +1,2991 @@
+{
+    "6386": {
+        "name": "2-methylpropan-2-ol",
+        "mol_wt": "74.12",
+        "mol_formula": "C4H10O",
+        "smiles": "CC(C)(C)O",
+        "inchi": "InChI=1S/C4H10O/c1-4(2,3)5/h5H,1-3H3"
+    },
+    "14013": {
+        "name": "azanium;hydrogen carbonate",
+        "mol_wt": "79.056",
+        "mol_formula": "CH5NO3",
+        "smiles": "C(=O)(O)[O-].[NH4+]",
+        "inchi": "InChI=1S/CH2O3.H3N/c2-1(3)4;/h(H2,2,3,4);1H3"
+    },
+    "24375": {
+        "name": "dibromozinc",
+        "mol_wt": "225.2",
+        "mol_formula": "Br2Zn",
+        "smiles": "[Zn](Br)Br",
+        "inchi": "InChI=1S/2BrH.Zn/h2*1H;/q;;+2/p-2"
+    },
+    "190217": {
+        "name": "oxygen(2-)",
+        "mol_wt": "15.999",
+        "mol_formula": "O-2",
+        "smiles": "[O-2]",
+        "inchi": "InChI=1S/O/q-2"
+    },
+    "14823": {
+        "name": "bis(sulfanylidene)molybdenum",
+        "mol_wt": "160.1",
+        "mol_formula": "MoS2",
+        "smiles": "S=[Mo]=S",
+        "inchi": "InChI=1S/Mo.2S"
+    },
+    "25242326": {
+        "name": "sodium;yttrium(3+);tetrafluoride",
+        "mol_wt": "187.88922",
+        "mol_formula": "F4NaY",
+        "smiles": "[F-].[F-].[F-].[F-].[Na+].[Y+3]",
+        "inchi": "InChI=1S/4FH.Na.Y/h4*1H;;/q;;;;+1;+3/p-4"
+    },
+    "135398658": {
+        "name": "(2S)-2-[[4-[(2-amino-4-oxo-3H-pteridin-6-yl)methylamino]benzoyl]amino]pentanedioic acid",
+        "mol_wt": "441.4",
+        "mol_formula": "C19H19N7O6",
+        "smiles": "C1=CC(=CC=C1C(=O)N[C@@H](CCC(=O)O)C(=O)O)NCC2=CN=C3C(=N2)C(=O)NC(=N3)N",
+        "inchi": "InChI=1S/C19H19N7O6/c20-19-25-15-14(17(30)26-19)23-11(8-22-15)7-21-10-3-1-9(2-4-10)16(29)24-12(18(31)32)5-6-13(27)28/h1-4,8,12,21H,5-7H2,(H,24,29)(H,27,28)(H,31,32)(H3,20,22,25,26,30)/t12-/m0/s1"
+    },
+    "5988": {
+        "name": "(2R,3R,4S,5S,6R)-2-[(2S,3S,4S,5R)-3,4-dihydroxy-2,5-bis(hydroxymethyl)oxolan-2-yl]oxy-6-(hydroxymethyl)oxane-3,4,5-triol",
+        "mol_wt": "342.30",
+        "mol_formula": "C12H22O11",
+        "smiles": "C([C@@H]1[C@H]([C@@H]([C@H]([C@H](O1)O[C@]2([C@H]([C@@H]([C@H](O2)CO)O)O)CO)O)O)O)O",
+        "inchi": "InChI=1S/C12H22O11/c13-1-4-6(16)8(18)9(19)11(21-4)23-12(3-15)10(20)7(17)5(2-14)22-12/h4-11,13-20H,1-3H2/t4-,5-,6-,7-,8+,9-,10+,11-,12+/m1/s1"
+    },
+    "155888297": {
+        "name": "cobalt(2+);2-methylimidazol-3-ide",
+        "mol_wt": "221.13",
+        "mol_formula": "C8H10CoN4",
+        "smiles": "CC1=NC=C[N-]1.CC1=NC=C[N-]1.[Co+2]",
+        "inchi": "InChI=1S/2C4H5N2.Co/c2*1-4-5-2-3-6-4;/h2*2-3H,1H3;/q2*-1;+2"
+    },
+    "12025": {
+        "name": "pyrrolidin-2-one",
+        "mol_wt": "85.10",
+        "mol_formula": "C4H7NO",
+        "smiles": "C1CC(=O)NC1",
+        "inchi": "InChI=1S/C4H7NO/c6-4-2-1-3-5-4/h1-3H2,(H,5,6)"
+    },
+    "10313194": {
+        "name": "copper(1+);oxygen(2-)",
+        "mol_wt": "143.09",
+        "mol_formula": "Cu2O",
+        "smiles": "[O-2].[Cu+].[Cu+]",
+        "inchi": "InChI=1S/2Cu.O/q2*+1;-2"
+    },
+    "86671702": {
+        "name": "methanol;zinc",
+        "mol_wt": "97.4",
+        "mol_formula": "CH4OZn",
+        "smiles": "CO.[Zn]",
+        "inchi": "InChI=1S/CH4O.Zn/c1-2;/h2H,1H3;"
+    },
+    "45051618": {
+        "name": "cobalt(2+);dinitrate;hydrate",
+        "mol_wt": "200.96",
+        "mol_formula": "CoH2N2O7",
+        "smiles": "[N+](=O)([O-])[O-].[N+](=O)([O-])[O-].O.[Co+2]",
+        "inchi": "InChI=1S/Co.2NO3.H2O/c;2*2-1(3)4;/h;;;1H2/q+2;2*-1;"
+    },
+    "11237428": {
+        "name": "(2R)-2-(benzylsulfonylamino)-N-[2-[(4-carbamimidoylphenyl)methylamino]-2-oxoethyl]-3-[(2-methylpropan-2-yl)oxy]propanamide",
+        "mol_wt": "503.6",
+        "mol_formula": "C24H33N5O5S",
+        "smiles": "CC(C)(C)OC[C@H](C(=O)NCC(=O)NCC1=CC=C(C=C1)C(=N)N)NS(=O)(=O)CC2=CC=CC=C2",
+        "inchi": "InChI=1S/C24H33N5O5S/c1-24(2,3)34-15-20(29-35(32,33)16-18-7-5-4-6-8-18)23(31)28-14-21(30)27-13-17-9-11-19(12-10-17)22(25)26/h4-12,20,29H,13-16H2,1-3H3,(H3,25,26)(H,27,30)(H,28,31)/t20-/m1/s1"
+    },
+    "253877": {
+        "name": "potassium;bromide",
+        "mol_wt": "119.00",
+        "mol_formula": "BrK",
+        "smiles": "[K+].[Br-]",
+        "inchi": "InChI=1S/BrH.K/h1H;/q;+1/p-1"
+    },
+    "24863787": {
+        "name": "5-butyl-4-(3-fluorophenyl)-N-[[2-(trifluoromethyl)phenyl]methyl]-3,4-dihydropyrazole-2-carboxamide",
+        "mol_wt": "421.4",
+        "mol_formula": "C22H23F4N3O",
+        "smiles": "CCCCC1=NN(CC1C2=CC(=CC=C2)F)C(=O)NCC3=CC=CC=C3C(F)(F)F",
+        "inchi": "InChI=1S/C22H23F4N3O/c1-2-3-11-20-18(15-8-6-9-17(23)12-15)14-29(28-20)21(30)27-13-16-7-4-5-10-19(16)22(24,25)26/h4-10,12,18H,2-3,11,13-14H2,1H3,(H,27,30)"
+    },
+    "168937": {
+        "name": "lithium;hydroxide;hydrate",
+        "mol_wt": "42.0",
+        "mol_formula": "H3LiO2",
+        "smiles": "[Li+].O.[OH-]",
+        "inchi": "InChI=1S/Li.2H2O/h;2*1H2/q+1;;/p-1"
+    },
+    "9843750": {
+        "name": "(2S)-2-hydroxy-3-methyl-N-[(2S)-1-[[(5S)-3-methyl-4-oxo-2,5-dihydro-1H-3-benzazepin-5-yl]amino]-1-oxopropan-2-yl]butanamide",
+        "mol_wt": "361.4",
+        "mol_formula": "C19H27N3O4",
+        "smiles": "C[C@@H](C(=O)N[C@H]1C2=CC=CC=C2CCN(C1=O)C)NC(=O)[C@H](C(C)C)O",
+        "inchi": "InChI=1S/C19H27N3O4/c1-11(2)16(23)18(25)20-12(3)17(24)21-15-14-8-6-5-7-13(14)9-10-22(4)19(15)26/h5-8,11-12,15-16,23H,9-10H2,1-4H3,(H,20,25)(H,21,24)/t12-,15-,16-/m0/s1"
+    },
+    "23932": {
+        "name": "molybdenum",
+        "mol_wt": "95.95",
+        "mol_formula": "Mo",
+        "smiles": "[Mo]",
+        "inchi": "InChI=1S/Mo"
+    },
+    "7009612": {
+        "name": "(2S)-2-[[(2S)-2-amino-5-(diaminomethylideneamino)pentanoyl]amino]butanedioic acid",
+        "mol_wt": "289.29",
+        "mol_formula": "C10H19N5O5",
+        "smiles": "C(C[C@@H](C(=O)N[C@@H](CC(=O)O)C(=O)O)N)CN=C(N)N",
+        "inchi": "InChI=1S/C10H19N5O5/c11-5(2-1-3-14-10(12)13)8(18)15-6(9(19)20)4-7(16)17/h5-6H,1-4,11H2,(H,15,18)(H,16,17)(H,19,20)(H4,12,13,14)/t5-,6-/m0/s1"
+    },
+    "11885": {
+        "name": "anthracen-1-amine",
+        "mol_wt": "193.24",
+        "mol_formula": "C14H11N",
+        "smiles": "C1=CC=C2C=C3C(=CC2=C1)C=CC=C3N",
+        "inchi": "InChI=1S/C14H11N/c15-14-7-3-6-12-8-10-4-1-2-5-11(10)9-13(12)14/h1-9H,15H2"
+    },
+    "6324": {
+        "name": "ethane",
+        "mol_wt": "30.07",
+        "mol_formula": "C2H6",
+        "smiles": "CC",
+        "inchi": "InChI=1S/C2H6/c1-2/h1-2H3"
+    },
+    "6325": {
+        "name": "ethene",
+        "mol_wt": "28.05",
+        "mol_formula": "C2H4",
+        "smiles": "C=C",
+        "inchi": "InChI=1S/C2H4/c1-2/h1-2H2"
+    },
+    "23956": {
+        "name": "tantalum",
+        "mol_wt": "180.9479",
+        "mol_formula": "Ta",
+        "smiles": "[Ta]",
+        "inchi": "InChI=1S/Ta"
+    },
+    "6328": {
+        "name": "iodomethane",
+        "mol_wt": "141.939",
+        "mol_formula": "CH3I",
+        "smiles": "CI",
+        "inchi": "InChI=1S/CH3I/c1-2/h1H3"
+    },
+    "24243": {
+        "name": "trisodium;phosphate",
+        "mol_wt": "163.941",
+        "mol_formula": "Na3O4P",
+        "smiles": "[O-]P(=O)([O-])[O-].[Na+].[Na+].[Na+]",
+        "inchi": "InChI=1S/3Na.H3O4P/c;;;1-5(2,3)4/h;;;(H3,1,2,3,4)/q3*+1;/p-3"
+    },
+    "24470": {
+        "name": "silver;nitrate",
+        "mol_wt": "169.873",
+        "mol_formula": "AgNO3",
+        "smiles": "[N+](=O)([O-])[O-].[Ag+]",
+        "inchi": "InChI=1S/Ag.NO3/c;2-1(3)4/q+1;-1"
+    },
+    "5359596": {
+        "name": "arsenic",
+        "mol_wt": "74.92159",
+        "mol_formula": "As",
+        "smiles": "[As]",
+        "inchi": "InChI=1S/As"
+    },
+    "13097898": {
+        "name": "4,5-dimethyl-1H-imidazole;formic acid",
+        "mol_wt": "142.16",
+        "mol_formula": "C6H10N2O2",
+        "smiles": "CC1=C(N=CN1)C.C(=O)O",
+        "inchi": "InChI=1S/C5H8N2.CH2O2/c1-4-5(2)7-3-6-4;2-1-3/h3H,1-2H3,(H,6,7);1H,(H,2,3)"
+    },
+    "122433": {
+        "name": "(5-methyl-1H-imidazol-4-yl)methanol",
+        "mol_wt": "112.13",
+        "mol_formula": "C5H8N2O",
+        "smiles": "CC1=C(N=CN1)CO",
+        "inchi": "InChI=1S/C5H8N2O/c1-4-5(2-8)7-3-6-4/h3,8H,2H2,1H3,(H,6,7)"
+    },
+    "91886495": {
+        "name": "trichlorogold;tetrahydrate;hydrochloride",
+        "mol_wt": "411.8",
+        "mol_formula": "AuCl4H9O4",
+        "smiles": "O.O.O.O.Cl.Cl[Au](Cl)Cl",
+        "inchi": "InChI=1S/Au.4ClH.4H2O/h;4*1H;4*1H2/q+3;;;;;;;;/p-3"
+    },
+    "9321": {
+        "name": "hydrazine",
+        "mol_wt": "32.046",
+        "mol_formula": "H4N2",
+        "smiles": "NN",
+        "inchi": "InChI=1S/H4N2/c1-2/h1-2H2"
+    },
+    "14253": {
+        "name": "hexadecane-1-sulfonic acid",
+        "mol_wt": "306.5",
+        "mol_formula": "C16H34O3S",
+        "smiles": "CCCCCCCCCCCCCCCCS(=O)(=O)O",
+        "inchi": "InChI=1S/C16H34O3S/c1-2-3-4-5-6-7-8-9-10-11-12-13-14-15-16-20(17,18)19/h2-16H2,1H3,(H,17,18,19)"
+    },
+    "517327": {
+        "name": "sodium;benzenesulfonate",
+        "mol_wt": "180.16",
+        "mol_formula": "C6H5NaO3S",
+        "smiles": "C1=CC=C(C=C1)S(=O)(=O)[O-].[Na+]",
+        "inchi": "InChI=1S/C6H6O3S.Na/c7-10(8,9)6-4-2-1-3-5-6;/h1-5H,(H,7,8,9);/q;+1/p-1"
+    },
+    "3720192": {
+        "name": "sodium;4-methylbenzenesulfonate",
+        "mol_wt": "194.19",
+        "mol_formula": "C7H7NaO3S",
+        "smiles": "CC1=CC=C(C=C1)S(=O)(=O)[O-].[Na+]",
+        "inchi": "InChI=1S/C7H8O3S.Na/c1-6-2-4-7(5-3-6)11(8,9)10;/h2-5H,1H3,(H,8,9,10);/q;+1/p-1"
+    },
+    "1269845": {
+        "name": "2-sulfanylidene-1H-pyrimidin-4-one",
+        "mol_wt": "128.15",
+        "mol_formula": "C4H4N2OS",
+        "smiles": "C1=CNC(=S)NC1=O",
+        "inchi": "InChI=1S/C4H4N2OS/c7-3-1-2-5-4(8)6-3/h1-2H,(H2,5,6,7,8)"
+    },
+    "681": {
+        "name": "4-(2-aminoethyl)benzene-1,2-diol",
+        "mol_wt": "153.18",
+        "mol_formula": "C8H11NO2",
+        "smiles": "C1=CC(=C(C=C1CCN)O)O",
+        "inchi": "InChI=1S/C8H11NO2/c9-4-3-6-1-2-7(10)8(11)5-6/h1-2,5,10-11H,3-4,9H2"
+    },
+    "129829770": {
+        "name": "6-hydroxy-1,3,5-trioxa-2lambda6,4lambda6,6lambda5-trimolybdacyclohexane 2,2,4,4,6-pentaoxide;oxido-(oxido(dioxo)molybdenio)oxy-dioxomolybdenum;1,3,5-trioxa-2lambda6,4lambda6,6lambda6-trimolybdacyclohexane 2,2,4,4,6,6-hexaoxide;vanadium;phosphate;tetrahydrate",
+        "mol_wt": "1741.4",
+        "mol_formula": "H9Mo10O40PV2-7",
+        "smiles": "O.O.O.O.O[Mo]1(=O)O[Mo](=O)(=O)O[Mo](=O)(=O)O1.[O-]P(=O)([O-])[O-].[O-][Mo](=O)(=O)O[Mo](=O)(=O)[O-].[O-][Mo](=O)(=O)O[Mo](=O)(=O)[O-].O=[Mo]1(=O)O[Mo](=O)(=O)O[Mo](=O)(=O)O1.[V].[V]",
+        "inchi": "InChI=1S/10Mo.H3O4P.5H2O.31O.2V/c;;;;;;;;;;1-5(2,3)4;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;/h;;;;;;;;;;(H3,1,2,3,4);5*1H2;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;/q;;;;;;;;;+1;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;4*-1;;/p-4"
+    },
+    "5462715": {
+        "name": "(Z)-4-hydroxypent-3-en-2-one;palladium",
+        "mol_wt": "306.65",
+        "mol_formula": "C10H16O4Pd",
+        "smiles": "C/C(=C/C(=O)C)/O.C/C(=C/C(=O)C)/O.[Pd]",
+        "inchi": "InChI=1S/2C5H8O2.Pd/c2*1-4(6)3-5(2)7;/h2*3,6H,1-2H3;/b2*4-3-;"
+    },
+    "31348": {
+        "name": "2-hydroxypropane-1,2,3-tricarboxylate",
+        "mol_wt": "189.10",
+        "mol_formula": "C6H5O7-3",
+        "smiles": "C(C(=O)[O-])C(CC(=O)[O-])(C(=O)[O-])O",
+        "inchi": "InChI=1S/C6H8O7/c7-3(8)1-6(13,5(11)12)2-4(9)10/h13H,1-2H2,(H,7,8)(H,9,10)(H,11,12)/p-3"
+    },
+    "1133": {
+        "name": "2-sulfanylacetic acid",
+        "mol_wt": "92.12",
+        "mol_formula": "C2H4O2S",
+        "smiles": "C(C(=O)O)S",
+        "inchi": "InChI=1S/C2H4O2S/c3-2(4)1-5/h5H,1H2,(H,3,4)"
+    },
+    "24775762": {
+        "name": "cadmium;selenium",
+        "mol_wt": "191.38",
+        "mol_formula": "CdSe",
+        "smiles": "[Se].[Cd]",
+        "inchi": "InChI=1S/Cd.Se"
+    },
+    "9829526": {
+        "name": "1'-[4-[1-(4-fluorophenyl)indol-3-yl]butyl]spiro[1H-2-benzofuran-3,4'-piperidine]",
+        "mol_wt": "454.6",
+        "mol_formula": "C30H31FN2O",
+        "smiles": "C1CN(CCC12C3=CC=CC=C3CO2)CCCCC4=CN(C5=CC=CC=C54)C6=CC=C(C=C6)F",
+        "inchi": "InChI=1S/C30H31FN2O/c31-25-12-14-26(15-13-25)33-21-23(27-9-2-4-11-29(27)33)7-5-6-18-32-19-16-30(17-20-32)28-10-3-1-8-24(28)22-34-30/h1-4,8-15,21H,5-7,16-20,22H2"
+    },
+    "23974": {
+        "name": "cerium",
+        "mol_wt": "140.116",
+        "mol_formula": "Ce",
+        "smiles": "[Ce]",
+        "inchi": "InChI=1S/Ce"
+    },
+    "16211466": {
+        "name": "cerium(3+);trinitrate;hexahydrate",
+        "mol_wt": "434.22",
+        "mol_formula": "CeH12N3O15",
+        "smiles": "[N+](=O)([O-])[O-].[N+](=O)([O-])[O-].[N+](=O)([O-])[O-].O.O.O.O.O.O.[Ce+3]",
+        "inchi": "InChI=1S/Ce.3NO3.6H2O/c;3*2-1(3)4;;;;;;/h;;;;6*1H2/q+3;3*-1;;;;;;"
+    },
+    "25517": {
+        "name": "azanium;chloride",
+        "mol_wt": "53.49",
+        "mol_formula": "ClH4N",
+        "smiles": "[NH4+].[Cl-]",
+        "inchi": "InChI=1S/ClH.H3N/h1H;1H3"
+    },
+    "26945": {
+        "name": "3-[18-(2-carboxyethyl)-8,13-bis(ethenyl)-3,7,12,17-tetramethylporphyrin-21,24-diid-2-yl]propanoic acid;iron(2+)",
+        "mol_wt": "616.5",
+        "mol_formula": "C34H32FeN4O4",
+        "smiles": "CC1=C(C2=CC3=C(C(=C([N-]3)C=C4C(=C(C(=N4)C=C5C(=C(C(=N5)C=C1[N-]2)C)C=C)C)C=C)C)CCC(=O)O)CCC(=O)O.[Fe+2]",
+        "inchi": "InChI=1S/C34H34N4O4.Fe/c1-7-21-17(3)25-13-26-19(5)23(9-11-33(39)40)31(37-26)16-32-24(10-12-34(41)42)20(6)28(38-32)15-30-22(8-2)18(4)27(36-30)14-29(21)35-25;/h7-8,13-16H,1-2,9-12H2,3-6H3,(H4,35,36,37,38,39,40,41,42);/q;+2/p-2"
+    },
+    "12525": {
+        "name": "manganese(2+);diacetate",
+        "mol_wt": "173.03",
+        "mol_formula": "C4H6MnO4",
+        "smiles": "CC(=O)[O-].CC(=O)[O-].[Mn+2]",
+        "inchi": "InChI=1S/2C2H4O2.Mn/c2*1-2(3)4;/h2*1H3,(H,3,4);/q;;+2/p-2"
+    },
+    "24621": {
+        "name": "dioxido(dioxo)molybdenum",
+        "mol_wt": "159.95",
+        "mol_formula": "MoO4-2",
+        "smiles": "[O-][Mo](=O)(=O)[O-]",
+        "inchi": "InChI=1S/Mo.4O/q;;;2*-1"
+    },
+    "20352529": {
+        "name": "diazanium;dioxido(dioxo)molybdenum;dihydrate",
+        "mol_wt": "232.06",
+        "mol_formula": "H12MoN2O6",
+        "smiles": "[NH4+].[NH4+].O.O.[O-][Mo](=O)(=O)[O-]",
+        "inchi": "InChI=1S/Mo.2H3N.2H2O.4O/h;2*1H3;2*1H2;;;;/q;;;;;;;2*-1/p+2"
+    },
+    "311": {
+        "name": "2-hydroxypropane-1,2,3-tricarboxylic acid",
+        "mol_wt": "192.12",
+        "mol_formula": "C6H8O7",
+        "smiles": "C(C(=O)O)C(CC(=O)O)(C(=O)O)O",
+        "inchi": "InChI=1S/C6H8O7/c7-3(8)1-6(13,5(11)12)2-4(9)10/h13H,1-2H2,(H,7,8)(H,9,10)(H,11,12)"
+    },
+    "19092": {
+        "name": "1,2-bis(2-chloroethylsulfanyl)ethane",
+        "mol_wt": "219.2",
+        "mol_formula": "C6H12Cl2S2",
+        "smiles": "C(CSCCCl)SCCCl",
+        "inchi": "InChI=1S/C6H12Cl2S2/c7-1-3-9-5-6-10-4-2-8/h1-6H2"
+    },
+    "574321": {
+        "name": "1H-imidazole-2-carboxylic acid",
+        "mol_wt": "112.09",
+        "mol_formula": "C4H4N2O2",
+        "smiles": "C1=CN=C(N1)C(=O)O",
+        "inchi": "InChI=1S/C4H4N2O2/c7-4(8)3-5-1-2-6-3/h1-2H,(H,5,6)(H,7,8)"
+    },
+    "61444": {
+        "name": "cobalt(2+);sulfate;heptahydrate",
+        "mol_wt": "281.11",
+        "mol_formula": "CoH14O11S",
+        "smiles": "O.O.O.O.O.O.O.[O-]S(=O)(=O)[O-].[Co+2]",
+        "inchi": "InChI=1S/Co.H2O4S.7H2O/c;1-5(2,3)4;;;;;;;/h;(H2,1,2,3,4);7*1H2/q+2;;;;;;;;/p-2"
+    },
+    "40514740": {
+        "name": "2-ethyl-7-piperazin-1-yl-[1,3,4]thiadiazolo[3,2-a]pyrimidin-8-ium-5-one",
+        "mol_wt": "266.35",
+        "mol_formula": "C11H16N5OS+",
+        "smiles": "CCC1=NN2C(=O)C=C([NH+]=C2S1)N3CCNCC3",
+        "inchi": "InChI=1S/C11H15N5OS/c1-2-9-14-16-10(17)7-8(13-11(16)18-9)15-5-3-12-4-6-15/h7,12H,2-6H2,1H3/p+1"
+    },
+    "5377366": {
+        "name": "(Z)-4-hydroxypent-3-en-2-one;iron",
+        "mol_wt": "356.19",
+        "mol_formula": "C15H24FeO6",
+        "smiles": "C/C(=C/C(=O)C)/O.C/C(=C/C(=O)C)/O.C/C(=C/C(=O)C)/O.[Fe]",
+        "inchi": "InChI=1S/3C5H8O2.Fe/c3*1-4(6)3-5(2)7;/h3*3,6H,1-2H3;/b3*4-3-;"
+    },
+    "24360": {
+        "name": "(19S)-19-ethyl-19-hydroxy-17-oxa-3,13-diazapentacyclo[11.8.0.02,11.04,9.015,20]henicosa-1(21),2,4,6,8,10,15(20)-heptaene-14,18-dione",
+        "mol_wt": "348.4",
+        "mol_formula": "C20H16N2O4",
+        "smiles": "CC[C@@]1(C2=C(COC1=O)C(=O)N3CC4=CC5=CC=CC=C5N=C4C3=C2)O",
+        "inchi": "InChI=1S/C20H16N2O4/c1-2-20(25)14-8-16-17-12(7-11-5-3-4-6-15(11)21-17)9-22(16)18(23)13(14)10-26-19(20)24/h3-8,25H,2,9-10H2,1H3/t20-/m0/s1"
+    },
+    "2723710": {
+        "name": "disodium;(4-nitrophenyl) phosphate;hexahydrate",
+        "mol_wt": "371.14",
+        "mol_formula": "C6H16NNa2O12P",
+        "smiles": "C1=CC(=CC=C1[N+](=O)[O-])OP(=O)([O-])[O-].O.O.O.O.O.O.[Na+].[Na+]",
+        "inchi": "InChI=1S/C6H6NO6P.2Na.6H2O/c8-7(9)5-1-3-6(4-2-5)13-14(10,11)12;;;;;;;;/h1-4H,(H2,10,11,12);;;6*1H2/q;2*+1;;;;;;/p-2"
+    },
+    "2762602": {
+        "name": "3-carboxy-4-[3-(dimethylamino)-6-dimethylazaniumylidenexanthen-9-yl]benzoate",
+        "mol_wt": "430.5",
+        "mol_formula": "C25H22N2O5",
+        "smiles": "CN(C)C1=CC2=C(C=C1)C(=C3C=CC(=[N+](C)C)C=C3O2)C4=C(C=C(C=C4)C(=O)[O-])C(=O)O",
+        "inchi": "InChI=1S/C25H22N2O5/c1-26(2)15-6-9-18-21(12-15)32-22-13-16(27(3)4)7-10-19(22)23(18)17-8-5-14(24(28)29)11-20(17)25(30)31/h5-13H,1-4H3,(H-,28,29,30,31)"
+    },
+    "136864313": {
+        "name": "(2R)-2-[[4-[(2-amino-4-oxo-3H-quinazolin-6-yl)-[(Z)-3-[5-carbamoyl-3-[(2S,3R,4R,5S)-3,4-dihydroxy-5-(phosphonooxymethyl)oxolan-2-yl]imidazol-4-yl]prop-2-enoyl]amino]benzoyl]amino]pentanedioic acid",
+        "mol_wt": "800.6",
+        "mol_formula": "C32H33N8O15P",
+        "smiles": "C1=CC(=CC=C1C(=O)N[C@H](CCC(=O)O)C(=O)O)N(C2=CC3=C(C=C2)N=C(NC3=O)N)C(=O)/C=C\\C4=C(N=CN4[C@@H]5[C@@H]([C@H]([C@@H](O5)COP(=O)(O)O)O)O)C(=O)N",
+        "inchi": "InChI=1S/C32H33N8O15P/c33-27(46)24-20(39(13-35-24)30-26(45)25(44)21(55-30)12-54-56(51,52)53)8-9-22(41)40(16-5-6-18-17(11-16)29(48)38-32(34)37-18)15-3-1-14(2-4-15)28(47)36-19(31(49)50)7-10-23(42)43/h1-6,8-9,11,13,19,21,25-26,30,44-45H,7,10,12H2,(H2,33,46)(H,36,47)(H,42,43)(H,49,50)(H2,51,52,53)(H3,34,37,38,48)/b9-8-/t19-,21+,25+,26-,30+/m1/s1"
+    },
+    "9855501": {
+        "name": "dialuminum;magnesium;oxygen(2-)",
+        "mol_wt": "142.27",
+        "mol_formula": "Al2MgO4",
+        "smiles": "[O-2].[O-2].[O-2].[O-2].[Mg+2].[Al+3].[Al+3]",
+        "inchi": "InChI=1S/2Al.Mg.4O/q2*+3;+2;4*-2"
+    },
+    "947": {
+        "name": "molecular nitrogen",
+        "mol_wt": "28.014",
+        "mol_formula": "N2",
+        "smiles": "N#N",
+        "inchi": "InChI=1S/N2/c1-2"
+    },
+    "957": {
+        "name": "octan-1-ol",
+        "mol_wt": "130.23",
+        "mol_formula": "C8H18O",
+        "smiles": "CCCCCCCCO",
+        "inchi": "InChI=1S/C8H18O/c1-2-3-4-5-6-7-8-9/h9H,2-8H2,1H3"
+    },
+    "961": {
+        "name": "hydroxide",
+        "mol_wt": "17.007",
+        "mol_formula": "HO-",
+        "smiles": "[OH-]",
+        "inchi": "InChI=1S/H2O/h1H2/p-1"
+    },
+    "962": {
+        "name": "oxidane",
+        "mol_wt": "18.015",
+        "mol_formula": "H2O",
+        "smiles": "O",
+        "inchi": "InChI=1S/H2O/h1H2"
+    },
+    "977": {
+        "name": "molecular oxygen",
+        "mol_wt": "31.999",
+        "mol_formula": "O2",
+        "smiles": "O=O",
+        "inchi": "InChI=1S/O2/c1-2"
+    },
+    "1004": {
+        "name": "phosphoric acid",
+        "mol_wt": "97.995",
+        "mol_formula": "H3O4P",
+        "smiles": "OP(=O)(O)O",
+        "inchi": "InChI=1S/H3O4P/c1-5(2,3)4/h(H3,1,2,3,4)"
+    },
+    "1031": {
+        "name": "propan-1-ol",
+        "mol_wt": "60.10",
+        "mol_formula": "C3H8O",
+        "smiles": "CCCO",
+        "inchi": "InChI=1S/C3H8O/c1-2-3-4/h4H,2-3H2,1H3"
+    },
+    "1044": {
+        "name": "7H-purine",
+        "mol_wt": "120.11",
+        "mol_formula": "C5H4N4",
+        "smiles": "C1=C2C(=NC=N1)N=CN2",
+        "inchi": "InChI=1S/C5H4N4/c1-4-5(8-2-6-1)9-3-7-4/h1-3H,(H,6,7,8,9)"
+    },
+    "1049": {
+        "name": "pyridine",
+        "mol_wt": "79.10",
+        "mol_formula": "C5H5N",
+        "smiles": "C1=CC=NC=C1",
+        "inchi": "InChI=1S/C5H5N/c1-2-4-6-5-3-1/h1-5H"
+    },
+    "1118": {
+        "name": "sulfuric acid",
+        "mol_wt": "98.08",
+        "mol_formula": "H2O4S",
+        "smiles": "OS(=O)(=O)O",
+        "inchi": "InChI=1S/H2O4S/c1-5(2,3)4/h(H2,1,2,3,4)"
+    },
+    "1140": {
+        "name": "toluene",
+        "mol_wt": "92.14",
+        "mol_formula": "C7H8",
+        "smiles": "CC1=CC=CC=C1",
+        "inchi": "InChI=1S/C7H8/c1-7-5-3-2-4-6-7/h2-6H,1H3"
+    },
+    "1146": {
+        "name": "N,N-dimethylmethanamine",
+        "mol_wt": "59.11",
+        "mol_formula": "C3H9N",
+        "smiles": "CN(C)C",
+        "inchi": "InChI=1S/C3H9N/c1-4(2)3/h1-3H3"
+    },
+    "1152": {
+        "name": "dihydroxy(dioxo)tungsten",
+        "mol_wt": "249.85",
+        "mol_formula": "H2O4W",
+        "smiles": "O[W](=O)(=O)O",
+        "inchi": "InChI=1S/2H2O.2O.W/h2*1H2;;;/q;;;;+2/p-2"
+    },
+    "1176": {
+        "name": "urea",
+        "mol_wt": "60.056",
+        "mol_formula": "CH4N2O",
+        "smiles": "C(=O)(N)N",
+        "inchi": "InChI=1S/CH4N2O/c2-1(3)4/h(H4,2,3,4)"
+    },
+    "1318": {
+        "name": "1,10-phenanthroline",
+        "mol_wt": "180.20",
+        "mol_formula": "C12H8N2",
+        "smiles": "C1=CC2=C(C3=C(C=CC=N3)C=C2)N=C1",
+        "inchi": "InChI=1S/C12H8N2/c1-3-9-5-6-10-4-2-8-14-12(10)11(9)13-7-1/h1-8H"
+    },
+    "1390": {
+        "name": "1-methylimidazole",
+        "mol_wt": "82.10",
+        "mol_formula": "C4H6N2",
+        "smiles": "CN1C=CN=C1",
+        "inchi": "InChI=1S/C4H6N2/c1-6-3-2-5-4-6/h2-4H,1H3"
+    },
+    "3100": {
+        "name": "2-benzhydryloxy-N,N-dimethylethanamine",
+        "mol_wt": "255.35",
+        "mol_formula": "C17H21NO",
+        "smiles": "CN(C)CCOC(C1=CC=CC=C1)C2=CC=CC=C2",
+        "inchi": "InChI=1S/C17H21NO/c1-18(2)13-14-19-17(15-9-5-3-6-10-15)16-11-7-4-8-12-16/h3-12,17H,13-14H2,1-2H3"
+    },
+    "3283": {
+        "name": "ethoxyethane",
+        "mol_wt": "74.12",
+        "mol_formula": "C4H10O",
+        "smiles": "CCOCC",
+        "inchi": "InChI=1S/C4H10O/c1-3-5-4-2/h3-4H2,1-2H3"
+    },
+    "3301": {
+        "name": "ethane-1,2-diamine",
+        "mol_wt": "60.10",
+        "mol_formula": "C2H8N2",
+        "smiles": "C(CN)N",
+        "inchi": "InChI=1S/C2H8N2/c3-1-2-4/h1-4H2"
+    },
+    "3385": {
+        "name": "5-fluoro-1H-pyrimidine-2,4-dione",
+        "mol_wt": "130.08",
+        "mol_formula": "C4H3FN2O2",
+        "smiles": "C1=C(C(=O)NC(=O)N1)F",
+        "inchi": "InChI=1S/C4H3FN2O2/c5-2-1-6-4(9)7-3(2)8/h1H,(H2,6,7,8,9)"
+    },
+    "3776": {
+        "name": "propan-2-ol",
+        "mol_wt": "60.10",
+        "mol_formula": "C3H8O",
+        "smiles": "CC(C)O",
+        "inchi": "InChI=1S/C3H8O/c1-3(2)4/h3-4H,1-2H3"
+    },
+    "4495": {
+        "name": "N-(4-nitro-2-phenoxyphenyl)methanesulfonamide",
+        "mol_wt": "308.31",
+        "mol_formula": "C13H12N2O5S",
+        "smiles": "CS(=O)(=O)NC1=C(C=C(C=C1)[N+](=O)[O-])OC2=CC=CC=C2",
+        "inchi": "InChI=1S/C13H12N2O5S/c1-21(18,19)14-12-8-7-10(15(16)17)9-13(12)20-11-5-3-2-4-6-11/h2-9,14H,1H3"
+    },
+    "4873": {
+        "name": "potassium;chloride",
+        "mol_wt": "74.55",
+        "mol_formula": "ClK",
+        "smiles": "[Cl-].[K+]",
+        "inchi": "InChI=1S/ClH.K/h1H;/q;+1/p-1"
+    },
+    "5054": {
+        "name": "benzene-1,3-diol",
+        "mol_wt": "110.11",
+        "mol_formula": "C6H6O2",
+        "smiles": "C1=CC(=CC(=C1)O)O",
+        "inchi": "InChI=1S/C6H6O2/c7-5-2-1-3-6(8)4-5/h1-4,7-8H"
+    },
+    "5125": {
+        "name": "1-bis(butylsulfanyl)phosphorylsulfanylbutane",
+        "mol_wt": "314.5",
+        "mol_formula": "C12H27OPS3",
+        "smiles": "CCCCSP(=O)(SCCCC)SCCCC",
+        "inchi": "InChI=1S/C12H27OPS3/c1-4-7-10-15-14(13,16-11-8-5-2)17-12-9-6-3/h4-12H2,1-3H3"
+    },
+    "5234": {
+        "name": "sodium;chloride",
+        "mol_wt": "58.44",
+        "mol_formula": "ClNa",
+        "smiles": "[Na+].[Cl-]",
+        "inchi": "InChI=1S/ClH.Na/h1H;/q;+1/p-1"
+    },
+    "5421": {
+        "name": "[9-(4-amino-2-carboxyphenyl)-6-(dimethylamino)xanthen-3-ylidene]-dimethylazanium",
+        "mol_wt": "402.5",
+        "mol_formula": "C24H24N3O3+",
+        "smiles": "CN(C)C1=CC2=C(C=C1)C(=C3C=CC(=[N+](C)C)C=C3O2)C4=C(C=C(C=C4)N)C(=O)O",
+        "inchi": "InChI=1S/C24H23N3O3/c1-26(2)15-6-9-18-21(12-15)30-22-13-16(27(3)4)7-10-19(22)23(18)17-8-5-14(25)11-20(17)24(28)29/h5-13,25H,1-4H3,(H,28,29)/p+1"
+    },
+    "5727": {
+        "name": "dichlorozinc",
+        "mol_wt": "136.3",
+        "mol_formula": "Cl2Zn",
+        "smiles": "Cl[Zn]Cl",
+        "inchi": "InChI=1S/2ClH.Zn/h2*1H;/q;;+2/p-2"
+    },
+    "5793": {
+        "name": "(3R,4S,5S,6R)-6-(hydroxymethyl)oxane-2,3,4,5-tetrol",
+        "mol_wt": "180.16",
+        "mol_formula": "C6H12O6",
+        "smiles": "C([C@@H]1[C@H]([C@@H]([C@H](C(O1)O)O)O)O)O",
+        "inchi": "InChI=1S/C6H12O6/c7-1-2-3(8)4(9)5(10)6(11)12-2/h2-11H,1H2/t2-,3-,4+,5-,6?/m1/s1"
+    },
+    "5798": {
+        "name": "1H-benzimidazole",
+        "mol_wt": "118.14",
+        "mol_formula": "C7H6N2",
+        "smiles": "C1=CC=C2C(=C1)NC=N2",
+        "inchi": "InChI=1S/C7H6N2/c1-2-4-7-6(3-1)8-5-9-7/h1-5H,(H,8,9)"
+    },
+    "5962": {
+        "name": "(2S)-2,6-diaminohexanoic acid",
+        "mol_wt": "146.19",
+        "mol_formula": "C6H14N2O2",
+        "smiles": "C(CCN)C[C@@H](C(=O)O)N",
+        "inchi": "InChI=1S/C6H14N2O2/c7-4-2-1-3-5(8)6(9)10/h5H,1-4,7-8H2,(H,9,10)/t5-/m0/s1"
+    },
+    "5974": {
+        "name": "hexadecyl(trimethyl)azanium;bromide",
+        "mol_wt": "364.4",
+        "mol_formula": "C19H42BrN",
+        "smiles": "CCCCCCCCCCCCCCCC[N+](C)(C)C.[Br-]",
+        "inchi": "InChI=1S/C19H42N.BrH/c1-5-6-7-8-9-10-11-12-13-14-15-16-17-18-19-20(2,3)4;/h5-19H2,1-4H3;1H/q+1;/p-1"
+    },
+    "6115": {
+        "name": "aniline",
+        "mol_wt": "93.13",
+        "mol_formula": "C6H7N",
+        "smiles": "C1=CC=C(C=C1)N",
+        "inchi": "InChI=1S/C6H7N/c7-6-4-2-1-3-5-6/h1-5H,7H2"
+    },
+    "6209": {
+        "name": "2-hydroxyethyl(trimethyl)azanium;chloride",
+        "mol_wt": "139.62",
+        "mol_formula": "C5H14ClNO",
+        "smiles": "C[N+](C)(C)CCO.[Cl-]",
+        "inchi": "InChI=1S/C5H14NO.ClH/c1-6(2,3)4-5-7;/h7H,4-5H2,1-3H3;1H/q+1;/p-1"
+    },
+    "6212": {
+        "name": "chloroform",
+        "mol_wt": "119.37",
+        "mol_formula": "CHCl3",
+        "smiles": "C(Cl)(Cl)Cl",
+        "inchi": "InChI=1S/CHCl3/c2-1(3)4/h1H"
+    },
+    "6224": {
+        "name": "trisodium;2-hydroxypropane-1,2,3-tricarboxylate",
+        "mol_wt": "258.07",
+        "mol_formula": "C6H5Na3O7",
+        "smiles": "C(C(=O)[O-])C(CC(=O)[O-])(C(=O)[O-])O.[Na+].[Na+].[Na+]",
+        "inchi": "InChI=1S/C6H8O7.3Na/c7-3(8)1-6(13,5(11)12)2-4(9)10;;;/h13H,1-2H2,(H,7,8)(H,9,10)(H,11,12);;;/q;3*+1/p-3"
+    },
+    "6228": {
+        "name": "N,N-dimethylformamide",
+        "mol_wt": "73.09",
+        "mol_formula": "C3H7NO",
+        "smiles": "CN(C)C=O",
+        "inchi": "InChI=1S/C3H7NO/c1-4(2)3-5/h3H,1-2H3"
+    },
+    "6277": {
+        "name": "cobalt(2+);diacetate",
+        "mol_wt": "177.02",
+        "mol_formula": "C4H6CoO4",
+        "smiles": "CC(=O)[O-].CC(=O)[O-].[Co+2]",
+        "inchi": "InChI=1S/2C2H4O2.Co/c2*1-2(3)4;/h2*1H3,(H,3,4);/q;;+2/p-2"
+    },
+    "6339": {
+        "name": "fluoroethene",
+        "mol_wt": "46.04",
+        "mol_formula": "C2H3F",
+        "smiles": "C=CF",
+        "inchi": "InChI=1S/C2H3F/c1-2-3/h2H,1H2"
+    },
+    "6341": {
+        "name": "ethanamine",
+        "mol_wt": "45.08",
+        "mol_formula": "C2H7N",
+        "smiles": "CCN",
+        "inchi": "InChI=1S/C2H7N/c1-2-3/h2-3H2,1H3"
+    },
+    "6342": {
+        "name": "acetonitrile",
+        "mol_wt": "41.05",
+        "mol_formula": "C2H3N",
+        "smiles": "CC#N",
+        "inchi": "InChI=1S/C2H3N/c1-2-3/h1H3"
+    },
+    "6344": {
+        "name": "dichloromethane",
+        "mol_wt": "84.93",
+        "mol_formula": "CH2Cl2",
+        "smiles": "C(Cl)Cl",
+        "inchi": "InChI=1S/CH2Cl2/c2-1-3/h1H2"
+    },
+    "6347": {
+        "name": "Isocyanic acid",
+        "mol_wt": "43.025",
+        "mol_formula": "CHNO",
+        "smiles": "C(=N)=O",
+        "inchi": "InChI=1S/CHNO/c2-1-3/h2H"
+    },
+    "6503": {
+        "name": "2-amino-2-(hydroxymethyl)propane-1,3-diol",
+        "mol_wt": "121.14",
+        "mol_formula": "C4H11NO3",
+        "smiles": "C(C(CO)(CO)N)O",
+        "inchi": "InChI=1S/C4H11NO3/c5-4(1-6,2-7)3-8/h6-8H,1-3,5H2"
+    },
+    "6517": {
+        "name": "tetraethyl silicate",
+        "mol_wt": "208.33",
+        "mol_formula": "C8H20O4Si",
+        "smiles": "CCO[Si](OCC)(OCC)OCC",
+        "inchi": "InChI=1S/C8H20O4Si/c1-5-9-13(10-6-2,11-7-3)12-8-4/h5-8H2,1-4H3"
+    },
+    "6694": {
+        "name": "[9-(2-carboxyphenyl)-6-(diethylamino)xanthen-3-ylidene]-diethylazanium;chloride",
+        "mol_wt": "479.0",
+        "mol_formula": "C28H31ClN2O3",
+        "smiles": "CCN(CC)C1=CC2=C(C=C1)C(=C3C=CC(=[N+](CC)CC)C=C3O2)C4=CC=CC=C4C(=O)O.[Cl-]",
+        "inchi": "InChI=1S/C28H30N2O3.ClH/c1-5-29(6-2)19-13-15-23-25(17-19)33-26-18-20(30(7-3)8-4)14-16-24(26)27(23)21-11-9-10-12-22(21)28(31)32;/h9-18H,5-8H2,1-4H3;1H"
+    },
+    "6917": {
+        "name": "1-ethenylpyrrolidin-2-one",
+        "mol_wt": "111.14",
+        "mol_formula": "C6H9NO",
+        "smiles": "C=CN1CCCC1=O",
+        "inchi": "InChI=1S/C6H9NO/c1-2-7-5-3-4-6(7)8/h2H,1,3-5H2"
+    },
+    "6946": {
+        "name": "2-nitroaniline",
+        "mol_wt": "138.12",
+        "mol_formula": "C6H6N2O2",
+        "smiles": "C1=CC=C(C(=C1)N)[N+](=O)[O-]",
+        "inchi": "InChI=1S/C6H6N2O2/c7-5-3-1-2-4-6(5)8(9)10/h1-4H,7H2"
+    },
+    "7195": {
+        "name": "6-nitro-1H-benzimidazole",
+        "mol_wt": "163.13",
+        "mol_formula": "C7H5N3O2",
+        "smiles": "C1=CC2=C(C=C1[N+](=O)[O-])NC=N2",
+        "inchi": "InChI=1S/C7H5N3O2/c11-10(12)5-1-2-6-7(3-5)9-4-8-6/h1-4H,(H,8,9)"
+    },
+    "7470": {
+        "name": "4-methylbenzoic acid",
+        "mol_wt": "136.15",
+        "mol_formula": "C8H8O2",
+        "smiles": "CC1=CC=C(C=C1)C(=O)O",
+        "inchi": "InChI=1S/C8H8O2/c1-6-2-4-7(5-3-6)8(9)10/h2-5H,1H3,(H,9,10)"
+    },
+    "7489": {
+        "name": "terephthalic acid",
+        "mol_wt": "166.13",
+        "mol_formula": "C8H6O4",
+        "smiles": "C1=CC(=CC=C1C(=O)O)C(=O)O",
+        "inchi": "InChI=1S/C8H6O4/c9-7(10)5-1-2-6(4-3-5)8(11)12/h1-4H,(H,9,10)(H,11,12)"
+    },
+    "7497": {
+        "name": "2-(diethylamino)ethanol",
+        "mol_wt": "117.19",
+        "mol_formula": "C6H15NO",
+        "smiles": "CCN(CC)CCO",
+        "inchi": "InChI=1S/C6H15NO/c1-3-7(4-2)5-6-8/h8H,3-6H2,1-2H3"
+    },
+    "7501": {
+        "name": "styrene",
+        "mol_wt": "104.15",
+        "mol_formula": "C8H8",
+        "smiles": "C=CC1=CC=CC=C1",
+        "inchi": "InChI=1S/C8H8/c1-2-8-6-4-3-5-7-8/h2-7H,1H2"
+    },
+    "7504": {
+        "name": "phenylmethanamine",
+        "mol_wt": "107.15",
+        "mol_formula": "C7H9N",
+        "smiles": "C1=CC=C(C=C1)CN",
+        "inchi": "InChI=1S/C7H9N/c8-6-7-4-2-1-3-5-7/h1-5H,6,8H2"
+    },
+    "7611": {
+        "name": "cyclopenta-1,3-diene;iron(2+)",
+        "mol_wt": "186.03",
+        "mol_formula": "C10H10Fe",
+        "smiles": "[CH-]1C=CC=C1.[CH-]1C=CC=C1.[Fe+2]",
+        "inchi": "InChI=1S/2C5H5.Fe/c2*1-2-4-5-3-1;/h2*1-5H;/q2*-1;+2"
+    },
+    "7618": {
+        "name": "2-[bis(2-hydroxyethyl)amino]ethanol",
+        "mol_wt": "149.19",
+        "mol_formula": "C6H15NO3",
+        "smiles": "C(CO)N(CCO)CCO",
+        "inchi": "InChI=1S/C6H15NO3/c8-4-1-7(2-5-9)3-6-10/h8-10H,1-6H2"
+    },
+    "7730": {
+        "name": "1-bromo-4-methoxybenzene",
+        "mol_wt": "187.03",
+        "mol_formula": "C7H7BrO",
+        "smiles": "COC1=CC=C(C=C1)Br",
+        "inchi": "InChI=1S/C7H7BrO/c1-9-7-4-2-6(8)3-5-7/h2-5H,1H3"
+    },
+    "7852": {
+        "name": "propan-1-amine",
+        "mol_wt": "59.11",
+        "mol_formula": "C3H9N",
+        "smiles": "CCCN",
+        "inchi": "InChI=1S/C3H9N/c1-2-3-4/h2-4H2,1H3"
+    },
+    "7855": {
+        "name": "prop-2-enenitrile",
+        "mol_wt": "53.06",
+        "mol_formula": "C3H3N",
+        "smiles": "C=CC#N",
+        "inchi": "InChI=1S/C3H3N/c1-2-3-4/h2H,1H2"
+    },
+    "7924": {
+        "name": "4-methyl-1,3-dioxolan-2-one",
+        "mol_wt": "102.09",
+        "mol_formula": "C4H6O3",
+        "smiles": "CC1COC(=O)O1",
+        "inchi": "InChI=1S/C4H6O3/c1-3-2-6-4(5)7-3/h3H,2H2,1H3"
+    },
+    "7955": {
+        "name": "1,3,5-triazine-2,4,6-triamine",
+        "mol_wt": "126.12",
+        "mol_formula": "C3H6N6",
+        "smiles": "C1(=NC(=NC(=N1)N)N)N",
+        "inchi": "InChI=1S/C3H6N6/c4-1-7-2(5)9-3(6)8-1/h(H6,4,5,6,7,8,9)"
+    },
+    "8007": {
+        "name": "butan-1-amine",
+        "mol_wt": "73.14",
+        "mol_formula": "C4H11N",
+        "smiles": "CCCCN",
+        "inchi": "InChI=1S/C4H11N/c1-2-3-4-5/h2-5H2,1H3"
+    },
+    "8010": {
+        "name": "propanedinitrile",
+        "mol_wt": "66.06",
+        "mol_formula": "C3H2N2",
+        "smiles": "C(C#N)C#N",
+        "inchi": "InChI=1S/C3H2N2/c4-2-1-3-5/h1H2"
+    },
+    "8028": {
+        "name": "oxolane",
+        "mol_wt": "72.11",
+        "mol_formula": "C4H8O",
+        "smiles": "C1CCOC1",
+        "inchi": "InChI=1S/C4H8O/c1-2-4-5-3-1/h1-4H2"
+    },
+    "8058": {
+        "name": "hexane",
+        "mol_wt": "86.18",
+        "mol_formula": "C6H14",
+        "smiles": "CCCCCC",
+        "inchi": "InChI=1S/C6H14/c1-3-5-6-4-2/h3-6H2,1-2H3"
+    },
+    "8102": {
+        "name": "hexan-1-amine",
+        "mol_wt": "101.19",
+        "mol_formula": "C6H15N",
+        "smiles": "CCCCCCN",
+        "inchi": "InChI=1S/C6H15N/c1-2-3-4-5-6-7/h2-7H2,1H3"
+    },
+    "8103": {
+        "name": "hexan-1-ol",
+        "mol_wt": "102.17",
+        "mol_formula": "C6H14O",
+        "smiles": "CCCCCCO",
+        "inchi": "InChI=1S/C6H14O/c1-2-3-4-5-6-7/h7H,2-6H2,1H3"
+    },
+    "8111": {
+        "name": "N'-(2-aminoethyl)ethane-1,2-diamine",
+        "mol_wt": "103.17",
+        "mol_formula": "C4H13N3",
+        "smiles": "C(CNCCN)N",
+        "inchi": "InChI=1S/C4H13N3/c5-1-3-7-4-2-6/h7H,1-6H2"
+    },
+    "8117": {
+        "name": "2-(2-hydroxyethoxy)ethanol",
+        "mol_wt": "106.12",
+        "mol_formula": "C4H10O3",
+        "smiles": "C(COCCO)O",
+        "inchi": "InChI=1S/C4H10O3/c5-1-3-7-4-2-6/h5-6H,1-4H2"
+    },
+    "8154": {
+        "name": "hexadecyl(trimethyl)azanium;chloride",
+        "mol_wt": "320.0",
+        "mol_formula": "C19H42ClN",
+        "smiles": "CCCCCCCCCCCCCCCC[N+](C)(C)C.[Cl-]",
+        "inchi": "InChI=1S/C19H42N.ClH/c1-5-6-7-8-9-10-11-12-13-14-15-16-17-18-19-20(2,3)4;/h5-19H2,1-4H3;1H/q+1;/p-1"
+    },
+    "8301": {
+        "name": "1,1,2,2-tetrafluoroethene",
+        "mol_wt": "100.01",
+        "mol_formula": "C2F4",
+        "smiles": "C(=C(F)F)(F)F",
+        "inchi": "InChI=1S/C2F4/c3-1(4)2(5)6"
+    },
+    "8471": {
+        "name": "N,N-diethylethanamine",
+        "mol_wt": "101.19",
+        "mol_formula": "C6H15N",
+        "smiles": "CCN(CC)CC",
+        "inchi": "InChI=1S/C6H15N/c1-4-7(5-2)6-3/h4-6H2,1-3H3"
+    },
+    "8491": {
+        "name": "2-chloro-1-methyl-4-nitrobenzene",
+        "mol_wt": "171.58",
+        "mol_formula": "C7H6ClNO2",
+        "smiles": "CC1=C(C=C(C=C1)[N+](=O)[O-])Cl",
+        "inchi": "InChI=1S/C7H6ClNO2/c1-5-2-3-6(9(10)11)4-7(5)8/h2-4H,1H3"
+    },
+    "8496": {
+        "name": "benzene-1,3-dicarboxylic acid",
+        "mol_wt": "166.13",
+        "mol_formula": "C8H6O4",
+        "smiles": "C1=CC(=CC(=C1)C(=O)O)C(=O)O",
+        "inchi": "InChI=1S/C8H6O4/c9-7(10)5-2-1-3-6(4-5)8(11)12/h1-4H,(H,9,10)(H,11,12)"
+    },
+    "8895": {
+        "name": "copper;diacetate",
+        "mol_wt": "181.63",
+        "mol_formula": "C4H6CuO4",
+        "smiles": "CC(=O)[O-].CC(=O)[O-].[Cu+2]",
+        "inchi": "InChI=1S/2C2H4O2.Cu/c2*1-2(3)4;/h2*1H3,(H,3,4);/q;;+2/p-2"
+    },
+    "8900": {
+        "name": "heptane",
+        "mol_wt": "100.20",
+        "mol_formula": "C7H16",
+        "smiles": "CCCCCCC",
+        "inchi": "InChI=1S/C7H16/c1-3-5-7-6-4-2/h3-7H2,1-2H3"
+    },
+    "9033": {
+        "name": "aziridine",
+        "mol_wt": "43.07",
+        "mol_formula": "C2H5N",
+        "smiles": "C1CN1",
+        "inchi": "InChI=1S/C2H5N/c1-2-3-1/h3H,1-2H2"
+    },
+    "9064": {
+        "name": "(2R,3S)-2-(3,4-dihydroxyphenyl)-3,4-dihydro-2H-chromene-3,5,7-triol",
+        "mol_wt": "290.27",
+        "mol_formula": "C15H14O6",
+        "smiles": "C1[C@@H]([C@H](OC2=CC(=CC(=C21)O)O)C3=CC(=C(C=C3)O)O)O",
+        "inchi": "InChI=1S/C15H14O6/c16-8-4-11(18)9-6-13(20)15(21-14(9)5-8)7-1-2-10(17)12(19)3-7/h1-5,13,15-20H,6H2/t13-,15+/m0/s1"
+    },
+    "9237": {
+        "name": "1,4-diazabicyclo[2.2.2]octane",
+        "mol_wt": "112.17",
+        "mol_formula": "C6H12N2",
+        "smiles": "C1CN2CCN1CC2",
+        "inchi": "InChI=1S/C6H12N2/c1-2-8-5-3-7(1)4-6-8/h1-6H2"
+    },
+    "10005": {
+        "name": "2-cyanoguanidine",
+        "mol_wt": "84.08",
+        "mol_formula": "C2H4N4",
+        "smiles": "C(#N)N=C(N)N",
+        "inchi": "InChI=1S/C2H4N4/c3-1-6-2(4)5/h(H4,4,5,6)"
+    },
+    "10039": {
+        "name": "CARBONYL SULFIDE",
+        "mol_wt": "60.08",
+        "mol_formula": "COS",
+        "smiles": "C(=O)=S",
+        "inchi": "InChI=1S/COS/c2-1-3"
+    },
+    "10608": {
+        "name": "disodium;2-(3-oxido-6-oxoxanthen-9-yl)benzoate",
+        "mol_wt": "376.3",
+        "mol_formula": "C20H10Na2O5",
+        "smiles": "C1=CC=C(C(=C1)C2=C3C=CC(=O)C=C3OC4=C2C=CC(=C4)[O-])C(=O)[O-].[Na+].[Na+]",
+        "inchi": "InChI=1S/C20H12O5.2Na/c21-11-5-7-15-17(9-11)25-18-10-12(22)6-8-16(18)19(15)13-3-1-2-4-14(13)20(23)24;;/h1-10,21H,(H,23,24);;/q;2*+1/p-2"
+    },
+    "10701": {
+        "name": "2-nitro-1H-imidazole",
+        "mol_wt": "113.08",
+        "mol_formula": "C3H3N3O2",
+        "smiles": "C1=CN=C(N1)[N+](=O)[O-]",
+        "inchi": "InChI=1S/C3H3N3O2/c7-6(8)3-4-1-2-5-3/h1-2H,(H,4,5)"
+    },
+    "11026": {
+        "name": "propan-2-olate;titanium(4+)",
+        "mol_wt": "284.22",
+        "mol_formula": "C12H28O4Ti",
+        "smiles": "CC(C)[O-].CC(C)[O-].CC(C)[O-].CC(C)[O-].[Ti+4]",
+        "inchi": "InChI=1S/4C3H7O.Ti/c4*1-3(2)4;/h4*3H,1-2H3;/q4*-1;+4"
+    },
+    "11107": {
+        "name": "4-pyridin-4-ylpyridine",
+        "mol_wt": "156.18",
+        "mol_formula": "C10H8N2",
+        "smiles": "C1=CN=CC=C1C2=CC=NC=C2",
+        "inchi": "InChI=1S/C10H8N2/c1-5-11-6-2-9(1)10-3-7-12-8-4-10/h1-8H"
+    },
+    "11138": {
+        "name": "benzene-1,3,5-tricarboxylic acid",
+        "mol_wt": "210.14",
+        "mol_formula": "C9H6O6",
+        "smiles": "C1=C(C=C(C=C1C(=O)O)C(=O)O)C(=O)O",
+        "inchi": "InChI=1S/C9H6O6/c10-7(11)4-1-5(8(12)13)3-6(2-4)9(14)15/h1-3H,(H,10,11)(H,12,13)(H,14,15)"
+    },
+    "11143": {
+        "name": "aluminum;propan-2-olate",
+        "mol_wt": "204.24",
+        "mol_formula": "C9H21AlO3",
+        "smiles": "CC(C)[O-].CC(C)[O-].CC(C)[O-].[Al+3]",
+        "inchi": "InChI=1S/3C3H7O.Al/c3*1-3(2)4;/h3*3H,1-2H3;/q3*-1;+3"
+    },
+    "11192": {
+        "name": "zinc;diacetate",
+        "mol_wt": "183.5",
+        "mol_formula": "C4H6O4Zn",
+        "smiles": "CC(=O)[O-].CC(=O)[O-].[Zn+2]",
+        "inchi": "InChI=1S/2C2H4O2.Zn/c2*1-2(3)4;/h2*1H3,(H,3,4);/q;;+2/p-2"
+    },
+    "11199": {
+        "name": "ethenol",
+        "mol_wt": "44.05",
+        "mol_formula": "C2H4O",
+        "smiles": "C=CO",
+        "inchi": "InChI=1S/C2H4O/c1-2-3/h2-3H,1H2"
+    },
+    "11979": {
+        "name": "6-methyl-1H-benzimidazole",
+        "mol_wt": "132.16",
+        "mol_formula": "C8H8N2",
+        "smiles": "CC1=CC2=C(C=C1)N=CN2",
+        "inchi": "InChI=1S/C8H8N2/c1-6-2-3-7-8(4-6)10-5-9-7/h2-5H,1H3,(H,9,10)"
+    },
+    "11985": {
+        "name": "1,3-dihydrobenzimidazol-2-one",
+        "mol_wt": "134.14",
+        "mol_formula": "C7H6N2O",
+        "smiles": "C1=CC=C2C(=C1)NC(=O)N2",
+        "inchi": "InChI=1S/C7H6N2O/c10-7-8-5-3-1-2-4-6(5)9-7/h1-4H,(H2,8,9,10)"
+    },
+    "12051": {
+        "name": "N,N-diethylformamide",
+        "mol_wt": "101.15",
+        "mol_formula": "C5H11NO",
+        "smiles": "CCN(CC)C=O",
+        "inchi": "InChI=1S/C5H11NO/c1-3-6(4-2)5-7/h5H,3-4H2,1-2H3"
+    },
+    "12682": {
+        "name": "tetramethyl silicate",
+        "mol_wt": "152.22",
+        "mol_formula": "C4H12O4Si",
+        "smiles": "CO[Si](OC)(OC)OC",
+        "inchi": "InChI=1S/C4H12O4Si/c1-5-9(6-2,7-3)8-4/h1-4H3"
+    },
+    "12749": {
+        "name": "2-methyl-1H-imidazole",
+        "mol_wt": "82.10",
+        "mol_formula": "C4H6N2",
+        "smiles": "CC1=NC=CN1",
+        "inchi": "InChI=1S/C4H6N2/c1-4-5-2-3-6-4/h2-3H,1H3,(H,5,6)"
+    },
+    "12855": {
+        "name": "2-phenyl-1H-benzimidazole",
+        "mol_wt": "194.23",
+        "mol_formula": "C13H10N2",
+        "smiles": "C1=CC=C(C=C1)C2=NC3=CC=CC=C3N2",
+        "inchi": "InChI=1S/C13H10N2/c1-2-6-10(7-3-1)13-14-11-8-4-5-9-12(11)15-13/h1-9H,(H,14,15)"
+    },
+    "13387": {
+        "name": "1-methylpyrrolidin-2-one",
+        "mol_wt": "99.13",
+        "mol_formula": "C5H9NO",
+        "smiles": "CN1CCCC1=O",
+        "inchi": "InChI=1S/C5H9NO/c1-6-4-2-3-5(6)7/h2-4H2,1H3"
+    },
+    "13521": {
+        "name": "3-triethoxysilylpropan-1-amine",
+        "mol_wt": "221.37",
+        "mol_formula": "C9H23NO3Si",
+        "smiles": "CCO[Si](CCCN)(OCC)OCC",
+        "inchi": "InChI=1S/C9H23NO3Si/c1-4-11-14(12-5-2,13-6-3)9-7-8-10/h4-10H2,1-3H3"
+    },
+    "13624": {
+        "name": "1H-benzimidazol-2-amine",
+        "mol_wt": "133.15",
+        "mol_formula": "C7H7N3",
+        "smiles": "C1=CC=C2C(=C1)NC(=N2)N",
+        "inchi": "InChI=1S/C7H7N3/c8-7-9-5-3-1-2-4-6(5)10-7/h1-4H,(H3,8,9,10)"
+    },
+    "14769": {
+        "name": "oxo(oxoalumanyloxy)alumane",
+        "mol_wt": "101.961",
+        "mol_formula": "Al2O3",
+        "smiles": "O=[Al]O[Al]=O",
+        "inchi": "InChI=1S/2Al.3O"
+    },
+    "14786": {
+        "name": "oxocobalt",
+        "mol_wt": "74.933",
+        "mol_formula": "CoO",
+        "smiles": "O=[Co]",
+        "inchi": "InChI=1S/Co.O"
+    },
+    "14797": {
+        "name": "potassium;hydroxide",
+        "mol_wt": "56.106",
+        "mol_formula": "HKO",
+        "smiles": "[OH-].[K+]",
+        "inchi": "InChI=1S/K.H2O/h;1H2/q+1;/p-1"
+    },
+    "14798": {
+        "name": "sodium;hydroxide",
+        "mol_wt": "39.997",
+        "mol_formula": "HNaO",
+        "smiles": "[OH-].[Na+]",
+        "inchi": "InChI=1S/Na.H2O/h;1H2/q+1;/p-1"
+    },
+    "14802": {
+        "name": "trioxomolybdenum",
+        "mol_wt": "143.95",
+        "mol_formula": "MoO3",
+        "smiles": "O=[Mo](=O)=O",
+        "inchi": "InChI=1S/Mo.3O"
+    },
+    "14805": {
+        "name": "oxonickel",
+        "mol_wt": "74.693",
+        "mol_formula": "NiO",
+        "smiles": "O=[Ni]",
+        "inchi": "InChI=1S/Ni.O"
+    },
+    "14806": {
+        "name": "oxozinc",
+        "mol_wt": "81.4",
+        "mol_formula": "OZn",
+        "smiles": "O=[Zn]",
+        "inchi": "InChI=1S/O.Zn"
+    },
+    "14829": {
+        "name": "oxocopper",
+        "mol_wt": "79.55",
+        "mol_formula": "CuO",
+        "smiles": "O=[Cu]",
+        "inchi": "InChI=1S/Cu.O"
+    },
+    "14832": {
+        "name": "sulfanylidenecobalt",
+        "mol_wt": "91.00",
+        "mol_formula": "CoS",
+        "smiles": "S=[Co]",
+        "inchi": "InChI=1S/Co.S"
+    },
+    "14917": {
+        "name": "fluorane",
+        "mol_wt": "20.0064",
+        "mol_formula": "FH",
+        "smiles": "F",
+        "inchi": "InChI=1S/FH/h1H"
+    },
+    "14923": {
+        "name": "azanium;hydroxide",
+        "mol_wt": "35.046",
+        "mol_formula": "H5NO",
+        "smiles": "[NH4+].[OH-]",
+        "inchi": "InChI=1S/H3N.H2O/h1H3;1H2"
+    },
+    "15078": {
+        "name": "1H-1,2,4-triazole-3,5-diamine",
+        "mol_wt": "99.10",
+        "mol_formula": "C2H5N5",
+        "smiles": "C1(=NC(=NN1)N)N",
+        "inchi": "InChI=1S/C2H5N5/c3-1-5-2(4)7-6-1/h(H5,3,4,5,6,7)"
+    },
+    "15617": {
+        "name": "1,2-dimethylimidazole",
+        "mol_wt": "96.13",
+        "mol_formula": "C5H8N2",
+        "smiles": "CC1=NC=CN1C",
+        "inchi": "InChI=1S/C5H8N2/c1-5-6-3-4-7(5)2/h3-4H,1-2H3"
+    },
+    "17174": {
+        "name": "1-imidazol-1-ylethanone",
+        "mol_wt": "110.11",
+        "mol_formula": "C5H6N2O",
+        "smiles": "CC(=O)N1C=CN=C1",
+        "inchi": "InChI=1S/C5H6N2O/c1-5(8)7-3-2-6-4-7/h2-4H,1H3"
+    },
+    "18616": {
+        "name": "copper;dinitrate",
+        "mol_wt": "187.56",
+        "mol_formula": "CuN2O6",
+        "smiles": "[N+](=O)([O-])[O-].[N+](=O)([O-])[O-].[Cu+2]",
+        "inchi": "InChI=1S/Cu.2NO3/c;2*2-1(3)4/q+2;2*-1"
+    },
+    "20467": {
+        "name": "2H-tetrazol-5-amine",
+        "mol_wt": "85.07",
+        "mol_formula": "CH3N5",
+        "smiles": "C1(=NNN=N1)N",
+        "inchi": "InChI=1S/CH3N5/c2-1-3-5-6-4-1/h(H3,2,3,4,5,6)"
+    },
+    "20586": {
+        "name": "tetrapropylazanium;hydroxide",
+        "mol_wt": "203.36",
+        "mol_formula": "C12H29NO",
+        "smiles": "CCC[N+](CCC)(CCC)CCC.[OH-]",
+        "inchi": "InChI=1S/C12H28N.H2O/c1-5-9-13(10-6-2,11-7-3)12-8-4;/h5-12H2,1-4H3;1H2/q+1;/p-1"
+    },
+    "23266": {
+        "name": "disodium;dioxido(oxo)silane",
+        "mol_wt": "122.063",
+        "mol_formula": "Na2O3Si",
+        "smiles": "[O-][Si](=O)[O-].[Na+].[Na+]",
+        "inchi": "InChI=1S/2Na.O3Si/c;;1-4(2)3/q2*+1;-2"
+    },
+    "23925": {
+        "name": "iron",
+        "mol_wt": "55.84",
+        "mol_formula": "Fe",
+        "smiles": "[Fe]",
+        "inchi": "InChI=1S/Fe"
+    },
+    "23930": {
+        "name": "manganese",
+        "mol_wt": "54.93804",
+        "mol_formula": "Mn",
+        "smiles": "[Mn]",
+        "inchi": "InChI=1S/Mn"
+    },
+    "23931": {
+        "name": "mercury",
+        "mol_wt": "200.59",
+        "mol_formula": "Hg",
+        "smiles": "[Hg]",
+        "inchi": "InChI=1S/Hg"
+    },
+    "23938": {
+        "name": "palladium",
+        "mol_wt": "106.42",
+        "mol_formula": "Pd",
+        "smiles": "[Pd]",
+        "inchi": "InChI=1S/Pd"
+    },
+    "23939": {
+        "name": "platinum",
+        "mol_wt": "195.08",
+        "mol_formula": "Pt",
+        "smiles": "[Pt]",
+        "inchi": "InChI=1S/Pt"
+    },
+    "23940": {
+        "name": "plutonium",
+        "mol_wt": "244.06420",
+        "mol_formula": "Pu",
+        "smiles": "[Pu]",
+        "inchi": "InChI=1S/Pu"
+    },
+    "23945": {
+        "name": "protactinium",
+        "mol_wt": "231.03588",
+        "mol_formula": "Pa",
+        "smiles": "[Pa]",
+        "inchi": "InChI=1S/Pa"
+    },
+    "23951": {
+        "name": "samarium",
+        "mol_wt": "150.4",
+        "mol_formula": "Sm",
+        "smiles": "[Sm]",
+        "inchi": "InChI=1S/Sm"
+    },
+    "23954": {
+        "name": "silver",
+        "mol_wt": "107.868",
+        "mol_formula": "Ag",
+        "smiles": "[Ag]",
+        "inchi": "InChI=1S/Ag"
+    },
+    "23964": {
+        "name": "tungsten",
+        "mol_wt": "183.84",
+        "mol_formula": "W",
+        "smiles": "[W]",
+        "inchi": "InChI=1S/W"
+    },
+    "23968": {
+        "name": "argon",
+        "mol_wt": "39.9",
+        "mol_formula": "Ar",
+        "smiles": "[Ar]",
+        "inchi": "InChI=1S/Ar"
+    },
+    "23973": {
+        "name": "cadmium",
+        "mol_wt": "112.41",
+        "mol_formula": "Cd",
+        "smiles": "[Cd]",
+        "inchi": "InChI=1S/Cd"
+    },
+    "23978": {
+        "name": "copper",
+        "mol_wt": "63.55",
+        "mol_formula": "Cu",
+        "smiles": "[Cu]",
+        "inchi": "InChI=1S/Cu"
+    },
+    "23985": {
+        "name": "gold",
+        "mol_wt": "196.96657",
+        "mol_formula": "Au",
+        "smiles": "[Au]",
+        "inchi": "InChI=1S/Au"
+    },
+    "23986": {
+        "name": "hafnium",
+        "mol_wt": "178.49",
+        "mol_formula": "Hf",
+        "smiles": "[Hf]",
+        "inchi": "InChI=1S/Hf"
+    },
+    "23987": {
+        "name": "helium",
+        "mol_wt": "4.00260",
+        "mol_formula": "He",
+        "smiles": "[He]",
+        "inchi": "InChI=1S/He"
+    },
+    "23990": {
+        "name": "vanadium",
+        "mol_wt": "50.9415",
+        "mol_formula": "V",
+        "smiles": "[V]",
+        "inchi": "InChI=1S/V"
+    },
+    "23994": {
+        "name": "zinc",
+        "mol_wt": "65.4",
+        "mol_formula": "Zn",
+        "smiles": "[Zn]",
+        "inchi": "InChI=1S/Zn"
+    },
+    "24261": {
+        "name": "dioxosilane",
+        "mol_wt": "60.084",
+        "mol_formula": "O2Si",
+        "smiles": "O=[Si]=O",
+        "inchi": "InChI=1S/O2Si/c1-3-2"
+    },
+    "24268": {
+        "name": "sodium;nitrate",
+        "mol_wt": "84.995",
+        "mol_formula": "NNaO3",
+        "smiles": "[N+](=O)([O-])[O-].[Na+]",
+        "inchi": "InChI=1S/NO3.Na/c2-1(3)4;/q-1;+1"
+    },
+    "24290": {
+        "name": "dichloropalladium",
+        "mol_wt": "177.32",
+        "mol_formula": "Cl2Pd",
+        "smiles": "Cl[Pd]Cl",
+        "inchi": "InChI=1S/2ClH.Pd/h2*1H;/q;;+2/p-2"
+    },
+    "24380": {
+        "name": "trichloroiron",
+        "mol_wt": "162.20",
+        "mol_formula": "Cl3Fe",
+        "smiles": "Cl[Fe](Cl)Cl",
+        "inchi": "InChI=1S/3ClH.Fe/h3*1H;/q;;;+3/p-3"
+    },
+    "24393": {
+        "name": "iron(2+);sulfate",
+        "mol_wt": "151.91",
+        "mol_formula": "FeO4S",
+        "smiles": "[O-]S(=O)(=O)[O-].[Fe+2]",
+        "inchi": "InChI=1S/Fe.H2O4S/c;1-5(2,3)4/h;(H2,1,2,3,4)/q+2;/p-2"
+    },
+    "24424": {
+        "name": "zinc;sulfate",
+        "mol_wt": "161.4",
+        "mol_formula": "O4SZn",
+        "smiles": "[O-]S(=O)(=O)[O-].[Zn+2]",
+        "inchi": "InChI=1S/H2O4S.Zn/c1-5(2,3)4;/h(H2,1,2,3,4);/q;+2/p-2"
+    },
+    "24436": {
+        "name": "disodium;sulfate",
+        "mol_wt": "142.04",
+        "mol_formula": "Na2O4S",
+        "smiles": "[O-]S(=O)(=O)[O-].[Na+].[Na+]",
+        "inchi": "InChI=1S/2Na.H2O4S/c;;1-5(2,3)4/h;;(H2,1,2,3,4)/q2*+1;/p-2"
+    },
+    "24458": {
+        "name": "dichloroiron",
+        "mol_wt": "126.75",
+        "mol_formula": "Cl2Fe",
+        "smiles": "Cl[Fe]Cl",
+        "inchi": "InChI=1S/2ClH.Fe/h2*1H;/q;;+2/p-2"
+    },
+    "24480": {
+        "name": "dichloromanganese",
+        "mol_wt": "125.84",
+        "mol_formula": "Cl2Mn",
+        "smiles": "Cl[Mn]Cl",
+        "inchi": "InChI=1S/2ClH.Mn/h2*1H;/q;;+2/p-2"
+    },
+    "24518": {
+        "name": "zinc;dinitrate",
+        "mol_wt": "189.4",
+        "mol_formula": "N2O6Zn",
+        "smiles": "[N+](=O)([O-])[O-].[N+](=O)([O-])[O-].[Zn+2]",
+        "inchi": "InChI=1S/2NO3.Zn/c2*2-1(3)4;/q2*-1;+2"
+    },
+    "24524": {
+        "name": "molecular fluorine",
+        "mol_wt": "37.99680633",
+        "mol_formula": "F2",
+        "smiles": "FF",
+        "inchi": "InChI=1S/F2/c1-2"
+    },
+    "24540": {
+        "name": "diazanium;hydrogen phosphate",
+        "mol_wt": "132.06",
+        "mol_formula": "H9N2O4P",
+        "smiles": "[NH4+].[NH4+].OP(=O)([O-])[O-]",
+        "inchi": "InChI=1S/2H3N.H3O4P/c;;1-5(2,3)4/h2*1H3;(H3,1,2,3,4)"
+    },
+    "24564": {
+        "name": "trichloroalumane;hexahydrate",
+        "mol_wt": "241.43",
+        "mol_formula": "AlCl3H12O6",
+        "smiles": "O.O.O.O.O.O.[Al](Cl)(Cl)Cl",
+        "inchi": "InChI=1S/Al.3ClH.6H2O/h;3*1H;6*1H2/q+3;;;;;;;;;/p-3"
+    },
+    "24567": {
+        "name": "aluminum;trinitrate;nonahydrate",
+        "mol_wt": "375.13",
+        "mol_formula": "AlH18N3O18",
+        "smiles": "[N+](=O)([O-])[O-].[N+](=O)([O-])[O-].[N+](=O)([O-])[O-].O.O.O.O.O.O.O.O.O.[Al+3]",
+        "inchi": "InChI=1S/Al.3NO3.9H2O/c;3*2-1(3)4;;;;;;;;;/h;;;;9*1H2/q+3;3*-1;;;;;;;;;"
+    },
+    "24580": {
+        "name": "manganese(2+);sulfate",
+        "mol_wt": "151.00",
+        "mol_formula": "MnO4S",
+        "smiles": "[O-]S(=O)(=O)[O-].[Mn+2]",
+        "inchi": "InChI=1S/Mn.H2O4S/c;1-5(2,3)4/h;(H2,1,2,3,4)/q+2;/p-2"
+    },
+    "24643": {
+        "name": "cobalt(2+);dichloride;hexahydrate",
+        "mol_wt": "237.93",
+        "mol_formula": "Cl2CoH12O6",
+        "smiles": "O.O.O.O.O.O.[Cl-].[Cl-].[Co+2]",
+        "inchi": "InChI=1S/2ClH.Co.6H2O/h2*1H;;6*1H2/q;;+2;;;;;;/p-2"
+    },
+    "24654": {
+        "name": "hydrazine;hydrate",
+        "mol_wt": "50.061",
+        "mol_formula": "H6N2O",
+        "smiles": "NN.O",
+        "inchi": "InChI=1S/H4N2.H2O/c1-2;/h1-2H2;1H2"
+    },
+    "24705": {
+        "name": "dimethyl-bis(trimethylsilyloxy)silane",
+        "mol_wt": "236.53",
+        "mol_formula": "C8H24O2Si3",
+        "smiles": "C[Si](C)(C)O[Si](C)(C)O[Si](C)(C)C",
+        "inchi": "InChI=1S/C8H24O2Si3/c1-11(2,3)9-13(7,8)10-12(4,5)6/h1-8H3"
+    },
+    "24751": {
+        "name": "2-methyloxirane;oxirane",
+        "mol_wt": "102.13",
+        "mol_formula": "C5H10O2",
+        "smiles": "CC1CO1.C1CO1",
+        "inchi": "InChI=1S/C3H6O.C2H4O/c1-3-2-4-3;1-2-3-1/h3H,2H2,1H3;1-2H2"
+    },
+    "24797": {
+        "name": "1-methoxy-4-[1,2,2-tris(4-methoxyphenyl)ethenyl]benzene",
+        "mol_wt": "452.5",
+        "mol_formula": "C30H28O4",
+        "smiles": "COC1=CC=C(C=C1)C(=C(C2=CC=C(C=C2)OC)C3=CC=C(C=C3)OC)C4=CC=C(C=C4)OC",
+        "inchi": "InChI=1S/C30H28O4/c1-31-25-13-5-21(6-14-25)29(22-7-15-26(32-2)16-8-22)30(23-9-17-27(33-3)18-10-23)24-11-19-28(34-4)20-12-24/h5-20H,1-4H3"
+    },
+    "24817": {
+        "name": "tetrachlorozirconium",
+        "mol_wt": "233.0",
+        "mol_formula": "Cl4Zr",
+        "smiles": "Cl[Zr](Cl)(Cl)Cl",
+        "inchi": "InChI=1S/4ClH.Zr/h4*1H;/q;;;;+4/p-4"
+    },
+    "24821": {
+        "name": "cobalt(2+);dinitrate;hexahydrate",
+        "mol_wt": "291.04",
+        "mol_formula": "CoH12N2O12",
+        "smiles": "[N+](=O)([O-])[O-].[N+](=O)([O-])[O-].O.O.O.O.O.O.[Co+2]",
+        "inchi": "InChI=1S/Co.2NO3.6H2O/c;2*2-1(3)4;;;;;;/h;;;6*1H2/q+2;2*-1;;;;;;"
+    },
+    "24932": {
+        "name": "palladium(2+);dinitrate",
+        "mol_wt": "230.43",
+        "mol_formula": "N2O6Pd",
+        "smiles": "[N+](=O)([O-])[O-].[N+](=O)([O-])[O-].[Pd+2]",
+        "inchi": "InChI=1S/2NO3.Pd/c2*2-1(3)4;/q2*-1;+2"
+    },
+    "24955": {
+        "name": "1H-imidazole-2-carbaldehyde",
+        "mol_wt": "96.09",
+        "mol_formula": "C4H4N2O",
+        "smiles": "C1=CN=C(N1)C=O",
+        "inchi": "InChI=1S/C4H4N2O/c7-3-4-5-1-2-6-4/h1-3H,(H,5,6)"
+    },
+    "24965": {
+        "name": "cobalt(2+);sulfate",
+        "mol_wt": "155.00",
+        "mol_formula": "CoO4S",
+        "smiles": "[O-]S(=O)(=O)[O-].[Co+2]",
+        "inchi": "InChI=1S/Co.H2O4S/c;1-5(2,3)4/h;(H2,1,2,3,4)/q+2;/p-2"
+    },
+    "25000": {
+        "name": "cobalt(2+);dinitrate",
+        "mol_wt": "182.94",
+        "mol_formula": "CoN2O6",
+        "smiles": "[N+](=O)([O-])[O-].[N+](=O)([O-])[O-].[Co+2]",
+        "inchi": "InChI=1S/Co.2NO3/c;2*2-1(3)4/q+2;2*-1"
+    },
+    "25516": {
+        "name": "azanium;fluoride",
+        "mol_wt": "37.037",
+        "mol_formula": "FH4N",
+        "smiles": "[NH4+].[F-]",
+        "inchi": "InChI=1S/FH.H3N/h1H;1H3"
+    },
+    "26042": {
+        "name": "dioxotitanium",
+        "mol_wt": "79.866",
+        "mol_formula": "O2Ti",
+        "smiles": "O=[Ti]=O",
+        "inchi": "InChI=1S/2O.Ti"
+    },
+    "26053": {
+        "name": "aluminum;trinitrate",
+        "mol_wt": "213.00",
+        "mol_formula": "AlN3O9",
+        "smiles": "[N+](=O)([O-])[O-].[N+](=O)([O-])[O-].[N+](=O)([O-])[O-].[Al+3]",
+        "inchi": "InChI=1S/Al.3NO3/c;3*2-1(3)4/q+3;3*-1"
+    },
+    "27099": {
+        "name": "copper(2+)",
+        "mol_wt": "63.55",
+        "mol_formula": "Cu+2",
+        "smiles": "[Cu+2]",
+        "inchi": "InChI=1S/Cu/q+2"
+    },
+    "28118": {
+        "name": "hydron;tetrafluoroborate",
+        "mol_wt": "87.82",
+        "mol_formula": "BF4H",
+        "smiles": "[H+].[B-](F)(F)(F)F",
+        "inchi": "InChI=1S/BF4/c2-1(3,4)5/q-1/p+1"
+    },
+    "28133": {
+        "name": "hydron;tetrachlorogold(1-)",
+        "mol_wt": "339.8",
+        "mol_formula": "AuCl4H",
+        "smiles": "[H+].Cl[Au-](Cl)(Cl)Cl",
+        "inchi": "InChI=1S/Au.4ClH/h;4*1H/q+3;;;;/p-3"
+    },
+    "29011": {
+        "name": "dioxotin",
+        "mol_wt": "150.71",
+        "mol_formula": "O2Sn",
+        "smiles": "O=[Sn]=O",
+        "inchi": "InChI=1S/2O.Sn"
+    },
+    "31374": {
+        "name": "N,N-dimethylacetamide",
+        "mol_wt": "87.12",
+        "mol_formula": "C4H9NO",
+        "smiles": "CC(=O)N(C)C",
+        "inchi": "InChI=1S/C4H9NO/c1-4(6)5(2)3/h1-3H3"
+    },
+    "31703": {
+        "name": "(7S,9S)-7-[(2R,4S,5S,6S)-4-amino-5-hydroxy-6-methyloxan-2-yl]oxy-6,9,11-trihydroxy-9-(2-hydroxyacetyl)-4-methoxy-8,10-dihydro-7H-tetracene-5,12-dione",
+        "mol_wt": "543.5",
+        "mol_formula": "C27H29NO11",
+        "smiles": "C[C@H]1[C@H]([C@H](C[C@@H](O1)O[C@H]2C[C@@](CC3=C2C(=C4C(=C3O)C(=O)C5=C(C4=O)C(=CC=C5)OC)O)(C(=O)CO)O)N)O",
+        "inchi": "InChI=1S/C27H29NO11/c1-10-22(31)13(28)6-17(38-10)39-15-8-27(36,16(30)9-29)7-12-19(15)26(35)21-20(24(12)33)23(32)11-4-3-5-14(37-2)18(11)25(21)34/h3-5,10,13,15,17,22,29,31,33,35-36H,6-9,28H2,1-2H3/t10-,13-,15-,17-,22+,27-/m0/s1"
+    },
+    "32051": {
+        "name": "zinc(2+)",
+        "mol_wt": "65.4",
+        "mol_formula": "Zn+2",
+        "smiles": "[Zn+2]",
+        "inchi": "InChI=1S/Zn/q+2"
+    },
+    "61300": {
+        "name": "2-hydroxypropane-1,2,3-tricarboxylate;iron(3+)",
+        "mol_wt": "244.94",
+        "mol_formula": "C6H5FeO7",
+        "smiles": "C(C(=O)[O-])C(CC(=O)[O-])(C(=O)[O-])O.[Fe+3]",
+        "inchi": "InChI=1S/C6H8O7.Fe/c7-3(8)1-6(13,5(11)12)2-4(9)10;/h13H,1-2H2,(H,7,8)(H,9,10)(H,11,12);/q;+3/p-3"
+    },
+    "61372": {
+        "name": "cobalt(2+);diacetate;tetrahydrate",
+        "mol_wt": "249.08",
+        "mol_formula": "C4H14CoO8",
+        "smiles": "CC(=O)[O-].CC(=O)[O-].O.O.O.O.[Co+2]",
+        "inchi": "InChI=1S/2C2H4O2.Co.4H2O/c2*1-2(3)4;;;;;/h2*1H3,(H,3,4);;4*1H2/q;;+2;;;;/p-2"
+    },
+    "61442": {
+        "name": "tetrachlorostannane;pentahydrate",
+        "mol_wt": "350.6",
+        "mol_formula": "Cl4H10O5Sn",
+        "smiles": "O.O.O.O.O.Cl[Sn](Cl)(Cl)Cl",
+        "inchi": "InChI=1S/4ClH.5H2O.Sn/h4*1H;5*1H2;/q;;;;;;;;;+4/p-4"
+    },
+    "61482": {
+        "name": "dichlorocopper;dihydrate",
+        "mol_wt": "170.48",
+        "mol_formula": "Cl2CuH4O2",
+        "smiles": "O.O.Cl[Cu]Cl",
+        "inchi": "InChI=1S/2ClH.Cu.2H2O/h2*1H;;2*1H2/q;;+2;;/p-2"
+    },
+    "61534": {
+        "name": "nickel(2+);dihydroxide",
+        "mol_wt": "92.708",
+        "mol_formula": "H2NiO2",
+        "smiles": "[OH-].[OH-].[Ni+2]",
+        "inchi": "InChI=1S/Ni.2H2O/h;2*1H2/q+2;;/p-2"
+    },
+    "61630": {
+        "name": "nickel(2+);dinitrate;hexahydrate",
+        "mol_wt": "290.80",
+        "mol_formula": "H12N2NiO12",
+        "smiles": "[N+](=O)([O-])[O-].[N+](=O)([O-])[O-].O.O.O.O.O.O.[Ni+2]",
+        "inchi": "InChI=1S/2NO3.Ni.6H2O/c2*2-1(3)4;;;;;;;/h;;;6*1H2/q2*-1;+2;;;;;;"
+    },
+    "61675": {
+        "name": "cobalt(2+);dioxido(dioxo)molybdenum",
+        "mol_wt": "218.88",
+        "mol_formula": "CoMoO4",
+        "smiles": "[O-][Mo](=O)(=O)[O-].[Co+2]",
+        "inchi": "InChI=1S/Co.Mo.4O/q+2;;;;2*-1"
+    },
+    "61850": {
+        "name": "trichlororuthenium",
+        "mol_wt": "207.4",
+        "mol_formula": "Cl3Ru",
+        "smiles": "Cl[Ru](Cl)Cl",
+        "inchi": "InChI=1S/3ClH.Ru/h3*1H;/q;;;+3/p-3"
+    },
+    "62157": {
+        "name": "oxygen(2-);tantalum(5+)",
+        "mol_wt": "441.89",
+        "mol_formula": "O5Ta2",
+        "smiles": "[O-2].[O-2].[O-2].[O-2].[O-2].[Ta+5].[Ta+5]",
+        "inchi": "InChI=1S/5O.2Ta/q5*-2;2*+5"
+    },
+    "62395": {
+        "name": "dioxozirconium",
+        "mol_wt": "123.22",
+        "mol_formula": "O2Zr",
+        "smiles": "O=[Zr]=O",
+        "inchi": "InChI=1S/2O.Zr"
+    },
+    "62640": {
+        "name": "zinc;sulfate;heptahydrate",
+        "mol_wt": "287.6",
+        "mol_formula": "H14O11SZn",
+        "smiles": "O.O.O.O.O.O.O.[O-]S(=O)(=O)[O-].[Zn+2]",
+        "inchi": "InChI=1S/H2O4S.7H2O.Zn/c1-5(2,3)4;;;;;;;;/h(H2,1,2,3,4);7*1H2;/q;;;;;;;;+2/p-2"
+    },
+    "62652": {
+        "name": "chlorocopper",
+        "mol_wt": "99.00",
+        "mol_formula": "ClCu",
+        "smiles": "Cl[Cu]",
+        "inchi": "InChI=1S/ClH.Cu/h1H;/q;+1/p-1"
+    },
+    "62662": {
+        "name": "iron(2+);sulfate;heptahydrate",
+        "mol_wt": "278.02",
+        "mol_formula": "FeH14O11S",
+        "smiles": "O.O.O.O.O.O.O.[O-]S(=O)(=O)[O-].[Fe+2]",
+        "inchi": "InChI=1S/Fe.H2O4S.7H2O/c;1-5(2,3)4;;;;;;;/h;(H2,1,2,3,4);7*1H2/q+2;;;;;;;;/p-2"
+    },
+    "65340": {
+        "name": "4-(2-aminoethyl)benzene-1,2-diol;hydrochloride",
+        "mol_wt": "189.64",
+        "mol_formula": "C8H12ClNO2",
+        "smiles": "C1=CC(=C(C=C1CCN)O)O.Cl",
+        "inchi": "InChI=1S/C8H11NO2.ClH/c9-4-3-6-1-2-7(10)8(11)5-6;/h1-2,5,10-11H,3-4,9H2;1H"
+    },
+    "66130": {
+        "name": "2-ethyl-1H-imidazole",
+        "mol_wt": "96.13",
+        "mol_formula": "C5H8N2",
+        "smiles": "CCC1=NC=CN1",
+        "inchi": "InChI=1S/C5H8N2/c1-2-5-6-3-4-7-5/h3-4H,2H2,1H3,(H,6,7)"
+    },
+    "66171": {
+        "name": "1-ethenylimidazole",
+        "mol_wt": "94.11",
+        "mol_formula": "C5H6N2",
+        "smiles": "C=CN1C=CN=C1",
+        "inchi": "InChI=1S/C5H6N2/c1-2-7-4-3-6-5-7/h2-5H,1H2"
+    },
+    "69591": {
+        "name": "2-phenyl-1H-imidazole",
+        "mol_wt": "144.17",
+        "mol_formula": "C9H8N2",
+        "smiles": "C1=CC=C(C=C1)C2=NC=CN2",
+        "inchi": "InChI=1S/C9H8N2/c1-2-4-8(5-3-1)9-10-6-7-11-9/h1-7H,(H,10,11)"
+    },
+    "71083": {
+        "name": "(2R)-2-amino-3-(1H-imidazol-5-yl)propanoic acid",
+        "mol_wt": "155.15",
+        "mol_formula": "C6H9N3O2",
+        "smiles": "C1=C(NC=N1)C[C@H](C(=O)O)N",
+        "inchi": "InChI=1S/C6H9N3O2/c7-5(6(10)11)1-4-2-8-3-9-4/h2-3,5H,1,7H2,(H,8,9)(H,10,11)/t5-/m1/s1"
+    },
+    "71370": {
+        "name": "N,N-dimethylmethanamine;hydrobromide",
+        "mol_wt": "140.02",
+        "mol_formula": "C3H10BrN",
+        "smiles": "CN(C)C.Br",
+        "inchi": "InChI=1S/C3H9N.BrH/c1-4(2)3;/h1-3H3;1H"
+    },
+    "73391": {
+        "name": "methyl (15R,16S,20S)-16-methyl-17-oxa-3-aza-13-azoniapentacyclo[11.8.0.02,10.04,9.015,20]henicosa-1(13),2(10),4,6,8,11,18-heptaene-19-carboxylate",
+        "mol_wt": "349.4",
+        "mol_formula": "C21H21N2O3+",
+        "smiles": "C[C@H]1[C@H]2C[N+]3=C(C[C@@H]2C(=CO1)C(=O)OC)C4=C(C=C3)C5=CC=CC=C5N4",
+        "inchi": "InChI=1S/C21H20N2O3/c1-12-16-10-23-8-7-14-13-5-3-4-6-18(13)22-20(14)19(23)9-15(16)17(11-26-12)21(24)25-2/h3-8,11-12,15-16H,9-10H2,1-2H3/p+1/t12-,15-,16+/m0/s1"
+    },
+    "75306": {
+        "name": "4,5-dimethyl-1H-imidazole",
+        "mol_wt": "96.13",
+        "mol_formula": "C5H8N2",
+        "smiles": "CC1=C(N=CN1)C",
+        "inchi": "InChI=1S/C5H8N2/c1-4-5(2)7-3-6-4/h3H,1-2H3,(H,6,7)"
+    },
+    "76509": {
+        "name": "N'-[2-[2-(dimethylamino)ethyl-methylamino]ethyl]-N,N,N'-trimethylethane-1,2-diamine",
+        "mol_wt": "230.39",
+        "mol_formula": "C12H30N4",
+        "smiles": "CN(C)CCN(C)CCN(C)CCN(C)C",
+        "inchi": "InChI=1S/C12H30N4/c1-13(2)7-9-15(5)11-12-16(6)10-8-14(3)4/h7-12H2,1-6H3"
+    },
+    "76958": {
+        "name": "12-[(2S,3R)-3-octyloxiran-2-yl]dodecanoic acid",
+        "mol_wt": "354.6",
+        "mol_formula": "C22H42O3",
+        "smiles": "CCCCCCCC[C@@H]1[C@@H](O1)CCCCCCCCCCCC(=O)O",
+        "inchi": "InChI=1S/C22H42O3/c1-2-3-4-5-11-14-17-20-21(25-20)18-15-12-9-7-6-8-10-13-16-19-22(23)24/h20-21H,2-19H2,1H3,(H,23,24)/t20-,21+/m1/s1"
+    },
+    "77918": {
+        "name": "1-benzylimidazole",
+        "mol_wt": "158.20",
+        "mol_formula": "C10H10N2",
+        "smiles": "C1=CC=C(C=C1)CN2C=CN=C2",
+        "inchi": "InChI=1S/C10H10N2/c1-2-4-10(5-3-1)8-12-7-6-11-9-12/h1-7,9H,8H2"
+    },
+    "78569": {
+        "name": "1H-benzimidazol-2-ylmethanol",
+        "mol_wt": "148.16",
+        "mol_formula": "C8H8N2O",
+        "smiles": "C1=CC=C2C(=C1)NC(=N2)CO",
+        "inchi": "InChI=1S/C8H8N2O/c11-5-8-9-6-3-1-2-4-7(6)10-8/h1-4,11H,5H2,(H,9,10)"
+    },
+    "78570": {
+        "name": "2-(1H-benzimidazol-2-yl)ethanol",
+        "mol_wt": "162.19",
+        "mol_formula": "C9H10N2O",
+        "smiles": "C1=CC=C2C(=C1)NC(=N2)CCO",
+        "inchi": "InChI=1S/C9H10N2O/c12-6-5-9-10-7-3-1-2-4-8(7)11-9/h1-4,12H,5-6H2,(H,10,11)"
+    },
+    "78599": {
+        "name": "6-chloro-1H-benzimidazole",
+        "mol_wt": "152.58",
+        "mol_formula": "C7H5ClN2",
+        "smiles": "C1=CC2=C(C=C1Cl)NC=N2",
+        "inchi": "InChI=1S/C7H5ClN2/c8-5-1-2-6-7(3-5)10-4-9-6/h1-4H,(H,9,10)"
+    },
+    "82208": {
+        "name": "dihydroxy(dioxo)molybdenum",
+        "mol_wt": "161.96",
+        "mol_formula": "H2MoO4",
+        "smiles": "O[Mo](=O)(=O)O",
+        "inchi": "InChI=1S/Mo.2H2O.2O/h;2*1H2;;/q+2;;;;/p-2"
+    },
+    "82851": {
+        "name": "zinc;dioxido(oxo)tin",
+        "mol_wt": "232.1",
+        "mol_formula": "O3SnZn",
+        "smiles": "[O-][Sn](=O)[O-].[Zn+2]",
+        "inchi": "InChI=1S/3O.Sn.Zn/q;2*-1;;+2"
+    },
+    "104729": {
+        "name": "cobalt(2+)",
+        "mol_wt": "58.93319",
+        "mol_formula": "Co+2",
+        "smiles": "[Co+2]",
+        "inchi": "InChI=1S/Co/q+2"
+    },
+    "104730": {
+        "name": "cobalt",
+        "mol_wt": "58.93319",
+        "mol_formula": "Co",
+        "smiles": "[Co]",
+        "inchi": "InChI=1S/Co"
+    },
+    "122108": {
+        "name": "[[(2R,3S,4R,5R)-5-(3-carbamoyl-1,2,4-triazol-1-yl)-3,4-dihydroxyoxolan-2-yl]methoxy-hydroxyphosphoryl] phosphono hydrogen phosphate",
+        "mol_wt": "484.14",
+        "mol_formula": "C8H15N4O14P3",
+        "smiles": "C1=NC(=NN1[C@H]2[C@@H]([C@@H]([C@H](O2)COP(=O)(O)OP(=O)(O)OP(=O)(O)O)O)O)C(=O)N",
+        "inchi": "InChI=1S/C8H15N4O14P3/c9-6(15)7-10-2-12(11-7)8-5(14)4(13)3(24-8)1-23-28(19,20)26-29(21,22)25-27(16,17)18/h2-5,8,13-14H,1H2,(H2,9,15)(H,19,20)(H,21,22)(H2,16,17,18)/t3-,4-,5-,8-/m1/s1"
+    },
+    "124488": {
+        "name": "2-(2-hydroxyethylsulfanyl)-N-[3-[3-(piperidin-1-ylmethyl)phenoxy]propyl]acetamide",
+        "mol_wt": "366.5",
+        "mol_formula": "C19H30N2O3S",
+        "smiles": "C1CCN(CC1)CC2=CC(=CC=C2)OCCCNC(=O)CSCCO",
+        "inchi": "InChI=1S/C19H30N2O3S/c22-11-13-25-16-19(23)20-8-5-12-24-18-7-4-6-17(14-18)15-21-9-2-1-3-10-21/h4,6-7,14,22H,1-3,5,8-13,15-16H2,(H,20,23)"
+    },
+    "140018": {
+        "name": "4,5-dichloro-1H-imidazole",
+        "mol_wt": "136.96",
+        "mol_formula": "C3H2Cl2N2",
+        "smiles": "C1=NC(=C(N1)Cl)Cl",
+        "inchi": "InChI=1S/C3H2Cl2N2/c4-2-3(5)7-1-6-2/h1H,(H,6,7)"
+    },
+    "149096": {
+        "name": "(2S)-7-fluoro-2-methyl-6-(4-methylpiperazin-1-yl)-10-oxo-4-oxa-1-azatricyclo[7.3.1.05,13]trideca-5(13),6,8,11-tetraene-11-carboxylic acid",
+        "mol_wt": "361.4",
+        "mol_formula": "C18H20FN3O4",
+        "smiles": "C[C@H]1COC2=C3N1C=C(C(=O)C3=CC(=C2N4CCN(CC4)C)F)C(=O)O",
+        "inchi": "InChI=1S/C18H20FN3O4/c1-10-9-26-17-14-11(16(23)12(18(24)25)8-22(10)14)7-13(19)15(17)21-5-3-20(2)4-6-21/h7-8,10H,3-6,9H2,1-2H3,(H,24,25)/t10-/m0/s1"
+    },
+    "150905": {
+        "name": "indium(3+);oxygen(2-)",
+        "mol_wt": "277.63",
+        "mol_formula": "In2O3",
+        "smiles": "[O-2].[O-2].[O-2].[In+3].[In+3]",
+        "inchi": "InChI=1S/2In.3O/q2*+3;3*-2"
+    },
+    "159678": {
+        "name": "oxozirconium;octahydrate;dihydrochloride",
+        "mol_wt": "324.27",
+        "mol_formula": "Cl2H18O9Zr",
+        "smiles": "O.O.O.O.O.O.O.O.O=[Zr].Cl.Cl",
+        "inchi": "InChI=1S/2ClH.8H2O.O.Zr/h2*1H;8*1H2;;"
+    },
+    "165397": {
+        "name": "copper;diacetate;hydrate",
+        "mol_wt": "199.65",
+        "mol_formula": "C4H8CuO5",
+        "smiles": "CC(=O)[O-].CC(=O)[O-].O.[Cu+2]",
+        "inchi": "InChI=1S/2C2H4O2.Cu.H2O/c2*1-2(3)4;;/h2*1H3,(H,3,4);;1H2/q;;+2;/p-2"
+    },
+    "166717": {
+        "name": "trioxidane",
+        "mol_wt": "50.014",
+        "mol_formula": "H2O3",
+        "smiles": "OOO",
+        "inchi": "InChI=1S/H2O3/c1-3-2/h1-2H"
+    },
+    "167845": {
+        "name": "palladium(2+);diacetate",
+        "mol_wt": "224.51",
+        "mol_formula": "C4H6O4Pd",
+        "smiles": "CC(=O)[O-].CC(=O)[O-].[Pd+2]",
+        "inchi": "InChI=1S/2C2H4O2.Pd/c2*1-2(3)4;/h2*1H3,(H,3,4);/q;;+2/p-2"
+    },
+    "182616": {
+        "name": "manganese(2+);dinitrate;tetrahydrate",
+        "mol_wt": "251.01",
+        "mol_formula": "H8MnN2O10",
+        "smiles": "[N+](=O)([O-])[O-].[N+](=O)([O-])[O-].O.O.O.O.[Mn+2]",
+        "inchi": "InChI=1S/Mn.2NO3.4H2O/c;2*2-1(3)4;;;;/h;;;4*1H2/q+2;2*-1;;;;"
+    },
+    "199528": {
+        "name": "(2R)-2-amino-3-(5-hydroxy-1H-indol-3-yl)propanoic acid",
+        "mol_wt": "220.22",
+        "mol_formula": "C11H12N2O3",
+        "smiles": "C1=CC2=C(C=C1O)C(=CN2)C[C@H](C(=O)O)N",
+        "inchi": "InChI=1S/C11H12N2O3/c12-9(11(15)16)3-6-5-13-10-2-1-7(14)4-8(6)10/h1-2,4-5,9,13-14H,3,12H2,(H,15,16)/t9-/m1/s1"
+    },
+    "202877": {
+        "name": "magnesium;dinitrate;hexahydrate",
+        "mol_wt": "256.41",
+        "mol_formula": "H12MgN2O12",
+        "smiles": "[N+](=O)([O-])[O-].[N+](=O)([O-])[O-].O.O.O.O.O.O.[Mg+2]",
+        "inchi": "InChI=1S/Mg.2NO3.6H2O/c;2*2-1(3)4;;;;;;/h;;;6*1H2/q+2;2*-1;;;;;;"
+    },
+    "203081": {
+        "name": "samarium(3+);trinitrate;hexahydrate",
+        "mol_wt": "444.5",
+        "mol_formula": "H12N3O15Sm",
+        "smiles": "[N+](=O)([O-])[O-].[N+](=O)([O-])[O-].[N+](=O)([O-])[O-].O.O.O.O.O.O.[Sm+3]",
+        "inchi": "InChI=1S/3NO3.6H2O.Sm/c3*2-1(3)4;;;;;;;/h;;;6*1H2;/q3*-1;;;;;;;+3"
+    },
+    "409117": {
+        "name": "pentane-2,4-dione;zinc",
+        "mol_wt": "265.6",
+        "mol_formula": "C10H16O4Zn",
+        "smiles": "CC(=O)CC(=O)C.CC(=O)CC(=O)C.[Zn]",
+        "inchi": "InChI=1S/2C5H8O2.Zn/c2*1-4(6)3-5(2)7;/h2*3H2,1-2H3;"
+    },
+    "439213": {
+        "name": "(3R,4R,5S,6R)-3-amino-6-(hydroxymethyl)oxane-2,4,5-triol",
+        "mol_wt": "179.17",
+        "mol_formula": "C6H13NO5",
+        "smiles": "C([C@@H]1[C@H]([C@@H]([C@H](C(O1)O)N)O)O)O",
+        "inchi": "InChI=1S/C6H13NO5/c7-3-5(10)4(9)2(1-8)12-6(3)11/h2-6,8-11H,1,7H2/t2-,3-,4-,5-,6?/m1/s1"
+    },
+    "516875": {
+        "name": "potassium;permanganate",
+        "mol_wt": "158.034",
+        "mol_formula": "KMnO4",
+        "smiles": "[O-][Mn](=O)(=O)=O.[K+]",
+        "inchi": "InChI=1S/K.Mn.4O/q+1;;;;;-1"
+    },
+    "517045": {
+        "name": "sodium;acetate",
+        "mol_wt": "82.03",
+        "mol_formula": "C2H3NaO2",
+        "smiles": "CC(=O)[O-].[Na+]",
+        "inchi": "InChI=1S/C2H4O2.Na/c1-2(3)4;/h1H3,(H,3,4);/q;+1/p-1"
+    },
+    "643989": {
+        "name": "dichloromanganese;tetrahydrate",
+        "mol_wt": "197.90",
+        "mol_formula": "Cl2H8MnO4",
+        "smiles": "O.O.O.O.Cl[Mn]Cl",
+        "inchi": "InChI=1S/2ClH.Mn.4H2O/h2*1H;;4*1H2/q;;+2;;;;/p-2"
+    },
+    "969516": {
+        "name": "(1E,6E)-1,7-bis(4-hydroxy-3-methoxyphenyl)hepta-1,6-diene-3,5-dione",
+        "mol_wt": "368.4",
+        "mol_formula": "C21H20O6",
+        "smiles": "COC1=C(C=CC(=C1)/C=C/C(=O)CC(=O)/C=C/C2=CC(=C(C=C2)O)OC)O",
+        "inchi": "InChI=1S/C21H20O6/c1-26-20-11-14(5-9-18(20)24)3-7-16(22)13-17(23)8-4-15-6-10-19(25)21(12-15)27-2/h3-12,24-25H,13H2,1-2H3/b7-3+,8-4+"
+    },
+    "2723790": {
+        "name": "thiourea",
+        "mol_wt": "76.12",
+        "mol_formula": "CH4N2S",
+        "smiles": "C(=S)(N)N",
+        "inchi": "InChI=1S/CH4N2S/c2-1(3)4/h(H4,2,3,4)"
+    },
+    "2723810": {
+        "name": "sodium;formate",
+        "mol_wt": "68.007",
+        "mol_formula": "CHNaO2",
+        "smiles": "C(=O)[O-].[Na+]",
+        "inchi": "InChI=1S/CH2O2.Na/c2-1-3;/h1H,(H,2,3);/q;+1/p-1"
+    },
+    "2723949": {
+        "name": "ethanethioamide",
+        "mol_wt": "75.14",
+        "mol_formula": "C2H5NS",
+        "smiles": "CC(=S)N",
+        "inchi": "InChI=1S/C2H5NS/c1-2(3)4/h1H3,(H2,3,4)"
+    },
+    "2724192": {
+        "name": "zinc;diacetate;dihydrate",
+        "mol_wt": "219.5",
+        "mol_formula": "C4H10O6Zn",
+        "smiles": "CC(=O)[O-].CC(=O)[O-].O.O.[Zn+2]",
+        "inchi": "InChI=1S/2C2H4O2.2H2O.Zn/c2*1-2(3)4;;;/h2*1H3,(H,3,4);2*1H2;/q;;;;+2/p-2"
+    },
+    "2724822": {
+        "name": "2-aminoterephthalic acid",
+        "mol_wt": "181.15",
+        "mol_formula": "C8H7NO4",
+        "smiles": "C1=CC(=C(C=C1C(=O)O)N)C(=O)O",
+        "inchi": "InChI=1S/C8H7NO4/c9-6-3-4(7(10)11)1-2-5(6)8(12)13/h1-3H,9H2,(H,10,11)(H,12,13)"
+    },
+    "2735067": {
+        "name": "sodium;dodecanoate",
+        "mol_wt": "222.30",
+        "mol_formula": "C12H23NaO2",
+        "smiles": "CCCCCCCCCCCC(=O)[O-].[Na+]",
+        "inchi": "InChI=1S/C12H24O2.Na/c1-2-3-4-5-6-7-8-9-10-11-12(13)14;/h2-11H2,1H3,(H,13,14);/q;+1/p-1"
+    },
+    "2795887": {
+        "name": "5-methyl-1H-imidazole-4-carbaldehyde",
+        "mol_wt": "110.11",
+        "mol_formula": "C5H6N2O",
+        "smiles": "CC1=C(N=CN1)C=O",
+        "inchi": "InChI=1S/C5H6N2O/c1-4-5(2-8)7-3-6-4/h2-3H,1H3,(H,6,7)"
+    },
+    "3007855": {
+        "name": "zinc;dichloride",
+        "mol_wt": "136.3",
+        "mol_formula": "Cl2Zn",
+        "smiles": "[Cl-].[Cl-].[Zn+2]",
+        "inchi": "InChI=1S/2ClH.Zn/h2*1H;/q;;+2/p-2"
+    },
+    "3028194": {
+        "name": "lithium",
+        "mol_wt": "7.0",
+        "mol_formula": "Li",
+        "smiles": "[Li]",
+        "inchi": "InChI=1S/Li"
+    },
+    "3032536": {
+        "name": "cobalt(2+);dichloride",
+        "mol_wt": "129.84",
+        "mol_formula": "Cl2Co",
+        "smiles": "[Cl-].[Cl-].[Co+2]",
+        "inchi": "InChI=1S/2ClH.Co/h2*1H;/q;;+2/p-2"
+    },
+    "3423265": {
+        "name": "sodium;dodecyl sulfate",
+        "mol_wt": "288.38",
+        "mol_formula": "C12H25NaO4S",
+        "smiles": "CCCCCCCCCCCCOS(=O)(=O)[O-].[Na+]",
+        "inchi": "InChI=1S/C12H26O4S.Na/c1-2-3-4-5-6-7-8-9-10-11-12-16-17(13,14)15;/h2-12H2,1H3,(H,13,14,15);/q;+1/p-1"
+    },
+    "4311764": {
+        "name": "sodium;boranuide",
+        "mol_wt": "37.84",
+        "mol_formula": "BH4Na",
+        "smiles": "[BH4-].[Na+]",
+        "inchi": "InChI=1S/BH4.Na/h1H4;/q-1;+1"
+    },
+    "5284429": {
+        "name": "nickel(2+);sulfate;hexahydrate",
+        "mol_wt": "262.85",
+        "mol_formula": "H12NiO10S",
+        "smiles": "O.O.O.O.O.O.[O-]S(=O)(=O)[O-].[Ni+2]",
+        "inchi": "InChI=1S/Ni.H2O4S.6H2O/c;1-5(2,3)4;;;;;;/h;(H2,1,2,3,4);6*1H2/q+2;;;;;;;/p-2"
+    },
+    "5284616": {
+        "name": "(1R,9S,12S,15R,16E,18R,19R,21R,23S,24E,26E,28E,30S,32S,35R)-1,18-dihydroxy-12-[(2R)-1-[(1S,3R,4R)-4-hydroxy-3-methoxycyclohexyl]propan-2-yl]-19,30-dimethoxy-15,17,21,23,29,35-hexamethyl-11,36-dioxa-4-azatricyclo[30.3.1.04,9]hexatriaconta-16,24,26,28-tetraene-2,3,10,14,20-pentone",
+        "mol_wt": "914.2",
+        "mol_formula": "C51H79NO13",
+        "smiles": "C[C@@H]1CC[C@H]2C[C@@H](/C(=C/C=C/C=C/[C@H](C[C@H](C(=O)[C@@H]([C@@H](/C(=C/[C@H](C(=O)C[C@H](OC(=O)[C@@H]3CCCCN3C(=O)C(=O)[C@@]1(O2)O)[C@H](C)C[C@@H]4CC[C@H]([C@@H](C4)OC)O)C)/C)O)OC)C)C)/C)OC",
+        "inchi": "InChI=1S/C51H79NO13/c1-30-16-12-11-13-17-31(2)42(61-8)28-38-21-19-36(7)51(60,65-38)48(57)49(58)52-23-15-14-18-39(52)50(59)64-43(33(4)26-37-20-22-40(53)44(27-37)62-9)29-41(54)32(3)25-35(6)46(56)47(63-10)45(55)34(5)24-30/h11-13,16-17,25,30,32-34,36-40,42-44,46-47,53,56,60H,14-15,18-24,26-29H2,1-10H3/b13-11+,16-12+,31-17+,35-25+/t30-,32-,33-,34-,36-,37+,38+,39+,40-,42+,43+,44-,46-,47+,51-/m1/s1"
+    },
+    "5323507": {
+        "name": "4-amino-N'-hydroxybenzenecarboximidamide",
+        "mol_wt": "151.17",
+        "mol_formula": "C7H9N3O",
+        "smiles": "C1=CC(=CC=C1/C(=N/O)/N)N",
+        "inchi": "InChI=1S/C7H9N3O/c8-6-3-1-5(2-4-6)7(9)10-11/h1-4,11H,8H2,(H2,9,10)"
+    },
+    "5352426": {
+        "name": "tin",
+        "mol_wt": "118.71",
+        "mol_formula": "Sn",
+        "smiles": "[Sn]",
+        "inchi": "InChI=1S/Sn"
+    },
+    "5356789": {
+        "name": "(Z)-octadec-9-en-1-amine",
+        "mol_wt": "267.5",
+        "mol_formula": "C18H37N",
+        "smiles": "CCCCCCCC/C=C\\CCCCCCCCN",
+        "inchi": "InChI=1S/C18H37N/c1-2-3-4-5-6-7-8-9-10-11-12-13-14-15-16-17-18-19/h9-10H,2-8,11-19H2,1H3/b10-9-"
+    },
+    "5359268": {
+        "name": "aluminum",
+        "mol_wt": "26.981538",
+        "mol_formula": "Al",
+        "smiles": "[Al]",
+        "inchi": "InChI=1S/Al"
+    },
+    "5360315": {
+        "name": "magnesium;dichloride",
+        "mol_wt": "95.21",
+        "mol_formula": "Cl2Mg",
+        "smiles": "[Mg+2].[Cl-].[Cl-]",
+        "inchi": "InChI=1S/2ClH.Mg/h2*1H;/q;;+2/p-2"
+    },
+    "5360545": {
+        "name": "sodium",
+        "mol_wt": "22.9897693",
+        "mol_formula": "Na",
+        "smiles": "[Na]",
+        "inchi": "InChI=1S/Na"
+    },
+    "5362487": {
+        "name": "sulfur",
+        "mol_wt": "32.07",
+        "mol_formula": "S",
+        "smiles": "[S]",
+        "inchi": "InChI=1S/S"
+    },
+    "5364713": {
+        "name": "2-[(Z)-octadec-9-enoxy]ethanol",
+        "mol_wt": "312.5",
+        "mol_formula": "C20H40O2",
+        "smiles": "CCCCCCCC/C=C\\CCCCCCCCOCCO",
+        "inchi": "InChI=1S/C20H40O2/c1-2-3-4-5-6-7-8-9-10-11-12-13-14-15-16-17-19-22-20-18-21/h9-10,21H,2-8,11-20H2,1H3/b10-9-"
+    },
+    "5460341": {
+        "name": "calcium",
+        "mol_wt": "40.08",
+        "mol_formula": "Ca",
+        "smiles": "[Ca]",
+        "inchi": "InChI=1S/Ca"
+    },
+    "5460480": {
+        "name": "astatanylastatine",
+        "mol_wt": "419.97429",
+        "mol_formula": "At2",
+        "smiles": "[At][At]",
+        "inchi": "InChI=1S/At2/c1-2"
+    },
+    "5460482": {
+        "name": "(Z)-4-oxopent-2-en-2-olate",
+        "mol_wt": "99.11",
+        "mol_formula": "C5H7O2-",
+        "smiles": "C/C(=C/C(=O)C)/[O-]",
+        "inchi": "InChI=1S/C5H8O2/c1-4(6)3-5(2)7/h3,6H,1-2H3/p-1/b4-3-"
+    },
+    "5461123": {
+        "name": "silicon",
+        "mol_wt": "28.085",
+        "mol_formula": "Si",
+        "smiles": "[Si]",
+        "inchi": "InChI=1S/Si"
+    },
+    "5462309": {
+        "name": "phosphorus",
+        "mol_wt": "30.97376200",
+        "mol_formula": "P",
+        "smiles": "[P]",
+        "inchi": "InChI=1S/P"
+    },
+    "5462310": {
+        "name": "carbon",
+        "mol_wt": "12.011",
+        "mol_formula": "C",
+        "smiles": "[C]",
+        "inchi": "InChI=1S/C"
+    },
+    "5483663": {
+        "name": "iron(3+);(Z)-4-oxopent-2-en-2-olate",
+        "mol_wt": "353.17",
+        "mol_formula": "C15H21FeO6",
+        "smiles": "C/C(=C/C(=O)C)/[O-].C/C(=C/C(=O)C)/[O-].C/C(=C/C(=O)C)/[O-].[Fe+3]",
+        "inchi": "InChI=1S/3C5H8O2.Fe/c3*1-4(6)3-5(2)7;/h3*3,6H,1-2H3;/q;;;+3/p-3/b3*4-3-;"
+    },
+    "6097028": {
+        "name": "diazanium;sulfate",
+        "mol_wt": "132.14",
+        "mol_formula": "H8N2O4S",
+        "smiles": "[NH4+].[NH4+].[O-]S(=O)(=O)[O-]",
+        "inchi": "InChI=1S/2H3N.H2O4S/c;;1-5(2,3)4/h2*1H3;(H2,1,2,3,4)"
+    },
+    "6326970": {
+        "name": "selenium",
+        "mol_wt": "78.97",
+        "mol_formula": "Se",
+        "smiles": "[Se]",
+        "inchi": "InChI=1S/Se"
+    },
+    "6404486": {
+        "name": "(2E)-2-cyano-2-hydroxyiminoacetamide",
+        "mol_wt": "113.08",
+        "mol_formula": "C3H3N3O2",
+        "smiles": "C(#N)/C(=N\\O)/C(=O)N",
+        "inchi": "InChI=1S/C3H3N3O2/c4-1-2(6-8)3(5)7/h8H,(H2,5,7)/b6-2+"
+    },
+    "6432046": {
+        "name": "cobalt(2+);cobalt(3+);oxygen(2-)",
+        "mol_wt": "240.797",
+        "mol_formula": "Co3O4",
+        "smiles": "[O-2].[O-2].[O-2].[O-2].[Co+2].[Co+3].[Co+3]",
+        "inchi": "InChI=1S/3Co.4O/q+2;2*+3;4*-2"
+    },
+    "6454781": {
+        "name": "8-methylnonyl (9Z,12Z)-octadeca-9,12-dienoate",
+        "mol_wt": "420.7",
+        "mol_formula": "C28H52O2",
+        "smiles": "CCCCC/C=C\\C/C=C\\CCCCCCCC(=O)OCCCCCCCC(C)C",
+        "inchi": "InChI=1S/C28H52O2/c1-4-5-6-7-8-9-10-11-12-13-14-15-16-19-22-25-28(29)30-26-23-20-17-18-21-24-27(2)3/h8-9,11-12,27H,4-7,10,13-26H2,1-3H3/b9-8-,12-11-"
+    },
+    "6537495": {
+        "name": "cadmium(2+);diacetate;dihydrate",
+        "mol_wt": "266.53",
+        "mol_formula": "C4H10CdO6",
+        "smiles": "CC(=O)[O-].CC(=O)[O-].O.O.[Cd+2]",
+        "inchi": "InChI=1S/2C2H4O2.Cd.2H2O/c2*1-2(3)4;;;/h2*1H3,(H,3,4);;2*1H2/q;;+2;;/p-2"
+    },
+    "9809426": {
+        "name": "dibutyltin(2+);dodecanoate",
+        "mol_wt": "631.6",
+        "mol_formula": "C32H64O4Sn",
+        "smiles": "CCCCCCCCCCCC(=O)[O-].CCCCCCCCCCCC(=O)[O-].CCCC[Sn+2]CCCC",
+        "inchi": "InChI=1S/2C12H24O2.2C4H9.Sn/c2*1-2-3-4-5-6-7-8-9-10-11-12(13)14;2*1-3-4-2;/h2*2-11H2,1H3,(H,13,14);2*1,3-4H2,2H3;/q;;;;+2/p-2"
+    },
+    "9812759": {
+        "name": "zinc;dihydroxide",
+        "mol_wt": "99.4",
+        "mol_formula": "H2O2Zn",
+        "smiles": "[OH-].[OH-].[Zn+2]",
+        "inchi": "InChI=1S/2H2O.Zn/h2*1H2;/q;;+2/p-2"
+    },
+    "9837674": {
+        "name": "copper;dinitrate;trihydrate",
+        "mol_wt": "241.60",
+        "mol_formula": "CuH6N2O9",
+        "smiles": "[N+](=O)([O-])[O-].[N+](=O)([O-])[O-].O.O.O.[Cu+2]",
+        "inchi": "InChI=1S/Cu.2NO3.3H2O/c;2*2-1(3)4;;;/h;;;3*1H2/q+2;2*-1;;;"
+    },
+    "9839123": {
+        "name": "copper;dinitrate;hexahydrate",
+        "mol_wt": "295.65",
+        "mol_formula": "CuH12N2O12",
+        "smiles": "[N+](=O)([O-])[O-].[N+](=O)([O-])[O-].O.O.O.O.O.O.[Cu+2]",
+        "inchi": "InChI=1S/Cu.2NO3.6H2O/c;2*2-1(3)4;;;;;;/h;;;6*1H2/q+2;2*-1;;;;;;"
+    },
+    "9859974": {
+        "name": "iron(2+);sulfate;hexahydrate",
+        "mol_wt": "260.00",
+        "mol_formula": "FeH12O10S",
+        "smiles": "O.O.O.O.O.O.[O-]S(=O)(=O)[O-].[Fe+2]",
+        "inchi": "InChI=1S/Fe.H2O4S.6H2O/c;1-5(2,3)4;;;;;;/h;(H2,1,2,3,4);6*1H2/q+2;;;;;;;/p-2"
+    },
+    "9881215": {
+        "name": "zinc;ditetrafluoroborate",
+        "mol_wt": "239.0",
+        "mol_formula": "B2F8Zn",
+        "smiles": "[B-](F)(F)(F)F.[B-](F)(F)(F)F.[Zn+2]",
+        "inchi": "InChI=1S/2BF4.Zn/c2*2-1(3,4)5;/q2*-1;+2"
+    },
+    "9883512": {
+        "name": "zinc;diiodide",
+        "mol_wt": "319.2",
+        "mol_formula": "I2Zn",
+        "smiles": "[Zn+2].[I-].[I-]",
+        "inchi": "InChI=1S/2HI.Zn/h2*1H;/q;;+2/p-2"
+    },
+    "9887206": {
+        "name": "chromium(3+);trinitrate;nonahydrate",
+        "mol_wt": "400.15",
+        "mol_formula": "CrH18N3O18",
+        "smiles": "[N+](=O)([O-])[O-].[N+](=O)([O-])[O-].[N+](=O)([O-])[O-].O.O.O.O.O.O.O.O.O.[Cr+3]",
+        "inchi": "InChI=1S/Cr.3NO3.9H2O/c;3*2-1(3)4;;;;;;;;;/h;;;;9*1H2/q+3;3*-1;;;;;;;;;"
+    },
+    "9989226": {
+        "name": "dialuminum;oxygen(2-)",
+        "mol_wt": "101.961",
+        "mol_formula": "Al2O3",
+        "smiles": "[O-2].[O-2].[O-2].[Al+3].[Al+3]",
+        "inchi": "InChI=1S/2Al.3O/q2*+3;3*-2"
+    },
+    "10129900": {
+        "name": "cobalt(2+);dihydroxide",
+        "mol_wt": "92.948",
+        "mol_formula": "CoH2O2",
+        "smiles": "[OH-].[OH-].[Co+2]",
+        "inchi": "InChI=1S/Co.2H2O/h;2*1H2/q+2;;/p-2"
+    },
+    "10154203": {
+        "name": "2-[2-(2-hydroxyethoxy)propoxy]ethanol",
+        "mol_wt": "164.20",
+        "mol_formula": "C7H16O4",
+        "smiles": "CC(COCCO)OCCO",
+        "inchi": "InChI=1S/C7H16O4/c1-7(11-5-3-9)6-10-4-2-8/h7-9H,2-6H2,1H3"
+    },
+    "10908382": {
+        "name": "dichlororuthenium;2-pyridin-2-ylpyridine",
+        "mol_wt": "640.5",
+        "mol_formula": "C30H24Cl2N6Ru",
+        "smiles": "C1=CC=NC(=C1)C2=CC=CC=N2.C1=CC=NC(=C1)C2=CC=CC=N2.C1=CC=NC(=C1)C2=CC=CC=N2.Cl[Ru]Cl",
+        "inchi": "InChI=1S/3C10H8N2.2ClH.Ru/c3*1-3-7-11-9(5-1)10-6-2-4-8-12-10;;;/h3*1-8H;2*1H;/q;;;;;+2/p-2"
+    },
+    "11034740": {
+        "name": "dioxomolybdenum;(Z)-4-hydroxypent-3-en-2-one",
+        "mol_wt": "328.18",
+        "mol_formula": "C10H16MoO6",
+        "smiles": "C/C(=C/C(=O)C)/O.C/C(=C/C(=O)C)/O.O=[Mo]=O",
+        "inchi": "InChI=1S/2C5H8O2.Mo.2O/c2*1-4(6)3-5(2)7;;;/h2*3,6H,1-2H3;;;/b2*4-3-;;;"
+    },
+    "11251951": {
+        "name": "phosphoric acid;trioxomolybdenum",
+        "mol_wt": "1825.4",
+        "mol_formula": "H3Mo12O40P",
+        "smiles": "OP(=O)(O)O.O=[Mo](=O)=O.O=[Mo](=O)=O.O=[Mo](=O)=O.O=[Mo](=O)=O.O=[Mo](=O)=O.O=[Mo](=O)=O.O=[Mo](=O)=O.O=[Mo](=O)=O.O=[Mo](=O)=O.O=[Mo](=O)=O.O=[Mo](=O)=O.O=[Mo](=O)=O",
+        "inchi": "InChI=1S/12Mo.H3O4P.36O/c;;;;;;;;;;;;1-5(2,3)4;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;/h;;;;;;;;;;;;(H3,1,2,3,4);;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;"
+    },
+    "11281299": {
+        "name": "tetrachloroplatinum;dihydrochloride",
+        "mol_wt": "409.8",
+        "mol_formula": "Cl6H2Pt",
+        "smiles": "Cl.Cl.Cl[Pt](Cl)(Cl)Cl",
+        "inchi": "InChI=1S/6ClH.Pt/h6*1H;/q;;;;;;+4/p-4"
+    },
+    "11756356": {
+        "name": "[(19S)-10,19-diethyl-19-hydroxy-14,18-dioxo-17-oxa-3,13-diazapentacyclo[11.8.0.02,11.04,9.015,20]henicosa-1(21),2,4(9),5,7,10,15(20)-heptaen-7-yl] 4-aminopiperidine-1-carboxylate",
+        "mol_wt": "518.6",
+        "mol_formula": "C28H30N4O6",
+        "smiles": "CCC1=C2CN3C(=CC4=C(C3=O)COC(=O)[C@@]4(CC)O)C2=NC5=C1C=C(C=C5)OC(=O)N6CCC(CC6)N",
+        "inchi": "InChI=1S/C28H30N4O6/c1-3-17-18-11-16(38-27(35)31-9-7-15(29)8-10-31)5-6-22(18)30-24-19(17)13-32-23(24)12-21-20(25(32)33)14-37-26(34)28(21,36)4-2/h5-6,11-12,15,36H,3-4,7-10,13-14,29H2,1-2H3/t28-/m0/s1"
+    },
+    "11791229": {
+        "name": "dichloronickel;hexahydrate",
+        "mol_wt": "237.69",
+        "mol_formula": "Cl2H12NiO6",
+        "smiles": "O.O.O.O.O.O.Cl[Ni]Cl",
+        "inchi": "InChI=1S/2ClH.Ni.6H2O/h2*1H;;6*1H2/q;;+2;;;;;;/p-2"
+    },
+    "12106456": {
+        "name": "magnesium;boranuide",
+        "mol_wt": "54.00",
+        "mol_formula": "B2H8Mg",
+        "smiles": "[BH4-].[BH4-].[Mg+2]",
+        "inchi": "InChI=1S/2BH4.Mg/h2*1H4;/q2*-1;+2"
+    },
+    "12184310": {
+        "name": "bis(trifluoromethylsulfonyl)azanide;1-butylpyridin-1-ium",
+        "mol_wt": "416.4",
+        "mol_formula": "C11H14F6N2O4S2",
+        "smiles": "CCCC[N+]1=CC=CC=C1.C(F)(F)(F)S(=O)(=O)[N-]S(=O)(=O)C(F)(F)F",
+        "inchi": "InChI=1S/C9H14N.C2F6NO4S2/c1-2-3-7-10-8-5-4-6-9-10;3-1(4,5)14(10,11)9-15(12,13)2(6,7)8/h4-6,8-9H,2-3,7H2,1H3;/q+1;-1"
+    },
+    "13685786": {
+        "name": "copper;dinitrate;tetrahydrate",
+        "mol_wt": "259.62",
+        "mol_formula": "CuH8N2O10",
+        "smiles": "[N+](=O)([O-])[O-].[N+](=O)([O-])[O-].O.O.O.O.[Cu+2]",
+        "inchi": "InChI=1S/Cu.2NO3.4H2O/c;2*2-1(3)4;;;;/h;;;4*1H2/q+2;2*-1;;;;"
+    },
+    "13797434": {
+        "name": "azanium;oxido(oxo)borane;oxoborinic acid;oxo(oxoboranyloxy)borane",
+        "mol_wt": "174.3",
+        "mol_formula": "B4H5NO7",
+        "smiles": "B(=O)O.B(=O)[O-].B(=O)OB=O.[NH4+]",
+        "inchi": "InChI=1S/B2O3.BHO2.BO2.H3N/c3-1-5-2-4;2*2-1-3;/h;2H;;1H3/q;;-1;/p+1"
+    },
+    "15245636": {
+        "name": "zinc;2-methylimidazol-3-ide",
+        "mol_wt": "227.6",
+        "mol_formula": "C8H10N4Zn",
+        "smiles": "CC1=NC=C[N-]1.CC1=NC=C[N-]1.[Zn+2]",
+        "inchi": "InChI=1S/2C4H5N2.Zn/c2*1-4-5-2-3-6-4;/h2*2-3H,1H3;/q2*-1;+2"
+    },
+    "15865313": {
+        "name": "zinc;dinitrate;hexahydrate",
+        "mol_wt": "297.5",
+        "mol_formula": "H12N2O12Zn",
+        "smiles": "[N+](=O)([O-])[O-].[N+](=O)([O-])[O-].O.O.O.O.O.O.[Zn+2]",
+        "inchi": "InChI=1S/2NO3.6H2O.Zn/c2*2-1(3)4;;;;;;;/h;;6*1H2;/q2*-1;;;;;;;+2"
+    },
+    "15977602": {
+        "name": "zinc;imidazol-3-ide",
+        "mol_wt": "199.5",
+        "mol_formula": "C6H6N4Zn",
+        "smiles": "C1=CN=C[N-]1.C1=CN=C[N-]1.[Zn+2]",
+        "inchi": "InChI=1S/2C3H3N2.Zn/c2*1-2-5-3-4-1;/h2*1-3H;/q2*-1;+2"
+    },
+    "16211236": {
+        "name": "trichloroiron;hexahydrate",
+        "mol_wt": "270.29",
+        "mol_formula": "Cl3FeH12O6",
+        "smiles": "O.O.O.O.O.O.Cl[Fe](Cl)Cl",
+        "inchi": "InChI=1S/3ClH.Fe.6H2O/h3*1H;;6*1H2/q;;;+3;;;;;;/p-3"
+    },
+    "16211258": {
+        "name": "disodium;dioxido(dioxo)molybdenum;dihydrate",
+        "mol_wt": "241.96",
+        "mol_formula": "H4MoNa2O6",
+        "smiles": "O.O.[O-][Mo](=O)(=O)[O-].[Na+].[Na+]",
+        "inchi": "InChI=1S/Mo.2Na.2H2O.4O/h;;;2*1H2;;;;/q;2*+1;;;;;2*-1"
+    },
+    "16211458": {
+        "name": "cobalt(2+);carbonate;hydrate",
+        "mol_wt": "136.96",
+        "mol_formula": "CH2CoO4",
+        "smiles": "C(=O)([O-])[O-].O.[Co+2]",
+        "inchi": "InChI=1S/CH2O3.Co.H2O/c2-1(3)4;;/h(H2,2,3,4);;1H2/q;+2;/p-2"
+    },
+    "16211566": {
+        "name": "iron(3+);trinitrate;nonahydrate",
+        "mol_wt": "404.00",
+        "mol_formula": "FeH18N3O18",
+        "smiles": "[N+](=O)([O-])[O-].[N+](=O)([O-])[O-].[N+](=O)([O-])[O-].O.O.O.O.O.O.O.O.O.[Fe+3]",
+        "inchi": "InChI=1S/Fe.3NO3.9H2O/c;3*2-1(3)4;;;;;;;;;/h;;;;9*1H2/q+3;3*-1;;;;;;;;;"
+    },
+    "16211978": {
+        "name": "oxoiron;oxo(oxoferriooxy)iron",
+        "mol_wt": "231.53",
+        "mol_formula": "Fe3O4",
+        "smiles": "O=[Fe].O=[Fe]O[Fe]=O",
+        "inchi": "InChI=1S/3Fe.4O"
+    },
+    "16212977": {
+        "name": "phosphoric acid;trioxotungsten;hydrate",
+        "mol_wt": "2898.1",
+        "mol_formula": "H5O41PW12",
+        "smiles": "O.OP(=O)(O)O.O=[W](=O)=O.O=[W](=O)=O.O=[W](=O)=O.O=[W](=O)=O.O=[W](=O)=O.O=[W](=O)=O.O=[W](=O)=O.O=[W](=O)=O.O=[W](=O)=O.O=[W](=O)=O.O=[W](=O)=O.O=[W](=O)=O",
+        "inchi": "InChI=1S/H3O4P.H2O.36O.12W/c1-5(2,3)4;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;/h(H3,1,2,3,4);1H2;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;"
+    },
+    "20505096": {
+        "name": "Magnesium borohydride",
+        "mol_wt": "45.93",
+        "mol_formula": "B2Mg",
+        "smiles": "[B-].[B-].[Mg+2]",
+        "inchi": "InChI=1S/2B.Mg/q2*-1;+2"
+    },
+    "22892188": {
+        "name": "potassium;boron(1-)",
+        "mol_wt": "49.91",
+        "mol_formula": "BK",
+        "smiles": "[B-].[K+]",
+        "inchi": "InChI=1S/B.K/q-1;+1"
+    },
+    "23663617": {
+        "name": "sodium;hydroxyphosphinite",
+        "mol_wt": "87.978",
+        "mol_formula": "H2NaO2P",
+        "smiles": "OP[O-].[Na+]",
+        "inchi": "InChI=1S/Na.H2O2P/c;1-3-2/h;1,3H/q+1;-1"
+    },
+    "23675242": {
+        "name": "SODIUM HYPOPHOSPHITE",
+        "mol_wt": "85.962",
+        "mol_formula": "NaO2P",
+        "smiles": "[O-]P=O.[Na+]",
+        "inchi": "InChI=1S/Na.HO2P/c;1-3-2/h;(H,1,2)/q+1;/p-1"
+    },
+    "24856448": {
+        "name": "(2S)-6-amino-2-[[(2S)-2-[[(2R)-2-[[(2S)-2-(1-aminoethylideneamino)-3-(4-hydroxyphenyl)propanoyl]amino]-4-methylsulfinylbutanoyl]amino]-3-phenylpropanoyl]-methylamino]-N-methylhexanamide",
+        "mol_wt": "671.9",
+        "mol_formula": "C33H49N7O6S",
+        "smiles": "CC(=N[C@@H](CC1=CC=C(C=C1)O)C(=O)N[C@H](CCS(=O)C)C(=O)N[C@@H](CC2=CC=CC=C2)C(=O)N(C)[C@@H](CCCCN)C(=O)NC)N",
+        "inchi": "InChI=1S/C33H49N7O6S/c1-22(35)37-27(20-24-13-15-25(41)16-14-24)31(43)38-26(17-19-47(4)46)30(42)39-28(21-23-10-6-5-7-11-23)33(45)40(3)29(32(44)36-2)12-8-9-18-34/h5-7,10-11,13-16,26-29,41H,8-9,12,17-21,34H2,1-4H3,(H2,35,37)(H,36,44)(H,38,43)(H,39,42)/t26-,27+,28+,29+,47?/m1/s1"
+    },
+    "25113560": {
+        "name": "silicic acid;1,3,5-trioxa-2lambda6,4lambda6,6lambda6-tritungstacyclohexane 2,2,4,4,6,6-hexaoxide",
+        "mol_wt": "2878.2",
+        "mol_formula": "H4O40SiW12",
+        "smiles": "O[Si](O)(O)O.O=[W]1(=O)O[W](=O)(=O)O[W](=O)(=O)O1.O=[W]1(=O)O[W](=O)(=O)O[W](=O)(=O)O1.O=[W]1(=O)O[W](=O)(=O)O[W](=O)(=O)O1.O=[W]1(=O)O[W](=O)(=O)O[W](=O)(=O)O1",
+        "inchi": "InChI=1S/H4O4Si.36O.12W/c1-5(2,3)4;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;/h1-4H;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;"
+    },
+    "46856327": {
+        "name": "2-amino-3,4,5,6-tetrahydroxyhexanal;hydron;chloride",
+        "mol_wt": "215.63",
+        "mol_formula": "C6H14ClNO5",
+        "smiles": "[H+].C(C(C(C(C(C=O)N)O)O)O)O.[Cl-]",
+        "inchi": "InChI=1S/C6H13NO5.ClH/c7-3(1-8)5(11)6(12)4(10)2-9;/h1,3-6,9-12H,2,7H2;1H"
+    },
+    "51432696": {
+        "name": "2-methyl-1H-imidazol-3-ium",
+        "mol_wt": "83.11",
+        "mol_formula": "C4H7N2+",
+        "smiles": "CC1=[NH+]C=CN1",
+        "inchi": "InChI=1S/C4H6N2/c1-4-5-2-3-6-4/h2-3H,1H3,(H,5,6)/p+1"
+    },
+    "52013054": {
+        "name": "N-(3-acetylphenyl)-4-(2-phenylethyl)thieno[3,2-b]pyrrole-5-carboxamide",
+        "mol_wt": "388.5",
+        "mol_formula": "C23H20N2O2S",
+        "smiles": "CC(=O)C1=CC(=CC=C1)NC(=O)C2=CC3=C(N2CCC4=CC=CC=C4)C=CS3",
+        "inchi": "InChI=1S/C23H20N2O2S/c1-16(26)18-8-5-9-19(14-18)24-23(27)21-15-22-20(11-13-28-22)25(21)12-10-17-6-3-2-4-7-17/h2-9,11,13-15H,10,12H2,1H3,(H,24,27)"
+    },
+    "56924536": {
+        "name": "cadmium(2+);dinitrate;tetrahydrate",
+        "mol_wt": "308.49",
+        "mol_formula": "CdH8N2O10",
+        "smiles": "[N+](=O)([O-])[O-].[N+](=O)([O-])[O-].O.O.O.O.[Cd+2]",
+        "inchi": "InChI=1S/Cd.2NO3.4H2O/c;2*2-1(3)4;;;;/h;;;4*1H2/q+2;2*-1;;;;"
+    },
+    "57370974": {
+        "name": "zinc;dinitrate;tetrahydrate",
+        "mol_wt": "261.5",
+        "mol_formula": "H8N2O10Zn",
+        "smiles": "[N+](=O)([O-])[O-].[N+](=O)([O-])[O-].O.O.O.O.[Zn+2]",
+        "inchi": "InChI=1S/2NO3.4H2O.Zn/c2*2-1(3)4;;;;;/h;;4*1H2;/q2*-1;;;;;+2"
+    },
+    "71317471": {
+        "name": "",
+        "mol_wt": "375.13",
+        "mol_formula": "AlH18N3O18-3",
+        "smiles": "[N+](=O)([O-])[O-].[N+](=O)([O-])[O-].[N+](=O)([O-])[O-].O.O.O.O.O.O.O.O.O.[Al]",
+        "inchi": "InChI=1S/Al.3NO3.9H2O/c;3*2-1(3)4;;;;;;;;;/h;;;;9*1H2/q;3*-1;;;;;;;;;"
+    },
+    "86278368": {
+        "name": "4-[10,15,20-tris(4-carboxyphenyl)-21,23-dihydroporphyrin-5-yl]benzoic acid",
+        "mol_wt": "790.8",
+        "mol_formula": "C48H30N4O8",
+        "smiles": "C1=CC(=CC=C1C2=C3C=CC(=C(C4=NC(=C(C5=CC=C(N5)C(=C6C=CC2=N6)C7=CC=C(C=C7)C(=O)O)C8=CC=C(C=C8)C(=O)O)C=C4)C9=CC=C(C=C9)C(=O)O)N3)C(=O)O",
+        "inchi": "InChI=1S/C48H30N4O8/c53-45(54)29-9-1-25(2-10-29)41-33-17-19-35(49-33)42(26-3-11-30(12-4-26)46(55)56)37-21-23-39(51-37)44(28-7-15-32(16-8-28)48(59)60)40-24-22-38(52-40)43(36-20-18-34(41)50-36)27-5-13-31(14-6-27)47(57)58/h1-24,49,52H,(H,53,54)(H,55,56)(H,57,58)(H,59,60)"
+    },
+    "124202900": {
+        "name": "",
+        "mol_wt": "2043.8",
+        "mol_formula": "C140H42O20",
+        "smiles": "C1C=C2C3=C4C5=C6C7=C8C(=CC9=C(C%10=CC%11=CC(C=C%12C%11=C%11C%10=C%10C9=C8C8=C6C6=C4C4=C2C2=C1C1=CCC9=C%13C1=C1C2=C2C4=C4C6=C6C8=C%10C8=C%11C%10=C%12CC=C%11C%10=C%10C8=C6C6=C4C4=C2C2=C1C1=C%13C8=C%12C9=C(CC=C%12C(=C9C8=C8C1=C1C2=C2C4=C4C6=C%10C6=C%11C(C=C%10C6=C4C4=C2C2=C1C1=C8C(=C9)C=C6C1=C1C2=C2C4=C%10C(C=C2C2=C1C(=C6C(=O)O)C=CC2C(=O)O)C(=O)O)C(=O)O)C(=O)O)C(=O)O)C(=O)O)C(=O)O)C=C1C7=C(C5=CC3C(=O)O)CC=C1C(=O)O",
+        "inchi": "InChI=1S/C140H42O20/c141-131(142)26-13-23-15-44-62(140(159)160)45-16-24-14-40-31(132(143)144)5-1-29-41-20-48(135(149)150)56-33-7-3-28-27-2-6-32-55-37(133(145)146)11-9-35-60(138(155)156)42-17-25-18-43-61(139(157)158)36-10-12-38(134(147)148)58-46-21-50(137(153)154)59-47-22-49(136(151)152)57-34-8-4-30-39(19-26)51(23)78-72(44)88-75(45)80-52(24)79(54(29)40)95-71(41)83(56)101-93-69(33)64(28)91-90-63(27)68(32)92-86(66(35)55)73(42)81-53(25)82-74(43)87(67(36)58)96-76(46)85(59)103-97-77(47)84(57)102-94-70(34)65(30)89(78)105-104(88)115-98(80)111(95)116(101)126-122-110(93)107(91)120-119-106(90)108(92)99(81)114-100(82)112(96)118(103)128(124(114)119)123-113(97)117(102)127(130(122)129(120)123)121(109(94)105)125(115)126/h2,5,7-10,12-22,26,38,48-50H,1,3-4,6,11H2,(H,141,142)(H,143,144)(H,145,146)(H,147,148)(H,149,150)(H,151,152)(H,153,154)(H,155,156)(H,157,158)(H,159,160)"
+    },
+    "129628184": {
+        "name": "selanylsodium",
+        "mol_wt": "102.97",
+        "mol_formula": "HNaSe",
+        "smiles": "[Na][SeH]",
+        "inchi": "InChI=1S/Na.H2Se/h;1H2/q+1;/p-1"
+    },
+    "129689883": {
+        "name": "ferrocyanide potassium",
+        "mol_wt": "368.34",
+        "mol_formula": "C6FeK4N6",
+        "smiles": "[C-]#N.[C-]#N.[C-]#N.[C-]#N.[C-]#N.[C-]#N.[K].[K].[K+].[K+].[Fe+4]",
+        "inchi": "InChI=1S/6CN.Fe.4K/c6*1-2;;;;;/q6*-1;+4;;;2*+1"
+    },
+    "129692462": {
+        "name": "zinc;dinitrate;trihydrate",
+        "mol_wt": "243.4",
+        "mol_formula": "H6N2O9Zn",
+        "smiles": "[N+](=O)([O-])[O-].[N+](=O)([O-])[O-].O.O.O.[Zn+2]",
+        "inchi": "InChI=1S/2NO3.3H2O.Zn/c2*2-1(3)4;;;;/h;;3*1H2;/q2*-1;;;;+2"
+    },
+    "129692619": {
+        "name": "cadmium(2+);dinitrate;hydrate",
+        "mol_wt": "254.44",
+        "mol_formula": "CdH2N2O7",
+        "smiles": "[N+](=O)([O-])[O-].[N+](=O)([O-])[O-].O.[Cd+2]",
+        "inchi": "InChI=1S/Cd.2NO3.H2O/c;2*2-1(3)4;/h;;;1H2/q+2;2*-1;"
+    },
+    "129696792": {
+        "name": "cobalt(2+);dinitrate;tetrahydrate",
+        "mol_wt": "255.00",
+        "mol_formula": "CoH8N2O10",
+        "smiles": "[N+](=O)([O-])[O-].[N+](=O)([O-])[O-].O.O.O.O.[Co+2]",
+        "inchi": "InChI=1S/Co.2NO3.4H2O/c;2*2-1(3)4;;;;/h;;;4*1H2/q+2;2*-1;;;;"
+    },
+    "129712729": {
+        "name": "acetic acid;cobalt;hexahydrate",
+        "mol_wt": "287.13",
+        "mol_formula": "C4H20CoO10",
+        "smiles": "CC(=O)O.CC(=O)O.O.O.O.O.O.O.[Co]",
+        "inchi": "InChI=1S/2C2H4O2.Co.6H2O/c2*1-2(3)4;;;;;;;/h2*1H3,(H,3,4);;6*1H2"
+    },
+    "129712741": {
+        "name": "acetic acid;zinc;tetrahydrate",
+        "mol_wt": "257.5",
+        "mol_formula": "C4H16O8Zn",
+        "smiles": "CC(=O)O.CC(=O)O.O.O.O.O.[Zn]",
+        "inchi": "InChI=1S/2C2H4O2.4H2O.Zn/c2*1-2(3)4;;;;;/h2*1H3,(H,3,4);4*1H2;"
+    },
+    "129728384": {
+        "name": "acetic acid;zinc;hexahydrate",
+        "mol_wt": "293.6",
+        "mol_formula": "C4H20O10Zn",
+        "smiles": "CC(=O)O.CC(=O)O.O.O.O.O.O.O.[Zn]",
+        "inchi": "InChI=1S/2C2H4O2.6H2O.Zn/c2*1-2(3)4;;;;;;;/h2*1H3,(H,3,4);6*1H2;"
+    },
+    "129760994": {
+        "name": "sodium;formate;dihydrate",
+        "mol_wt": "104.04",
+        "mol_formula": "CH5NaO4",
+        "smiles": "C(=O)[O-].O.O.[Na+]",
+        "inchi": "InChI=1S/CH2O2.Na.2H2O/c2-1-3;;;/h1H,(H,2,3);;2*1H2/q;+1;;/p-1"
+    },
+    "129826639": {
+        "name": "cadmium(2+);dinitrate;hexahydrate",
+        "mol_wt": "344.52",
+        "mol_formula": "CdH12N2O12",
+        "smiles": "[N+](=O)([O-])[O-].[N+](=O)([O-])[O-].O.O.O.O.O.O.[Cd+2]",
+        "inchi": "InChI=1S/Cd.2NO3.6H2O/c;2*2-1(3)4;;;;;;/h;;;6*1H2/q+2;2*-1;;;;;;"
+    },
+    "129851752": {
+        "name": "dinitrooxyindiganyl nitrate;pentahydrate",
+        "mol_wt": "390.91",
+        "mol_formula": "H10InN3O14",
+        "smiles": "[N+](=O)([O-])O[In](O[N+](=O)[O-])O[N+](=O)[O-].O.O.O.O.O",
+        "inchi": "InChI=1S/In.3NO3.5H2O/c;3*2-1(3)4;;;;;/h;;;;5*1H2/q+3;3*-1;;;;;"
+    },
+    "131674983": {
+        "name": "azane;molybdenum(2+);dihydroxide;dihydrate",
+        "mol_wt": "200.06",
+        "mol_formula": "H12MoN2O4",
+        "smiles": "N.N.O.O.[OH-].[OH-].[Mo+2]",
+        "inchi": "InChI=1S/Mo.2H3N.4H2O/h;2*1H3;4*1H2/q+2;;;;;;/p-2"
+    },
+    "138375860": {
+        "name": "dicopper;benzene-1,3,5-tricarboxylate",
+        "mol_wt": "541.3",
+        "mol_formula": "C18H6Cu2O12-2",
+        "smiles": "C1=C(C=C(C=C1C(=O)[O-])C(=O)[O-])C(=O)[O-].C1=C(C=C(C=C1C(=O)[O-])C(=O)[O-])C(=O)[O-].[Cu+2].[Cu+2]",
+        "inchi": "InChI=1S/2C9H6O6.2Cu/c2*10-7(11)4-1-5(8(12)13)3-6(2-4)9(14)15;;/h2*1-3H,(H,10,11)(H,12,13)(H,14,15);;/q;;2*+2/p-6"
+    },
+    "138394184": {
+        "name": "zinc;molecular hydrogen;tin(4+);hexahydroxide",
+        "mol_wt": "298.2",
+        "mol_formula": "H18O6SnZn",
+        "smiles": "[HH].[HH].[HH].[HH].[HH].[HH].[OH-].[OH-].[OH-].[OH-].[OH-].[OH-].[Zn+2].[Sn+4]",
+        "inchi": "InChI=1S/6H2O.Sn.Zn.6H2/h6*1H2;;;6*1H/q;;;;;;+4;+2;;;;;;/p-6"
+    },
+    "139238230": {
+        "name": "copper;hydrogen peroxide",
+        "mol_wt": "161.11",
+        "mol_formula": "Cu2H2O2",
+        "smiles": "OO.[Cu].[Cu]",
+        "inchi": "InChI=1S/2Cu.H2O2/c;;1-2/h;;1-2H"
+    },
+    "145926334": {
+        "name": "2-aminoterephthalate;oxygen(2-);zirconium(4+);tetrahydroxide",
+        "mol_wt": "1754.1",
+        "mol_formula": "C48H34N6O32Zr6",
+        "smiles": "C1=CC(=C(C=C1C(=O)[O-])N)C(=O)[O-].C1=CC(=C(C=C1C(=O)[O-])N)C(=O)[O-].C1=CC(=C(C=C1C(=O)[O-])N)C(=O)[O-].C1=CC(=C(C=C1C(=O)[O-])N)C(=O)[O-].C1=CC(=C(C=C1C(=O)[O-])N)C(=O)[O-].C1=CC(=C(C=C1C(=O)[O-])N)C(=O)[O-].[OH-].[OH-].[OH-].[OH-].[O-2].[O-2].[O-2].[O-2].[Zr+4].[Zr+4].[Zr+4].[Zr+4].[Zr+4].[Zr+4]",
+        "inchi": "InChI=1S/6C8H7NO4.4H2O.4O.6Zr/c6*9-6-3-4(7(10)11)1-2-5(6)8(12)13;;;;;;;;;;;;;;/h6*1-3H,9H2,(H,10,11)(H,12,13);4*1H2;;;;;;;;;;/q;;;;;;;;;;4*-2;6*+4/p-16"
+    },
+    "146158919": {
+        "name": "cobalt(2+);2-methyl-1H-imidazole",
+        "mol_wt": "223.14",
+        "mol_formula": "C8H12CoN4+2",
+        "smiles": "CC1=NC=CN1.CC1=NC=CN1.[Co+2]",
+        "inchi": "InChI=1S/2C4H6N2.Co/c2*1-4-5-2-3-6-4;/h2*2-3H,1H3,(H,5,6);/q;;+2"
+    },
+    "146680004": {
+        "name": "oxygen(2-);terephthalate;zirconium(4+);tetrahydroxide",
+        "mol_wt": "1632.1",
+        "mol_formula": "C48H28O30Zr6+4",
+        "smiles": "C1=CC(=CC=C1C(=O)[O-])C(=O)[O-].C1=CC(=CC=C1C(=O)[O-])C(=O)[O-].C1=CC(=CC=C1C(=O)[O-])C(=O)[O-].C1=CC(=CC=C1C(=O)[O-])C(=O)[O-].C1=CC(=CC=C1C(=O)[O-])C(=O)[O-].C1=CC(=CC=C1C(=O)[O-])C(=O)[O-].[OH-].[OH-].[OH-].[OH-].[O-2].[O-2].[Zr+4].[Zr+4].[Zr+4].[Zr+4].[Zr+4].[Zr+4]",
+        "inchi": "InChI=1S/6C8H6O4.4H2O.2O.6Zr/c6*9-7(10)5-1-2-6(4-3-5)8(11)12;;;;;;;;;;;;/h6*1-4H,(H,9,10)(H,11,12);4*1H2;;;;;;;;/q;;;;;;;;;;2*-2;6*+4/p-16"
+    },
+    "156595097": {
+        "name": "1H-benzimidazole;zinc;hydrate",
+        "mol_wt": "201.5",
+        "mol_formula": "C7H8N2OZn",
+        "smiles": "C1=CC=C2C(=C1)NC=N2.O.[Zn]",
+        "inchi": "InChI=1S/C7H6N2.H2O.Zn/c1-2-4-7-6(3-1)8-5-9-7;;/h1-5H,(H,8,9);1H2;"
+    },
+    "159922594": {
+        "name": "cobalt;acetate;dihydrate",
+        "mol_wt": "154.01",
+        "mol_formula": "C2H7CoO4-",
+        "smiles": "CC(=O)[O-].O.O.[Co]",
+        "inchi": "InChI=1S/C2H4O2.Co.2H2O/c1-2(3)4;;;/h1H3,(H,3,4);;2*1H2/p-1"
+    },
+    "161860285": {
+        "name": "1H-imidazole-2-carbaldehyde;zinc",
+        "mol_wt": "161.5",
+        "mol_formula": "C4H4N2OZn",
+        "smiles": "C1=CN=C(N1)C=O.[Zn]",
+        "inchi": "InChI=1S/C4H4N2O.Zn/c7-3-4-5-1-2-6-4;/h1-3H,(H,5,6);"
+    },
+    "174": {
+        "name": "ethane-1,2-diol",
+        "mol_wt": "62.07",
+        "mol_formula": "C2H6O2",
+        "smiles": "C(CO)O",
+        "inchi": "InChI=1S/C2H6O2/c3-1-2-4/h3-4H,1-2H2"
+    },
+    "176": {
+        "name": "acetic acid",
+        "mol_wt": "60.05",
+        "mol_formula": "C2H4O2",
+        "smiles": "CC(=O)O",
+        "inchi": "InChI=1S/C2H4O2/c1-2(3)4/h1H3,(H,3,4)"
+    },
+    "180": {
+        "name": "propan-2-one",
+        "mol_wt": "58.08",
+        "mol_formula": "C3H6O",
+        "smiles": "CC(=O)C",
+        "inchi": "InChI=1S/C3H6O/c1-3(2)4/h1-2H3"
+    },
+    "222": {
+        "name": "azane",
+        "mol_wt": "17.031",
+        "mol_formula": "H3N",
+        "smiles": "N",
+        "inchi": "InChI=1S/H3N/h1H3"
+    },
+    "223": {
+        "name": "azanium",
+        "mol_wt": "18.039",
+        "mol_formula": "H4N+",
+        "smiles": "[NH4+]",
+        "inchi": "InChI=1S/H3N/h1H3/p+1"
+    },
+    "240": {
+        "name": "benzaldehyde",
+        "mol_wt": "106.12",
+        "mol_formula": "C7H6O",
+        "smiles": "C1=CC=C(C=C1)C=O",
+        "inchi": "InChI=1S/C7H6O/c8-6-7-4-2-1-3-5-7/h1-6H"
+    },
+    "241": {
+        "name": "benzene",
+        "mol_wt": "78.11",
+        "mol_formula": "C6H6",
+        "smiles": "C1=CC=CC=C1",
+        "inchi": "InChI=1S/C6H6/c1-2-4-6-5-3-1/h1-6H"
+    },
+    "243": {
+        "name": "benzoic acid",
+        "mol_wt": "122.12",
+        "mol_formula": "C7H6O2",
+        "smiles": "C1=CC=C(C=C1)C(=O)O",
+        "inchi": "InChI=1S/C7H6O2/c8-7(9)6-4-2-1-3-5-6/h1-5H,(H,8,9)"
+    },
+    "263": {
+        "name": "butan-1-ol",
+        "mol_wt": "74.12",
+        "mol_formula": "C4H10O",
+        "smiles": "CCCCO",
+        "inchi": "InChI=1S/C4H10O/c1-2-3-4-5/h5H,2-4H2,1H3"
+    },
+    "280": {
+        "name": "carbon dioxide",
+        "mol_wt": "44.009",
+        "mol_formula": "CO2",
+        "smiles": "C(=O)=O",
+        "inchi": "InChI=1S/CO2/c2-1-3"
+    },
+    "283": {
+        "name": "formate",
+        "mol_wt": "45.017",
+        "mol_formula": "CHO2-",
+        "smiles": "C(=O)[O-]",
+        "inchi": "InChI=1S/CH2O2/c2-1-3/h1H,(H,2,3)/p-1"
+    },
+    "284": {
+        "name": "formic acid",
+        "mol_wt": "46.025",
+        "mol_formula": "CH2O2",
+        "smiles": "C(=O)O",
+        "inchi": "InChI=1S/CH2O2/c2-1-3/h1H,(H,2,3)"
+    },
+    "313": {
+        "name": "chlorane",
+        "mol_wt": "36.46",
+        "mol_formula": "ClH",
+        "smiles": "Cl",
+        "inchi": "InChI=1S/ClH/h1H"
+    },
+    "612": {
+        "name": "2-hydroxypropanoic acid",
+        "mol_wt": "90.08",
+        "mol_formula": "C3H6O3",
+        "smiles": "CC(C(=O)O)O",
+        "inchi": "InChI=1S/C3H6O3/c1-2(4)3(5)6/h2,4H,1H3,(H,5,6)"
+    },
+    "675": {
+        "name": "5,6-dimethyl-1H-benzimidazole",
+        "mol_wt": "146.19",
+        "mol_formula": "C9H10N2",
+        "smiles": "CC1=CC2=C(C=C1C)N=CN2",
+        "inchi": "InChI=1S/C9H10N2/c1-6-3-8-9(4-7(6)2)11-5-10-8/h3-5H,1-2H3,(H,10,11)"
+    },
+    "679": {
+        "name": "methylsulfinylmethane",
+        "mol_wt": "78.14",
+        "mol_formula": "C2H6OS",
+        "smiles": "CS(=O)C",
+        "inchi": "InChI=1S/C2H6OS/c1-4(2)3/h1-2H3"
+    },
+    "702": {
+        "name": "ethanol",
+        "mol_wt": "46.07",
+        "mol_formula": "C2H6O",
+        "smiles": "CCO",
+        "inchi": "InChI=1S/C2H6O/c1-2-3/h3H,2H2,1H3"
+    },
+    "887": {
+        "name": "methanol",
+        "mol_wt": "32.042",
+        "mol_formula": "CH4O",
+        "smiles": "CO",
+        "inchi": "InChI=1S/CH4O/c1-2/h2H,1H3"
+    },
+    "795": {
+        "name": "1H-imidazole",
+        "mol_wt": "68.08",
+        "mol_formula": "C3H4N2",
+        "smiles": "C1=CN=CN1",
+        "inchi": "InChI=1S/C3H4N2/c1-2-5-3-4-1/h1-3H,(H,4,5)"
+    },
+    "712": {
+        "name": "formaldehyde",
+        "mol_wt": "30.026",
+        "mol_formula": "CH2O",
+        "smiles": "C=O",
+        "inchi": "InChI=1S/CH2O/c1-2/h1H2"
+    },
+    "783": {
+        "name": "molecular hydrogen",
+        "mol_wt": "2.016",
+        "mol_formula": "H2",
+        "smiles": "[HH]",
+        "inchi": "InChI=1S/H2/h1H"
+    },
+    "943": {
+        "name": "nitrate",
+        "mol_wt": "62.005",
+        "mol_formula": "NO3-",
+        "smiles": "[N+](=O)([O-])[O-]",
+        "inchi": "InChI=1S/NO3/c2-1(3)4/q-1"
+    },
+    "944": {
+        "name": "nitric acid",
+        "mol_wt": "63.013",
+        "mol_formula": "HNO3",
+        "smiles": "[N+](=O)(O)[O-]",
+        "inchi": "InChI=1S/HNO3/c2-1(3)4/h(H,2,3,4)"
+    },
+    "784": {
+        "name": "hydrogen peroxide",
+        "mol_wt": "34.015",
+        "mol_formula": "H2O2",
+        "smiles": "OO",
+        "inchi": "InChI=1S/H2O2/c1-2/h1-2H"
+    },
+    "753": {
+        "name": "propane-1,2,3-triol",
+        "mol_wt": "92.09",
+        "mol_formula": "C3H8O3",
+        "smiles": "C(C(CO)O)O",
+        "inchi": "InChI=1S/C3H8O3/c4-1-3(6)2-5/h3-6H,1-2H2"
+    },
+    "935": {
+        "name": "nickel",
+        "mol_wt": "58.693",
+        "mol_formula": "Ni",
+        "smiles": "[Ni]",
+        "inchi": "InChI=1S/Ni"
+    },
+    "2": {
+        "name": "(2-acetyloxy-3-carboxypropyl)-trimethylazanium",
+        "mol_wt": "204.24",
+        "mol_formula": "C9H18NO4+",
+        "smiles": "CC(=O)OC(CC(=O)O)C[N+](C)(C)C",
+        "inchi": "InChI=1S/C9H17NO4/c1-7(11)14-8(5-9(12)13)6-10(2,3)4/h8H,5-6H2,1-4H3/p+1"
+    },
+    "1": {
+        "name": "3-acetyloxy-4-(trimethylazaniumyl)butanoate",
+        "mol_wt": "203.24",
+        "mol_formula": "C9H17NO4",
+        "smiles": "CC(=O)OC(CC(=O)[O-])C[N+](C)(C)C",
+        "inchi": "InChI=1S/C9H17NO4/c1-7(11)14-8(5-9(12)13)6-10(2,3)4/h8H,5-6H2,1-4H3"
+    },
+    "9": {
+        "name": "(2,3,4,5,6-pentahydroxycyclohexyl) dihydrogen phosphate",
+        "mol_wt": "260.14",
+        "mol_formula": "C6H13O9P",
+        "smiles": "C1(C(C(C(C(C1O)O)OP(=O)(O)O)O)O)O",
+        "inchi": "InChI=1S/C6H13O9P/c7-1-2(8)4(10)6(5(11)3(1)9)15-16(12,13)14/h1-11H,(H2,12,13,14)"
+    },
+    "1000": {
+        "name": "2-amino-1-phenylethanol",
+        "mol_wt": "137.18",
+        "mol_formula": "C8H11NO",
+        "smiles": "C1=CC=C(C=C1)C(CN)O",
+        "inchi": "InChI=1S/C8H11NO/c9-6-8(10)7-4-2-1-3-5-7/h1-5,8,10H,6,9H2"
+    },
+    "70": {
+        "name": "4-methyl-2-oxopentanoic acid",
+        "mol_wt": "130.14",
+        "mol_formula": "C6H10O3",
+        "smiles": "CC(C)CC(=O)C(=O)O",
+        "inchi": "InChI=1S/C6H10O3/c1-4(2)3-5(7)6(8)9/h4H,3H2,1-2H3,(H,8,9)"
+    },
+    "4": {
+        "name": "1-aminopropan-2-ol",
+        "mol_wt": "75.11",
+        "mol_formula": "C3H9NO",
+        "smiles": "CC(CN)O",
+        "inchi": "InChI=1S/C3H9NO/c1-3(5)2-4/h3,5H,2,4H2,1H3"
+    },
+    "3": {
+        "name": "5,6-dihydroxycyclohexa-1,3-diene-1-carboxylic acid",
+        "mol_wt": "156.14",
+        "mol_formula": "C7H8O4",
+        "smiles": "C1=CC(C(C(=C1)C(=O)O)O)O",
+        "inchi": "InChI=1S/C7H8O4/c8-5-3-1-2-4(6(5)9)7(10)11/h1-3,5-6,8-9H,(H,10,11)"
+    },
+    "42": {
+        "name": "2-hydroxy-6-oxonona-2,4-dienedioic acid",
+        "mol_wt": "214.17",
+        "mol_formula": "C9H10O6",
+        "smiles": "C(CC(=O)O)C(=O)C=CC=C(C(=O)O)O",
+        "inchi": "InChI=1S/C9H10O6/c10-6(4-5-8(12)13)2-1-3-7(11)9(14)15/h1-3,11H,4-5H2,(H,12,13)(H,14,15)"
+    },
+    "135542257": {
+        "name": "[(2S)-1-(2-amino-6-oxo-1H-purin-9-yl)-3-hydroxypropan-2-yl]oxymethylphosphonic acid",
+        "mol_wt": "319.21",
+        "mol_formula": "C9H14N5O6P",
+        "smiles": "C1=NC2=C(N1C[C@@H](CO)OCP(=O)(O)O)N=C(NC2=O)N",
+        "inchi": "InChI=1S/C9H14N5O6P/c10-9-12-7-6(8(16)13-9)11-3-14(7)1-5(2-15)20-4-21(17,18)19/h3,5,15H,1-2,4H2,(H2,17,18,19)(H3,10,12,13,16)/t5-/m0/s1"
+    },
+    "71815953": {
+        "name": "1-[2-(2,4-dichlorophenoxy)acetyl]-N-(2-sulfanylethyl)piperidine-4-carboxamide",
+        "mol_wt": "391.3",
+        "mol_formula": "C16H20Cl2N2O3S",
+        "smiles": "C1CN(CCC1C(=O)NCCS)C(=O)COC2=C(C=C(C=C2)Cl)Cl",
+        "inchi": "InChI=1S/C16H20Cl2N2O3S/c17-12-1-2-14(13(18)9-12)23-10-15(21)20-6-3-11(4-7-20)16(22)19-5-8-24/h1-2,9,11,24H,3-8,10H2,(H,19,22)"
+    },
+    "79034": {
+        "name": "12-hydroxydodecanoic acid",
+        "mol_wt": "216.32",
+        "mol_formula": "C12H24O3",
+        "smiles": "C(CCCCCC(=O)O)CCCCCO",
+        "inchi": "InChI=1S/C12H24O3/c13-11-9-7-5-3-1-2-4-6-8-10-12(14)15/h13H,1-11H2,(H,14,15)"
+    },
+    "132602625": {
+        "name": "2,2-bis(4-chlorophenyl)-6,7-dimethoxy-1-(4-methylphenyl)sulfonyl-4-phenylquinoline",
+        "mol_wt": "642.6",
+        "mol_formula": "C36H29Cl2NO4S",
+        "smiles": "CC1=CC=C(C=C1)S(=O)(=O)N2C3=CC(=C(C=C3C(=CC2(C4=CC=C(C=C4)Cl)C5=CC=C(C=C5)Cl)C6=CC=CC=C6)OC)OC",
+        "inchi": "InChI=1S/C36H29Cl2NO4S/c1-24-9-19-30(20-10-24)44(40,41)39-33-22-35(43-3)34(42-2)21-31(33)32(25-7-5-4-6-8-25)23-36(39,26-11-15-28(37)16-12-26)27-13-17-29(38)18-14-27/h4-23H,1-3H3"
+    },
+    "24602": {
+        "name": "deuterated water",
+        "mol_wt": "20.028",
+        "mol_formula": "H2O",
+        "smiles": "[2H]O[2H]",
+        "inchi": "InChI=1S/H2O/h1H2/i/hD2"
+    },
+    "83756": {
+        "name": "3-trimethoxysilylpropan-1-amine",
+        "mol_wt": "179.29",
+        "mol_formula": "C6H17NO3Si",
+        "smiles": "CO[Si](CCCN)(OC)OC",
+        "inchi": "InChI=1S/C6H17NO3Si/c1-8-11(9-2,10-3)6-4-5-7/h4-7H2,1-3H3"
+    },
+    "135926176": {
+        "name": "sodium;3-hydroxy-5-sulfanylidene-2H-1,2-thiazole-4-carboxylate",
+        "mol_wt": "199.2",
+        "mol_formula": "C4H2NNaO3S2",
+        "smiles": "C1(=C(NSC1=S)O)C(=O)[O-].[Na+]",
+        "inchi": "InChI=1S/C4H3NO3S2.Na/c6-2-1(3(7)8)4(9)10-5-2;/h5-6H,(H,7,8);/q;+1/p-1"
+    },
+    "24874": {
+        "name": "butan-2-amine",
+        "mol_wt": "73.14",
+        "mol_formula": "C4H11N",
+        "smiles": "CCC(C)N",
+        "inchi": "InChI=1S/C4H11N/c1-3-4(2)5/h4H,3,5H2,1-2H3"
+    },
+    "1117": {
+        "name": "sulfate",
+        "mol_wt": "96.07",
+        "mol_formula": "O4S-2",
+        "smiles": "[O-]S(=O)(=O)[O-]",
+        "inchi": "InChI=1S/H2O4S/c1-5(2,3)4/h(H2,1,2,3,4)/p-2"
+    },
+    "175": {
+        "name": "acetate",
+        "mol_wt": "59.04",
+        "mol_formula": "C2H3O2-",
+        "smiles": "CC(=O)[O-]",
+        "inchi": "InChI=1S/C2H4O2/c1-2(3)4/h1H3,(H,3,4)/p-1"
+    },
+    "312": {
+        "name": "chloride",
+        "mol_wt": "35.45",
+        "mol_formula": "Cl-",
+        "smiles": "[Cl-]",
+        "inchi": "InChI=1S/ClH/h1H/p-1"
+    },
+    "312": {
+        "name": "chloride",
+        "mol_wt": "35.45",
+        "mol_formula": "Cl-",
+        "smiles": "[Cl-]",
+        "inchi": "InChI=1S/ClH/h1H/p-1"
+    }
+}
