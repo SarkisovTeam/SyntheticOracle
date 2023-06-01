@@ -34,11 +34,11 @@
         "smiles": "[N+](=O)([O-])[O-].[N+](=O)([O-])[O-].O.[Zn+2]",
         "inchi": "InChI=1S/2NO3.H2O.Zn/c2*2-1(3)4;;/h;;1H2;/q2*-1;;+2"
     },
-    "887": {
-        "name": "methanol",
-        "mol_wt": "32.042",
-        "mol_formula": "CH4O",
-        "smiles": "CO",
-        "inchi": "InChI=1S/CH4O/c1-2/h2H,1H3"
+    "14806": {
+        "name": "oxozinc",
+        "mol_wt": "81.4",
+        "mol_formula": "OZn",
+        "smiles": "O=[Zn]",
+        "inchi": "InChI=1S/O.Zn"
     }
 }

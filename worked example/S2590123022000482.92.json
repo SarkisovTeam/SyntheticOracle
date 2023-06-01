@@ -1,0 +1,456 @@
+{
+  "name":{
+    "0":"Purify",
+    "1":null,
+    "2":null,
+    "3":"Synthesize",
+    "4":null,
+    "5":null,
+    "6":"Add",
+    "7":"Partition",
+    "8":"Add",
+    "9":"Stir",
+    "10":"Yield",
+    "11":null,
+    "12":"Partition",
+    "13":"Wash",
+    "14":null
+  },
+  "new_chemicals":{
+    "0":[
+
+    ],
+    "1":[
+      {
+        "name":"VWR",
+        "mass":null,
+        "other_amount":null,
+        "volume":null,
+        "percent":null,
+        "concentration":null,
+        "aliases":[
+          "VWR"
+        ]
+      }
+    ],
+    "2":[
+
+    ],
+    "3":[
+      {
+        "name":"ZIF-8",
+        "mass":null,
+        "other_amount":null,
+        "volume":null,
+        "percent":null,
+        "concentration":null,
+        "aliases":[
+          "ZIF-8"
+        ]
+      }
+    ],
+    "4":[
+
+    ],
+    "5":[
+      {
+        "name":"water \/ dimethylformamide",
+        "mass":null,
+        "other_amount":null,
+        "volume":null,
+        "percent":null,
+        "concentration":null,
+        "aliases":[
+          "water \/ dimethylformamide"
+        ]
+      },
+      {
+        "name":"W\/D",
+        "mass":null,
+        "other_amount":null,
+        "volume":null,
+        "percent":null,
+        "concentration":null,
+        "aliases":[
+          "W\/D"
+        ]
+      },
+      {
+        "name":"water \/ methanol",
+        "mass":null,
+        "other_amount":null,
+        "volume":null,
+        "percent":null,
+        "concentration":null,
+        "aliases":[
+          "water \/ methanol"
+        ]
+      },
+      {
+        "name":"W\/M",
+        "mass":null,
+        "other_amount":null,
+        "volume":null,
+        "percent":null,
+        "concentration":null,
+        "aliases":[
+          "W\/M"
+        ]
+      },
+      {
+        "name":"water",
+        "mass":null,
+        "other_amount":null,
+        "volume":null,
+        "percent":null,
+        "concentration":null,
+        "aliases":[
+          "water"
+        ]
+      },
+      {
+        "name":"W \/ W",
+        "mass":null,
+        "other_amount":null,
+        "volume":null,
+        "percent":null,
+        "concentration":null,
+        "aliases":[
+          "W \/ W"
+        ]
+      }
+    ],
+    "6":[
+      {
+        "name":"ZnO",
+        "mass":"0,2 g",
+        "other_amount":null,
+        "volume":null,
+        "percent":null,
+        "concentration":null,
+        "aliases":[
+          "ZnO"
+        ]
+      },
+      {
+        "name":"2-methylimidazole",
+        "mass":"0.8 g",
+        "other_amount":null,
+        "volume":null,
+        "percent":null,
+        "concentration":null,
+        "aliases":[
+          "2-methylimidazole"
+        ]
+      }
+    ],
+    "7":[
+      {
+        "name":"water",
+        "mass":null,
+        "other_amount":null,
+        "volume":"15 mL",
+        "percent":null,
+        "concentration":null,
+        "aliases":[
+          "water",
+          "( W )"
+        ]
+      },
+      {
+        "name":"water",
+        "mass":null,
+        "other_amount":null,
+        "volume":"15 mL",
+        "percent":null,
+        "concentration":null,
+        "aliases":[
+          "water"
+        ]
+      },
+      {
+        "name":"DMF",
+        "mass":null,
+        "other_amount":null,
+        "volume":null,
+        "percent":null,
+        "concentration":null,
+        "aliases":[
+          "DMF",
+          "( D )"
+        ]
+      },
+      {
+        "name":"methanol",
+        "mass":null,
+        "other_amount":null,
+        "volume":null,
+        "percent":null,
+        "concentration":null,
+        "aliases":[
+          "methanol",
+          "( M )"
+        ]
+      }
+    ],
+    "8":[
+      {
+        "name":"zinc oxide",
+        "mass":null,
+        "other_amount":null,
+        "volume":null,
+        "percent":null,
+        "concentration":null,
+        "aliases":[
+          "zinc oxide"
+        ]
+      }
+    ],
+    "9":[
+
+    ],
+    "10":[
+
+    ],
+    "11":[
+      {
+        "name":"ZIF-8-WM-(US",
+        "mass":null,
+        "other_amount":null,
+        "volume":null,
+        "percent":null,
+        "concentration":null,
+        "aliases":[
+          "ZIF-8-WM-(US"
+        ]
+      }
+    ],
+    "12":[
+
+    ],
+    "13":[
+      {
+        "name":"water",
+        "mass":null,
+        "other_amount":null,
+        "volume":null,
+        "percent":null,
+        "concentration":null,
+        "aliases":[
+          "water"
+        ]
+      }
+    ],
+    "14":[
+
+    ]
+  },
+  "temp":{
+    "0":[
+
+    ],
+    "1":[
+
+    ],
+    "2":[
+
+    ],
+    "3":[
+
+    ],
+    "4":[
+
+    ],
+    "5":[
+
+    ],
+    "6":[
+
+    ],
+    "7":[
+
+    ],
+    "8":[
+
+    ],
+    "9":[
+
+    ],
+    "10":[
+
+    ],
+    "11":[
+      "at 65 \u00b0C"
+    ],
+    "12":[
+
+    ],
+    "13":[
+
+    ],
+    "14":[
+
+    ]
+  },
+  "time":{
+    "0":[
+
+    ],
+    "1":[
+
+    ],
+    "2":[
+
+    ],
+    "3":[
+
+    ],
+    "4":[
+
+    ],
+    "5":[
+
+    ],
+    "6":[
+
+    ],
+    "7":[
+
+    ],
+    "8":[
+
+    ],
+    "9":[
+      "for 10 min"
+    ],
+    "10":[
+
+    ],
+    "11":[
+      "for 30 min",
+      "min"
+    ],
+    "12":[
+
+    ],
+    "13":[
+
+    ],
+    "14":[
+      "for 10 min",
+      "min"
+    ]
+  },
+  "prepphrase":{
+    "0":[
+      "without further purification"
+    ],
+    "1":[
+      "from commercial sources ( Aldrich and VWR )"
+    ],
+    "2":[
+      "for the synthesis",
+      "of analytical reagent grade"
+    ],
+    "3":[
+      "of ZIF-8"
+    ],
+    "4":[
+      "by microwave irradiation and ultrasound"
+    ],
+    "5":[
+      "of solvent"
+    ],
+    "6":[
+
+    ],
+    "7":[
+      "into 15 mL of deionized water ( W ) and 15 mL of deionized water or DMF ( D ) or methanol ( M )"
+    ],
+    "8":[
+      "to Hmim solution"
+    ],
+    "9":[
+      "in ultrasonic bath"
+    ],
+    "10":[
+
+    ],
+    "11":[
+
+    ],
+    "12":[
+
+    ],
+    "13":[
+      "with deionized water"
+    ],
+    "14":[
+      "in 4000 rpm"
+    ]
+  },
+  "apparatus":{
+    "0":[
+
+    ],
+    "1":[
+
+    ],
+    "2":[
+
+    ],
+    "3":[
+
+    ],
+    "4":[
+
+    ],
+    "5":[
+
+    ],
+    "6":[
+
+    ],
+    "7":[
+
+    ],
+    "8":[
+
+    ],
+    "9":[
+      "ultrasonic bath"
+    ],
+    "10":[
+
+    ],
+    "11":[
+
+    ],
+    "12":[
+
+    ],
+    "13":[
+
+    ],
+    "14":[
+
+    ]
+  },
+  "step number":{
+    "0":0,
+    "1":1,
+    "2":2,
+    "3":3,
+    "4":4,
+    "5":5,
+    "6":6,
+    "7":7,
+    "8":8,
+    "9":9,
+    "10":10,
+    "11":11,
+    "12":12,
+    "13":13,
+    "14":14
+  }
+}
