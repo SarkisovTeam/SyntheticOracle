@@ -435,7 +435,7 @@ class ChemicalSpecies:
                 cache = {}
             
             def update_cache(cache):
-                cache[self.pubchem_cid] = {
+                cache[str(self.pubchem_cid)] = {
                     'name': self.name,
                     'mol_wt': self.mol_wt,
                     'mol_formula': self.mol_formula,
@@ -444,7 +444,7 @@ class ChemicalSpecies:
                 }
       
             try:
-                cache[self.pubchem_cid]
+                cache[str(self.pubchem_cid)]
             except KeyError:
                 self.extract_key_properties_from_pubchem()
                 update_cache(cache)
@@ -452,11 +452,11 @@ class ChemicalSpecies:
                     json.dump(cache, f, indent=4)
             else:
                 try:
-                    self.name = cache[self.pubchem_cid]['name']
-                    self.mol_wt = cache[self.pubchem_cid]['mol_wt']
-                    self.mol_formula = cache[self.pubchem_cid]['mol_formula']
-                    self.smiles = cache[self.pubchem_cid]['smiles']
-                    self.inchi = cache[self.pubchem_cid]['inchi']
+                    self.name = cache[str(self.pubchem_cid)]['name']
+                    self.mol_wt = cache[str(self.pubchem_cid)]['mol_wt']
+                    self.mol_formula = cache[str(self.pubchem_cid)]['mol_formula']
+                    self.smiles = cache[str(self.pubchem_cid)]['smiles']
+                    self.inchi = cache[str(self.pubchem_cid)]['inchi']
                     logging.debug(f'property cache at {self.property_cache_location} successfully used for {self.pubchem_cid}')
                 except KeyError:
                     logging.warn(f'Invalid entry in cached properties for {self.pubchem_cid}! Defaulting to pubchem database search!')
@@ -530,7 +530,7 @@ class ChemicalSpecies:
 
 class ChemicalEntity(ChemicalSpecies):
     """
-    A class containing primarily for the purposes fo relating a chemical identity to its amount.
+    A class containing primarily for the purposes of relating a chemical identity to its amount.
     Contains functions to convert units into m0oles, for consistent analysis.
 
     Key functions:
