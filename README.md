@@ -41,9 +41,9 @@
     <br />
     <!-- <a href="https://github.com/SarkisovTeam/SyntheticOracle/doc"><strong>Explore the docs »</strong></a> -->
     <br />
-    <a href="https://github.com/SarkisovTeam/SyntheticOracle/worked_example">View Worked Example</a> 
-    <br />
-    <a href="https://github.com/SarkisovTeam/SyntheticOracle/demo">View Demo</a>
+    <a href="https://github.com/SarkisovTeam/SyntheticOracle/tree/main/worked%20example">View Worked Example</a> 
+    <!-- <br /> -->
+    <!-- <a href="https://github.com/SarkisovTeam/SyntheticOracle/demo">View Demo</a> -->
     ·
     <a href="https://github.com/SarkisovTeam/SyntheticOracle/issues">Report Bug</a>
     ·
