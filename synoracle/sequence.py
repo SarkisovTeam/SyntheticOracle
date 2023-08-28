@@ -92,6 +92,7 @@ class Sequence():
     def __init__(self, raw_sequence: pd.DataFrame):
         """ Instantiates the object from a pandas DataFrame"""
         self.raw_synthesis = raw_sequence.rename({'Step name': 'name'}, axis=1)
+        # TODO: unit test for handling different data types as raw_sequence
         self.drop_invalid_lines()
 
     def drop_invalid_lines(self):
@@ -99,20 +100,54 @@ class Sequence():
         Deletes all actions with no chemical, time, or temperature quantities included
         :return: None
         """
-        self.clean_synthesis = self.raw_synthesis.dropna(
-            how='all',
-            subset=['new_chemicals', 'time', 'temp']
-        )
+        # TODO: unit tests to confirm that lines are being dropped correctly
+        def test_empty(df_cell):
+            """
+            Tests if a quantity is present in a cell of the raw sequence.
+            Valid input data types are floats, strings, lists, dicts, sets, or 
+            strings that turn into lists etc. when called with eval()). 
+            Returns True if the input data is not np.nan or an empty iterable
+            """
+            # TODO: unit tests to confirm different cell data are handled correctly 
 
+            try: # turn df-safe python data structures into their structures
+                working = eval(df_cell)
+            except SyntaxError: # means it's a string(?)
+                if len(df_cell)>1:
+                    logging.debug(f'String found during drop_invalid_lines: {df_cell}')
+                    return True
+            except TypeError: # means it's either an iterable or np.nan
+                try:
+                    iter(df_cell)
+                except TypeError: # means it's a float
+                    return df_cell is not np.nan
+                else: # it's an iterable!
+                    return len(df_cell)>0
+            else:
+                return len(working)>0
+            raise TypeError("Couldn't parse dataframe cell information: {0}".format(df_cell))
+
+        new_df = pd.DataFrame(columns=self.raw_synthesis.columns)
+        for c,row in self.raw_synthesis.iterrows():
+            cont_chems = test_empty(row['new_chemicals'])
+            cont_times = test_empty(row['time'])
+            cont_temps = test_empty(row['temp'])
+            if any([cont_chems, cont_times, cont_temps]):
+                new_df.loc[c, :] = row
+
+        self.clean_synthesis = new_df.reset_index(drop=True)
         logging.debug(self.clean_synthesis)
 
     def assign_step_supertypes(self):
         """
         Categorises sequence data by action "supertype" by a similar method to the ULSA paper by Kononova
         Directly maps the 15 action types from ChemicalTagger to 3-4 types, and drops "Start" statements
-        TODO: Allow multiple start statements at the beginning of the sequence
         :return:
         """
+        # TODO: Allow multiple start statements at the beginning of the sequence
+        # TODO: unit tests to check if mapping is correctly working
+        # TODO: unit tests to check handling of invalid data mappings
+
         try:
             self.clean_synthesis
         except AttributeError:
@@ -151,6 +186,11 @@ class Sequence():
         """
         supertypes = list(set(self.type_subs.values()))
 
+        try: 
+            self.clean_synthesis['Step supertype']
+        except KeyError:
+            self.assign_step_supertypes()
+
         if ignore_conditions:
             working_sequence = self.clean_synthesis.drop(
                 self.clean_synthesis[self.clean_synthesis['Step supertype']=='condition'].index
@@ -166,13 +206,11 @@ class Sequence():
             for x in self._ranges(data):
                 groups[supertype].append(
                     (
-                        working_sequence.loc[x[0],'step number'].astype(int), 
-                        working_sequence.loc[x[1],'step number'].astype(int)
+                        working_sequence.loc[x[0],'step number'],
+                        working_sequence.loc[x[1],'step number'],
                         )
                 )
-            # groups[supertype].extend([
-            #     working_sequence.loc[x,'step number'].astype(int) for x in self._ranges(data)
-            #     ])
+
         return groups
 
     def condense_to_supertypes(self, ignore_conditions = True):
@@ -198,14 +236,16 @@ class Sequence():
 
         groups = self.find_unit_operations()
 
-        ordered_groups = sorted([x for y in list(groups.values()) for x in y], key=lambda x: list(x)[0])
+        ordered_groups = sorted([x for y in list(groups.values()) for x in y], key=lambda x: list(x)[0]) 
+          #maps ordered_groups tot he dataframe_Sindex. WARNING: assumes that step numebr monotonically increases!
         condensed_sequence = pd.DataFrame()
         for group in ordered_groups:
-
+            ordered_indices = [np.where(self.clean_synthesis['step number']==x)[0][0] for x in group]
+            # print(ordered_indices[0] in self.clean_synthesis.index) # this needs a unit test!
             # TODO: check this is collecting the correct step indices
             logging.debug(group)
             try:
-                to_condense = self.clean_synthesis.loc[group[0]:group[1],
+                to_condense = self.clean_synthesis.loc[ordered_indices[0]:ordered_indices[1],
                     ['name', 'Step supertype', 'new_chemicals', 'temp', 'time']
                 ].groupby('Step supertype').aggregate(sum)
             except KeyError:
@@ -218,10 +258,18 @@ class Sequence():
                 # to_condense = self.clean_synthesis.loc[str(group[0]):,:]
 
             if to_condense.empty:
+                assert group[0] in self.clean_synthesis.index,"Step indices don't match up with the dataframe indices - chack if you need to run df.reset_index() first!"
+                # TODO: modify the code so
                 print(ordered_groups)
                 print(group)
                 print(to_condense)
-                raise
+                try:
+                    print(self.clean_synthesis.loc[group[0],:])
+                    print(self.clean_synthesis.loc[group[1],:])
+                except KeyError:
+                    print(self.clean_synthesis.index, self.clean_synthesis.index.dtype)
+                    raise
+                raise IndexError('Empty dataframe found when steps were expected')
                 # to_condense = self.clean_synthesis.loc[str(group[0]):,:]
 
             try:

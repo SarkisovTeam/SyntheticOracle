@@ -195,6 +195,7 @@ class Conditions:
         self.time_temp = output
 
     temp_dict = {
+        'C': ureg.degC,
         '°C': ureg.degC,
         'kelvin': ureg.kelvin,
         'Kelvin': ureg.kelvin,
@@ -212,11 +213,14 @@ class Conditions:
         working = re.sub(r'\b(at|of|in|to|for)\b', '', df_temp_string).strip()
         working = re.sub(r'\b([0-9]+)-([0-9]+)\b', r'\1', working).strip()
 
+        working = re.sub(r'[^\x00-\x7F]C', 'degC', working)
         working = re.sub('oC', 'degC', working)
+        working = re.sub(r'\bC', 'degC', working)
+
         try:
             output = Q_(float(working.split()[-2]), self.temp_dict[working.split()[-1]])
         except (ValueError, UndefinedUnitError, IndexError) as e:
-            if bool(re.search(r'(Room|room|ambient|indoor)\Wtemperature|RT', working)):
+            if bool(re.search(r'(Room|room|ambient|indoor)\Wtemperature|RT|(A|a)mbient', working)):
                 output = Q_(25, ureg.parse_units('degC'))
             else:
                 logging.warn(f'Failed for: "{working}"')
@@ -298,8 +302,8 @@ class Conditions:
         Liable to give weird values if performed on an entire sequence at once e.g. if room temperature is quoted in two separate places.
         However should (hopefully) be reliable when applied to a small enough subsection of a sequence.
         """
-        clean_self_set = set(self.time_temp['T (K)'][self.time_temp['T (K)'].notna()].sum())
-        clean_other_set = set(other.time_temp['T (K)'][other.time_temp['T (K)'].notna()].sum())
+        clean_self_set = set(self.temps['T (K)'][self.temps['T (K)'].notna()].to_list())
+        clean_other_set = set(other.temps['T (K)'][other.temps['T (K)'].notna()].to_list())
 
         similar_temperatures = list(clean_self_set.intersection(clean_other_set))
         all_temperatures = list(clean_self_set.union(clean_other_set))
@@ -309,7 +313,7 @@ class Conditions:
 
 
         try:
-            return 100*(1-(len(similar_temperatures)/len(all_temperatures)))
+            return 100*(len(similar_temperatures)/len(all_temperatures))
         except ZeroDivisionError:
             return 0
 
@@ -318,8 +322,8 @@ class Conditions:
         Simple similairty calculation based on relative difference in total times quoted. 
         To provide more detail/granularity this method requires conisderaiton of multiple subsections of a sequence.
         """
-        current_total_time = sum(self.time_temp['Time (min)'][self.time_temp['Time (min)'].notna()].sum())
-        other_total_time = sum(other.time_temp['Time (min)'][other.time_temp['Time (min)'].notna()].sum())
+        current_total_time = self.times['Time (min)'][self.times['Time (min)'].notna()].sum()
+        other_total_time = other.times['Time (min)'][other.times['Time (min)'].notna()].sum()
 
         try:
             return 100*(1-(abs(current_total_time-other_total_time)/((current_total_time+other_total_time)/2)))
